@@ -58,7 +58,6 @@
         }
 
         .Main {
-            height: 500px;
             border: solid 5px green;
         }
 
@@ -67,7 +66,14 @@
         }
 
         .Product-list__container {
+            min-height: 40px;
             border: solid 5px red;
+        }
+
+        .Product-item {
+            width: 300px;
+            padding: 10px;
+            border: solid 5px;
         }
 
         .Footer {
@@ -97,7 +103,7 @@
                 <!-- Search-bar -->
                 <div class="Search-bar">
                     <form class="Search-bar__form" action="send">
-                        <input class="Search-bar__input" type="text" placeholder="Start din søgning">
+                        <input class="Search-bar__input" id="Search-bar__input" type="text" placeholder="Start din søgning">
                         <i class="fas fa-search Search"></i>
                     </form>
                 </div>
@@ -217,10 +223,9 @@
                 </header>
 
                 <!-- Product container -->
-                <ul class="Product-list__container">
+                <ul class="Product-list__container" id="Product-list__container">
 
                     <!-- Product items go here -->
-
                 </ul>
             </section>
         </main>
@@ -334,6 +339,6 @@
 
 
     <!-- JavaScript -->
-    <script src=""></script>
+    <script src="./assets/js/product-list.js"></script>
 </body>
 </html>
