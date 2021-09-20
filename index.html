@@ -8,8 +8,8 @@
 
 
 
-    <!-- Style -->
-    <link rel="stylesheet" href="">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
     <!-- Fonts: MuseoSansRounded -->
     <style>
@@ -39,11 +39,19 @@
         }
     </style>
 
+    <!-- Style -->
+    <link rel="stylesheet" href="">
+
+
+
     <!-- Test style -->
     <style>
         .Header {
-            height: 100px;
             border: solid 5px blue;
+        }
+
+        .Header__top, .Header__bottom {
+            border: solid 5px yellow;
         }
 
         .Main {
@@ -52,10 +60,12 @@
         }
 
         .Footer {
-            height: 100px;
             border: solid 5px red;
         }
-        
+
+        .Footer__left, .Footer__right {
+            border: solid 5px yellow;
+        }
     </style>
 </head>
 
@@ -69,7 +79,33 @@
 
         <!-- Header -->
         <header class="Header">
+
+            <!-- Top section -->
+            <section class="Header__top">
+                <h1>
+                    Header__bottom
+                </h1>
+
+                <!-- Search bar -->
+                <!-- Search-bar -->
+                <div class="Search-bar">
+
+                    <!-- Search-bar -->
+                    <form class="Search-bar__form" action="send">
+
+                        <!-- Search-bar - input & icon -->
+                        <input class="Search-bar__input" type="text" placeholder="Start din søgning">
+                        <i class="fas fa-search Search"></i>
+                    </form>
+                </div>
+            </section>
             
+            <!-- Bottom section -->
+            <section class="Header__bottom">
+                <h1>
+                    Header__bottom
+                </h1>
+            </section>
         </header>
     
 
@@ -83,7 +119,22 @@
     
         <!-- Footer -->
         <footer class="Footer">
-    
+
+            <!-- Top section -->
+            <section class="Footer__left">
+                <h1>
+                    Footer__left
+                </h1>
+
+
+            </section>
+            
+            <!-- Bottom section -->
+            <section class="Footer__right">
+                <h1>
+                    Footer__right
+                </h1>
+            </section>
         </footer>
     </div>
 
