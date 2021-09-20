@@ -1,0 +1,43 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "category": "a",
+            "brand": "red",
+            "img": "",
+            "title": "product: 1",
+            "description": "",
+            "price": "free"
+        },
+
+        {
+            "id": "2",
+            "category": "a",
+            "brand": "blue",
+            "img": "",
+            "title": "product: 2",
+            "description": "",
+            "price": "free"
+        },
+
+        {
+            "id": "3",
+            "category": "c",
+            "brand": "yellow",
+            "img": "",
+            "title": "product: 3",
+            "description": "",
+            "price": "free"
+        },
+
+        {
+            "id": "4",
+            "category": "d",
+            "brand": "green",
+            "img": "",
+            "title": "product: 4",
+            "description": "",
+            "price": "free"
+        }
+    ]
+}

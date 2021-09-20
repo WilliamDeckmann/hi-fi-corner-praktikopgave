@@ -39,8 +39,11 @@
         }
     </style>
 
-    <!-- Style -->
-    <link rel="stylesheet" href="">
+    <!-- Style: RESETS -->
+    <link rel="stylesheet" href="./assets/css/RESETS.css">
+
+    <!-- Style: root -->
+    <link rel="stylesheet" href="./assets/css/root.css">
 
 
 
@@ -55,8 +58,22 @@
         }
 
         .Main {
-            height: 500px;
             border: solid 5px green;
+        }
+
+        .Product-list {
+            border: solid 5px yellow;
+        }
+
+        .Product-list__container {
+            min-height: 40px;
+            border: solid 5px red;
+        }
+
+        .Product-item {
+            width: 300px;
+            padding: 10px;
+            border: solid 5px;
         }
 
         .Footer {
@@ -82,29 +99,104 @@
 
             <!-- Top section -->
             <section class="Header__top">
-                <h1>
-                    Header__bottom
-                </h1>
 
-                <!-- Search bar -->
                 <!-- Search-bar -->
                 <div class="Search-bar">
-
-                    <!-- Search-bar -->
                     <form class="Search-bar__form" action="send">
-
-                        <!-- Search-bar - input & icon -->
-                        <input class="Search-bar__input" type="text" placeholder="Start din søgning">
+                        <input class="Search-bar__input" id="Search-bar__input" type="text" placeholder="Start din søgning">
                         <i class="fas fa-search Search"></i>
                     </form>
                 </div>
+
+                <!-- User -->
+                <div class="User">
+
+                    <!-- Account -->
+                    <a class="Acount"  href="#">
+                        <i class="far fa-user User icon"></i>
+                        <p class="Account__title uppercase">
+                            Account
+                        </p>
+                    </a>
+
+                    <!-- Cart -->
+                    <a class="Cart" href="#">
+                        <i class="fas fa-shopping-cart Shopping-cart icon"></i>
+                        <p class="Cart__title uppercase">
+                            Cart
+                        </p>
+                    </a>
+                </div>
+
+                <!-- Contact -->
+                <ul class="Contact">
+
+                    <!-- Location -->
+                    <li class="Contact__item">
+                        <a class="Location"  href="#">
+                            <i class="fas fa-map-marker-alt Marker icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- Call -->
+                    <li class="Contact__item">
+                        <a class="Call"  href="#">
+                            <i class="fas fa-phone-alt Phone icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- Mail -->
+                    <li class="Contact__item">
+                        <a class="Mail"  href="#">
+                            <i class="far fa-envelope Letter icon"></i>
+                        </a>
+                    </li>
+                </ul>
             </section>
             
             <!-- Bottom section -->
             <section class="Header__bottom">
-                <h1>
-                    Header__bottom
-                </h1>
+                
+                <!-- Navigation -->
+                <nav class="Nav">
+                    <ul class="Nav__list">
+                        <li class="Nav__item">
+                            <a href="index.html" class="Nav__link uppercase">
+                                Home
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="#" class="Nav__link uppercase">
+                                About us
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="brands.html" class="Nav__link uppercase">
+                                Brands
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="#" class="Nav__link uppercase">
+                                News
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="#" class="Nav__link uppercase">
+                                Events
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="shop.html" class="Nav__link uppercase">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="#" class="Nav__link uppercase">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </section>
         </header>
     
@@ -113,6 +205,29 @@
         <!-- Main -->
         <main class="Main">
 
+            <!-- Product list -->
+            <section class="Product-list">
+
+                <!-- Header -->
+                <header class="Product-list__header">
+
+                    <!-- Title -->
+                    <h1 class="Product-list__title">
+                        "search-title"
+                    </h1>
+
+                    <!-- Details -->
+                    <section class="Product-list__details">
+                        This is where the product list details are going to be
+                    </section>
+                </header>
+
+                <!-- Product container -->
+                <ul class="Product-list__container" id="Product-list__container">
+
+                    <!-- Product items go here -->
+                </ul>
+            </section>
         </main>
 
 
@@ -120,20 +235,103 @@
         <!-- Footer -->
         <footer class="Footer">
 
-            <!-- Top section -->
+            <!-- Left section -->
             <section class="Footer__left">
-                <h1>
-                    Footer__left
-                </h1>
 
+                <!-- Address -->
+                <address class="Adress">
+                    <p class="Adress_info">
+                        Hi-Fi Corner<br>
+                        Edinburgh 1a Haddington Place EH7 4AE<br>
+                        Falkirk 44 Cow Wynd FK1 1PU
+                    </p>
+                </address>
 
+                <!-- External link -->
+                <ul class="External-links">
+
+                    <!-- Returns & Refunds -->
+                    <li class="External-links__item">
+                        <a class="External-links__link" href="#">
+                            Returns & Refunds
+                        </a>
+                    </li>
+
+                    <!-- Tube -->
+                    <span class="Tube">|</span>
+
+                    <!-- Privacy Policy  -->
+                    <li class="External-links__item">
+                        <a class="External-links__link" href="#">
+                            Privacy Policy 
+                        </a>
+                    </li>
+                </ul>
             </section>
             
-            <!-- Bottom section -->
+            <!-- Right section -->
             <section class="Footer__right">
-                <h1>
-                    Footer__right
-                </h1>
+
+                <!-- Payment methods -->
+                <ul class="Payment-methods">
+                    <li class="Payment-methods__item">
+                        WorldPay
+                    </li>
+                    <li class="Payment-methods__item">
+                        Visa
+                    </li>
+                    <li class="Payment-methods__item">
+                        MasterCard
+                    </li>
+                    <li class="Payment-methods__item">
+                        Meastro
+                    </li>
+                    <li class="Payment-methods__item">
+                        JBC
+                    </li>
+                    <li class="Payment-methods__item">
+                        PayPal
+                    </li>
+                </ul>
+
+                <!-- Social media -->
+                <ul class="Social-media">
+
+                    <!-- FaceBook -->
+                    <li class="Social-media__item">
+                        <a class="FaceBook-link" href="#">
+                            <i class="fab fa-facebook-f FaceBook icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- YouTube -->
+                    <li class="Social-media__item">
+                        <a class="YouTube-link" href="#">
+                            <i class="fab fa-youtube YouTube icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- Twitter -->
+                    <li class="Social-media__item">
+                        <a class="Twitter-link" href="#">
+                            <i class="fab fa-twitter Twitter icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- Instagram -->
+                    <li class="Social-media__item">
+                        <a class="Instagram-link" href="#">
+                            <i class="fab fa-instagram Instagram icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- LinkedIn -->
+                    <li class="Social-media__item">
+                        <a class="LinkedIn-link" href="#">
+                            <i class="fab fa-linkedin-in LinkedIn icon"></i>
+                        </a>
+                    </li>
+                </ul>
             </section>
         </footer>
     </div>
@@ -141,6 +339,6 @@
 
 
     <!-- JavaScript -->
-    <script src=""></script>
+    <script src="./assets/js/product-list.js"></script>
 </body>
 </html>
