@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // Fetch data
-    fetch("./assets/json/products_test.json")
+    fetch("./assets/json/products.json")
         .then((response) => response.json())
         .then((result) => {
 
