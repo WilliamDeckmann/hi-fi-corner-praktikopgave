@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HI-FI Corner - shop</title>
+    <title>Hi-Fi Corner - shop</title>
 
 
 
@@ -69,6 +69,18 @@
             border: solid 5px blue;
         }
 
+        .Sections {
+            border: solid 5px green;
+        }
+
+        .Categorys {
+            border: solid 5px red;
+        }
+
+        .Filters {
+            border: solid 5px yellow;
+        }
+
         .Product-list {
             border: solid 5px yellow;
         }
@@ -86,6 +98,10 @@
             width: 300px;
             padding: 10px;
             border: solid 5px;
+        }
+
+        .Manufactures {
+            border: solid 5px blue;
         }
 
         .Footer {
@@ -234,8 +250,64 @@
                <!-- Container -->
                <section class="Shop__container">
 
-                    <!-- ??? -->
-                    <div></div>
+                    <!-- Sections -->
+                    <section class="Sections">
+
+                        <!-- Product -->
+                        <section class="Categorys">
+                            <ul class="Categorys__list">
+                                <li class="Categorys__item">
+                                    <a class="Categorys__link uppercase" href="#">
+                                        Amplifiers
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+
+
+
+                        <!-- Filters -->
+                        <section class="Filters">
+                            <h2 class="Filters__title uppercase">
+                                Shop by
+                            </h2>
+                            <h3 class="Filters__description uppercase">
+                                Filter
+                            </h3>
+
+                            <!-- Filters price -->
+                            <section class="Filters-price">
+                                <h3 class="Filters-price__title uppercase">
+                                    Price
+                                </h3>
+
+                                <!-- List -->
+                                <ul class="Filters-price__list">
+                                    <li class="Filters-price__item">
+                                        <a class="Filters-price__link" href="#">
+                                            "low price"-"high price"
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+
+                            <!-- Filters Manufactures -->
+                            <section class="Filters-Manufactures">
+                                <h3 class="Filters-Manufactures__title uppercase">
+                                    Manufactures
+                                </h3>
+
+                                <!-- List -->
+                                <ul class="Filters-Manufactures__list">
+                                    <li class="Filters-Manufactures__item">
+                                        <a class="Filters-Manufactures__link" href="#">
+                                            "Manufactures"
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </section>
+                    </section>
 
 
 
@@ -379,8 +451,55 @@
 
 
 
-                    <!-- ??? -->
-                    <div></div>
+                    <!-- Manufactures -->
+                    <section class="Manufactures">
+                        <h2 class="Manufactures__title uppercase">
+                            Manufactures
+                        </h2>
+
+                        <!-- List -->
+                        <ul class="Manufactures__list">
+                            <li class="Manufactures__item">
+                                <a class="Manufactures__link uppercase" href="">
+                                    Arcam
+                                </a>
+                            </li>
+                            <li class="Manufactures__item">
+                                <a class="Manufactures__link uppercase" href="">
+                                    Astell And Kern
+                                </a>
+                            </li>
+                            <li class="Manufactures__item">
+                                <a class="Manufactures__link uppercase" href="">
+                                    ATC
+                                </a>
+                            </li>
+                            <li class="Manufactures__item">
+                                <a class="Manufactures__link uppercase" href="">
+                                    Audiolab
+                                </a>
+                            </li>
+                            <li class="Manufactures__item">
+                                <a class="Manufactures__link uppercase" href="">
+                                    Avid
+                                </a>
+                            </li>
+                            <li class="Manufactures__item">
+                                <a class="Manufactures__link uppercase" href="">
+                                    Chord Electronics
+                                </a>
+                            </li>
+                            <li class="Manufactures__item">
+                                <a class="Manufactures__link uppercase" href="">
+                                    Classe
+                                </a>
+                            </li>
+                        </ul>
+
+                        <button class="Manufactures__button">
+                            View All
+                        </button>
+                    </section>
                 </section>
             </div>
         </main>
