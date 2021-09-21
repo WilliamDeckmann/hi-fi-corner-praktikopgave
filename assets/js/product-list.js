@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     // Element variable
+    const currentPage = document.querySelector("#Current-page");
     const productList_title = document.querySelector("#Product-list__title");
     const productCount_count = document.querySelector("#Product-count__count");
     const productList_container = document.querySelector("#Product-list__container");
@@ -10,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // Fetch data
-    fetch("./assets/json/products_test.json")
+    fetch("./assets/json/products.json")
         .then((response) => response.json())
         .then((result) => {
 
@@ -26,14 +27,18 @@ document.addEventListener("DOMContentLoaded", () => {
                     item.remove();
                 });
 
-                // Set Product-list title same as input
-                productList_title.textContent = searchBar_input.value;
+                // Input variables
+                let inputValue = searchBar_input.value;
+
+                // Set title same as input
+                currentPage.textContent = `Home / ${inputValue}`;
+                productList_title.textContent = inputValue;
 
                 // For each product in the products.json file
                 result.products.forEach((item) => {
 
                     // Find product
-                    if(searchBar_input.value == item.id || searchBar_input.value == item.category || searchBar_input.value == item.brand) {
+                    if(inputValue.toLowerCase() == item.id || inputValue == item.category || inputValue == item.brand) {
 
                         // Create all product elements
                         var productItem = document.createElement("li")
@@ -46,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 
                                 <img class="Product-item__img" src="${item.img}" alt="Product image">
                                 <h2 class="Product-item__title">
-                                    ${item.title}
+                                    ${item.id}
                                 </h2>
                                 <p class="Product-item__price">
                                     ${item.price}
@@ -55,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             
                             <!-- Button -->
                             <button class="Purchase-button">  
-                                <a class="Purchase-button__link uppercase" href="details.html?id=${item.id}">
+                                <a class="Purchase-button__link uppercase" href="details.html?search=${inputValue}&id=${item.id}">
                                     Add to cart
                                 </a>
                             </button>

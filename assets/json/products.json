@@ -1,7 +1,7 @@
 {
     "products": [
         {
-            "id": "1",
+            "id": "apple",
             "category": "a",
             "brand": "red",
             "img": "",
@@ -11,8 +11,8 @@
         },
 
         {
-            "id": "2",
-            "category": "a",
+            "id": "banana",
+            "category": "b",
             "brand": "blue",
             "img": "",
             "title": "product: 2",
@@ -21,7 +21,7 @@
         },
 
         {
-            "id": "3",
+            "id": "orange",
             "category": "c",
             "brand": "yellow",
             "img": "",
@@ -31,7 +31,7 @@
         },
 
         {
-            "id": "4",
+            "id": "mango",
             "category": "d",
             "brand": "green",
             "img": "",

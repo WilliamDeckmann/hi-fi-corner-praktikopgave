@@ -12,7 +12,9 @@
 
 - If no results match the submitted input, no product-items will show and all previous items are removed.
 
+- Each product-item also gets a unique id and search tag applied to their url, based on data from the json file.
+
 
 ## Extra functions
 
-- When submitting an input in the search field, the search result will be displayed at the top of the product-list container.
+- When submitting an input in the search field, the search result will be displayed at the top of the product-list container and header.
