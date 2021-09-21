@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HI-FI Corner - frontpage</title>
+    <title>HI-FI Corner - details</title>
 
 
 
@@ -76,6 +76,34 @@
 
         .Product-info {
             border: solid 5px blue;
+        }
+
+        .Product-about {
+            border: solid 5px yellow;
+        }
+
+        .Product-options {
+            border: solid 5px green;
+        }
+
+        .Product-selection {
+            border: solid 5px red;
+        }
+
+        .Product-color {
+            border: solid 5px blue;
+        }
+
+        .Product-quantity {
+            border: solid 5px yellow;
+        }
+
+        .PayPal {
+            border: solid 5px green;
+        }
+
+        .Additional-product-info {
+            border: solid 5px yellow;
         }
 
         .Product-details__footer {
@@ -248,13 +276,173 @@
 
 
 
-                        <!-- Info -->
+                        <!-- Product info -->
                         <section class="Product-info">
 
-                            <!-- This is where the product info will go -->
+                            <!-- Product about -->
+                            <section class="Product-about">
+                                <h2 class="Product-about__title">
+                                    "Product name"
+                                </h2>
 
+                                <!-- Offer -->
+                                <section class="Product-info__offer">
+
+                                    <!-- Other products -->
+                                    <a class="Other-products" href="#">
+                                        <p class="Other-products__title">
+                                            See other "manufacture" products
+                                        </p>
+                                    </a>
+
+                                    <!-- Price -->
+                                    <div class="Price-container">
+                                        <p class="Price Price__sale">
+                                            "price"
+                                        </p>
+                                        <p class="Price">
+                                            "price"
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <!-- About -->
+                                <p class="Product-about__title">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.
+                                </p>
+                            </section>
+
+
+
+                            <!-- product options -->
+                            <ul class="Product-options">
+                                <li class="Product-options__item">
+                                    <a class="Product-options__link" href="#">
+                                        <p class="Product-options__title uppercase">
+                                            Ask a question
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="Product-options__item">
+                                    <a class="Product-options__link" href="#">
+                                        <p class="Product-options__title uppercase">
+                                            Part exchange
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="Product-options__item">
+                                    <a class="Product-options__link" href="#">
+                                        <p class="Product-options__title uppercase">
+                                            Pay by finance
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="Product-options__item">
+                                    <a class="Product-options__link" href="#">
+                                        <p class="Product-options__title uppercase">
+                                            Seen a better price?
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+
+
+
+                            <!-- Product selection -->
+                            <section class="Product-selection">
+
+                                <!-- Product color selection -->
+                                <section class="Product-color">
+
+                                    <!-- Form -->
+                                    <form class="Product-color__form" action="">
+
+                                        <!-- Error label -->
+                                        <label class="Product-color__error-label Product-color__error-label_active">
+                                            Finish <span class="Product-color__error-span">*</span>
+                                        </label>
+
+                                        <!-- List -->
+                                        <ul class="Product-color__list">
+                                            <li class="Product-color__item">
+                                                <input class="Product-color__input" type="radio">
+                                                <p class="Product-color__title">
+                                                    Black
+                                                </p>
+                                            </li>
+                                            <li class="Product-color__item">
+                                                <input class="Product-color__input" type="radio">
+                                                <p class="Product-color__title">
+                                                    White
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </form>
+
+                                    <!-- Error message -->
+                                    <p class="Product-color__error-message">
+                                        * Required fields
+                                    </p>
+                                </section>
+
+                                <!-- Product quantity -->
+                                <section class="Product-quantity">
+
+                                    <!-- Quantity -->
+                                    <form class="Quantity">
+                                        <label class="Quantity__label" for="">
+                                            Qty:
+                                        </label>
+                                        <input class="Quantity__input" type="text" >
+                                        <button class="Quantity__button uppercase">
+                                            Add to cart
+                                        </button>
+                                    </form>
+
+                                    <!-- Or -->
+                                    <p class="Product-quantity__or uppercase">-Or-</p>
+
+                                    <!-- Paypal -->
+                                    <div class="PayPal">
+                                        <a class="PayPal__link" href="#">
+                                            <img class="PayPal__logo" src="" alt="PayPal logo">
+                                        </a>
+                                        <p class="PayPal__description">
+                                            The safer, easier way to pay
+                                        </p>
+                                    </div>
+
+                                    <!-- Line -->
+                                    <hr class="Product-quantity__line">
+                                </section>
+                            </section>
+
+
+
+                            <!-- Additional -->
+                            <article class="Additional-product-info">
+                                <h2 class="Additional-product-info__title uppercase">
+                                    Additional information
+                                </h2>
+                                <ul class="Additional-product-info__list">
+                                    <li class="Additional-product-info__item">
+                                        <div class="Additional-product-info__option-container">
+                                            <p class="Additional-product-info__option uppercase">
+                                                Manufacture
+                                            </p>
+                                        </div>
+                                        <div class="Additional-product-info__info-container">
+                                            <p class="Additional-product-info__info uppercase">
+                                                "name"
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </article>
                         </section>
                     </section>
+
+
 
                     <!-- Description -->
                     <section class="Product-description">
