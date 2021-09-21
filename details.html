@@ -61,6 +61,27 @@
             border: solid 5px green;
         }
 
+        .Product-details__header {
+            border: solid 5px red;
+        }
+
+        .Product-details__container {
+            border: solid 5px yellow;
+        }
+
+        .Product-gallery {
+            border: solid 5px red;
+        }
+
+
+        .Product-info {
+            border: solid 5px blue;
+        }
+
+        .Product-details__footer {
+            border: solid 5px blue;
+        }
+
         .Footer {
             border: solid 5px red;
         }
@@ -88,7 +109,7 @@
                 <!-- Search-bar -->
                 <div class="Search-bar">
                     <form class="Search-bar__form">
-                        <input class="Search-bar__input" id="Search-bar__input" type="text" placeholder="Start din søgning">
+                        <input class="Search-bar__input" id="Search-bar__input" type="text" placeholder="Search entire store here...">
                         <button class="Search-bar__button" id="Search-bar__button">
                             <i class="fas fa-search Search"></i>
                         </button>
@@ -192,8 +213,77 @@
         <!-- Main -->
         <main class="Main">
             
-            <!-- Details go here -->
+            <!-- Product details -->
+            <section class="Product-details">
 
+                <!-- Header -->
+                <header class="Product-details__header">
+
+                    <!-- Current page -->
+                    <h2 class="Current-page">
+                        Home / "Search/Category" / "product"
+                    </h2>
+                </header>
+
+                <!-- Container -->
+                <section class="Product-details__container">
+
+                    <!-- details -->
+                    <section class="Product-details__details">
+
+                        <!-- Gallery -->
+                        <section class="Product-gallery">
+
+                            <!-- Hero -->
+                            <img class="Product-gallery__hero" src="" alt="Product gallery hero">
+
+                            <!-- Gallery -->
+                            <h2 class="Product-gallery__title uppercase">
+                                More views
+                            </h2>
+                            <figure class="Product-gallery__gallery">
+                                <img class="Product-gallery__img" src="" alt="Product gallery img">
+                            </figure>
+                        </section>
+
+
+
+                        <!-- Info -->
+                        <section class="Product-info">
+
+                            <!-- This is where the product info will go -->
+
+                        </section>
+                    </section>
+
+                    <!-- Description -->
+                    <section class="Product-description">
+                        <h1 class="Product-description__title uppercase">
+                            Description
+                        </h1>
+                        <ul class="Product-description__list">
+                            <li class="Product-description__item">
+                                <p class="Product-description__option">
+                                    Power Output (8 / 4 Ohm RMS)
+                                </p>
+                                <p class="Product-description__info">
+                                    45 W / 60 W
+                                </p>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+
+                <!-- Footer -->
+                <footer class="Product-details__footer">
+                    <section class="Product-call">
+                        <i class="fas fa-phone-alt Phone icon"></i>
+                        <h2 class="Product-call__title uppercase">
+                            Call us about this product
+                        </h2>
+                    </section>
+                </footer>
+            </section>
         </main>
 
 
