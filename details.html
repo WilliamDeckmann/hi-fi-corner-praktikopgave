@@ -61,25 +61,6 @@
             border: solid 5px green;
         }
 
-        .Product-list {
-            border: solid 5px yellow;
-        }
-
-        .Product-list__details {
-            border: solid 5px blue;
-        }
-
-        .Product-list__container {
-            min-height: 40px;
-            border: solid 5px red;
-        }
-
-        .Product-item {
-            width: 300px;
-            padding: 10px;
-            border: solid 5px;
-        }
-
         .Footer {
             border: solid 5px red;
         }
@@ -210,83 +191,9 @@
 
         <!-- Main -->
         <main class="Main">
+            
+            <!-- Details go here -->
 
-            <!-- Product list -->
-            <section class="Product-list">
-
-                <!-- Header -->
-                <header class="Product-list__header">
-
-                    <!-- Title -->
-                    <h1 class="Product-list__title uppercase" id="Product-list__title">
-                        ...
-                    </h1>
-
-                    <!-- Details -->
-                    <section class="Product-list__details">
-                        
-                        <!-- View -->
-                        <section class="Product-list__view">
-
-                            <!-- Product sort -->
-                            <form class="Product-sort" action="">
-                                <label class="Product-sort__label uppercase" for="Product-sort__select">Sort by</label>
-                                <select class="Product-sort__select" name="Product-sort__select">
-                                    <option class="Product-sort__option">Price</option>
-                                    <option class="Product-sort__option">A-B</option>
-                                    <option class="Product-sort__option">Category</option>
-                                    <option class="Product-sort__option">Brand</option>
-                                  </select>
-                            </form>
-
-                            <!-- Product view -->
-                            <section class="Product-view">
-                                <p class="Product-view__title">
-                                    View as:
-                                </p>
-                                <button class="Product-view__grid Product-view_active">
-                                    <i class="fas fa-th-large Grid icon"></i>
-                                </button>
-                                <button class="Product-view__list">
-                                    <i class="fas fa-bars List icon"></i>
-                                </button>
-                            </section>
-                        </section>
-
-                        <!-- Show -->
-                        <section class="Product-list__show">
-
-                            <!-- Product count -->
-                            <article class="Product-count">
-                                <p class="Product-count__count" id="Product-count__count">
-                                    133
-                                </p>
-                                <p class="Product-count__title">
-                                    item(s)
-                                </p>
-                            </article>
-
-                            <!-- Product sort -->
-                            <form class="Product-show" action="">
-                                <label class="Product-show__label uppercase" for="Product-show__select">Show:</label>
-                                <select class="Product-show__select" name="Product-show__select">
-                                    <option class="Product-show__option">500</option>
-                                    <option class="Product-show__option">400</option>
-                                    <option class="Product-show__option">300</option>
-                                    <option class="Product-show__option">200</option>
-                                    <option class="Product-show__option">100</option>
-                                  </select>
-                            </form>
-                        </section>
-                    </section>
-                </header>
-
-                <!-- Product container -->
-                <ul class="Product-list__container" id="Product-list__container">
-
-                    <!-- Product items go here -->
-                </ul>
-            </section>
         </main>
 
 

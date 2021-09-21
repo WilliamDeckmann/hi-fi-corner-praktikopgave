@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     // Element variable
+    const productList_title = document.querySelector("#Product-list__title");
+    const productCount_count = document.querySelector("#Product-count__count");
     const productList_container = document.querySelector("#Product-list__container");
-    const productList_error = document.querySelector("#Product-list__error");
     const searchBar_input = document.querySelector("#Search-bar__input");
+    const searchBar_button = document.querySelector("#Search-bar__button");
 
 
 
@@ -13,14 +15,27 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((result) => {
 
             // Create product
-            function CreateProduct() {
+            function SearchForProduct(event) {
 
-                // For each product
+                // Prevent page from reloading when submitting form
+                event.preventDefault();
+
+                // Remove all unwanted products
+                let foundProductItem = document.querySelectorAll(".Product-item");
+                foundProductItem.forEach((item) => {
+                    item.remove();
+                });
+
+                // Set Product-list title same as input
+                productList_title.textContent = searchBar_input.value;
+
+                // For each product in the products.json file
                 result.products.forEach((item) => {
 
                     // Find product
                     if(searchBar_input.value == item.id || searchBar_input.value == item.category || searchBar_input.value == item.brand) {
 
+                        // Create all product elements
                         var productItem = document.createElement("li")
                         productList_container.appendChild(productItem);
                         productItem.classList.add("Product-item");
@@ -40,20 +55,18 @@ document.addEventListener("DOMContentLoaded", () => {
                             
                             <!-- Button -->
                             <button class="Purchase-button">  
-                                <a class="Purchase-button__link uppercase" href="#">
+                                <a class="Purchase-button__link uppercase" href="details.html?id=${item.id}">
                                     Add to cart
                                 </a>
                             </button>
                         `;
-                    } else {
-                        console.log("Product notfound");
-                    }
+                    };
                 });
             };
 
 
 
             // Run function once input is detected
-            searchBar_input.addEventListener("input", CreateProduct);
+            searchBar_button.addEventListener("click", SearchForProduct);
         })
 });
