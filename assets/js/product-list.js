@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 result.products.forEach((item) => {
 
                     // Find product
-                    if(inputValue == item.id || inputValue == item.category || inputValue == item.brand) {
+                    if(inputValue.toLowerCase() == item.id || inputValue == item.category || inputValue == item.brand) {
 
                         // Create all product elements
                         var productItem = document.createElement("li")
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 
                                 <img class="Product-item__img" src="${item.img}" alt="Product image">
                                 <h2 class="Product-item__title">
-                                    ${item.title}
+                                    ${item.id}
                                 </h2>
                                 <p class="Product-item__price">
                                     ${item.price}

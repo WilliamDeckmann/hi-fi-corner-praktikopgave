@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <!-- Product about -->
                                     <section class="Product-about">
                                         <h2 class="Product-about__title">
-                                            "Product name"
+                                            ${item.id}
                                         </h2>
         
                                         <!-- Offer -->
