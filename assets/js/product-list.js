@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let url = window.location.search;
     let params = new URLSearchParams(url);
     let search = params.get("search");
-    //let id = params.get("id");
+    let searchtUpperCase = search.charAt(0).toUpperCase() + search.slice(1);
     
     // Element variable
     const currentPage = document.querySelector("#Current-page");
@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
             function SearchForProduct(event) {
 
                 // Redirect user on click
-                location.href = `shop.html?search=${searchBar_input.value}`;
+                var searhInput = searchBar_input.value
+                location.href = `shop-list.html?search=${searhInput}`;
                 event.preventDefault();
             };
 
@@ -35,14 +36,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
             // Set title same as input
-            currentPage.textContent = `Home / ${search}`;
-            productList_title.textContent = search;
+            currentPage.textContent = `Home / ${searchtUpperCase}`;
+            productList_title.textContent = searchtUpperCase;
 
             // For each product in the products.json file
             result.products.forEach((item) => {
 
                 // Search for product
-                if(search == item.id || search == item.category || search == item.brand) {
+                if(search == item.id.toLowerCase() || search == item.category || search == item.brand.toLowerCase()) {
 
                     // Create all product elements
                     var productItem = document.createElement("li")

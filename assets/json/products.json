@@ -1,9 +1,9 @@
 {
     "products": [
         {
-            "id": "apple",
+            "id": "Apple",
             "category": "a",
-            "brand": "red",
+            "brand": "Red",
             "img": "",
             "title": "product: 1",
             "description": "",
@@ -11,9 +11,9 @@
         },
 
         {
-            "id": "banana",
+            "id": "Banana",
             "category": "b",
-            "brand": "blue",
+            "brand": "Blue",
             "img": "",
             "title": "product: 2",
             "description": "",
@@ -21,9 +21,9 @@
         },
 
         {
-            "id": "orange",
+            "id": "Orange",
             "category": "c",
-            "brand": "yellow",
+            "brand": "Yellow",
             "img": "",
             "title": "product: 3",
             "description": "",
@@ -31,9 +31,9 @@
         },
 
         {
-            "id": "mango",
+            "id": "Mango",
             "category": "d",
-            "brand": "green",
+            "brand": "Green",
             "img": "",
             "title": "product: 4",
             "description": "",
