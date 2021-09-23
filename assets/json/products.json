@@ -4,10 +4,25 @@
             "id": "Apple",
             "category": "a",
             "brand": "Red",
-            "img": "",
-            "title": "product: 1",
-            "description": "",
-            "price": "free"
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                ""
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": {
+
+            },
+            "description": {
+
+            }
         },
 
         {

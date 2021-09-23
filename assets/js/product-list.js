@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
             result.products.forEach((item) => {
 
                 // Search for product
-                if(search == item.id.toLowerCase() || search == item.category || search == item.brand.toLowerCase()) {
+                if(search == item.id.toLowerCase() || search == item.category.toLowerCase() || search == item.brand.toLowerCase()) {
 
                     // Create all product elements
                     let productItem = document.createElement("li")
@@ -60,18 +60,34 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h2 class="Product-item__title">
                                 ${item.id}
                             </h2>
-                            <p class="Product-item__price">
-                                ${item.price}
+                            <p class="Price Price__price">
+                                £${parseFloat(item.price).toFixed(2)}
+                            </p>
+                            <p class="Price Price__sale">
+                                £${parseFloat(item.sale.price).toFixed(2)}
                             </p>
                         </header>
                         
                         <!-- Button -->
                         <button class="Purchase-button">  
-                            <a class="Purchase-button__link uppercase" href="details.html?search=${search}&id=${item.id}">
+                            <a class="Purchase-button__link uppercase" href="shop-details.html?search=${search}&id=${item.id}">
                                 Add to cart
                             </a>
                         </button>
                     `;
+
+
+
+                    // Sale
+                    if(item.sale.active == true) {
+                        document.querySelectorAll(".Price__price").forEach((item) => {
+                            item.classList.add("Price__inactive")
+                        });
+                    }else{
+                        document.querySelectorAll(".Price__sale").forEach((item) => {
+                            item.style.display = "none";
+                        });
+                    };
                 };
             });
         })
