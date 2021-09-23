@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     // URL variables
-    let url = window.location.search;
-    let params = new URLSearchParams(url);
-    let search = params.get("search");
-    let id = params.get("id");
+    const url = window.location.search;
+    const params = new URLSearchParams(url);
+    const search = params.get("search");
+    const id = params.get("id");
     
     // Element variable
     const productDetails = document.querySelector("#Product-details");
