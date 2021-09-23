@@ -1,4 +1,4 @@
-# shop-categories.js
+# shop-manufactures.js
 
 ## What is the function of this js file?
 
