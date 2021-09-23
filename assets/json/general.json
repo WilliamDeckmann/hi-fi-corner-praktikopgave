@@ -1,5 +1,5 @@
 {
-    "shopCategories": [
+    "categories": [
         {
             "link": "",
             "title": "Shop by brand",
@@ -105,5 +105,17 @@
             "title": "Test category: Red",
             "img": ""
         }
+    ],
+
+
+
+    "manufactures": [
+        "Arcam",
+        "Astell And Kern",
+        "ATC",
+        "Audiolab",
+        "Avid",
+        "Chord Electronics",
+        "Classe"
     ]
 }

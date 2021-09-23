@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((result) => {
 
             // For each category in the general.json file
-            result.shopCategories.forEach((item) => {
+            result.categories.forEach((item) => {
 
                 // Create all product elements
                 let categoryItem = document.createElement("li")
