@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
+
+    // URL variables
+    let url = window.location.search;
+    let params = new URLSearchParams(url);
+    let search = params.get("search");
+    //let id = params.get("id");
     
     // Element variable
     const currentPage = document.querySelector("#Current-page");
@@ -15,63 +21,55 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((response) => response.json())
         .then((result) => {
 
-            // Create product
+            // Redirect user to the search result
             function SearchForProduct(event) {
 
-                // Prevent page from reloading when submitting form
+                // Redirect user on click
+                location.href = `shop.html?search=${searchBar_input.value}`;
                 event.preventDefault();
-
-                // Remove all unwanted products
-                let foundProductItem = document.querySelectorAll(".Product-item");
-                foundProductItem.forEach((item) => {
-                    item.remove();
-                });
-
-                // Input variables
-                let inputValue = searchBar_input.value;
-
-                // Set title same as input
-                currentPage.textContent = `Home / ${inputValue}`;
-                productList_title.textContent = inputValue;
-
-                // For each product in the products.json file
-                result.products.forEach((item) => {
-
-                    // Find product
-                    if(inputValue.toLowerCase() == item.id || inputValue == item.category || inputValue == item.brand) {
-
-                        // Create all product elements
-                        var productItem = document.createElement("li")
-                        productList_container.appendChild(productItem);
-                        productItem.classList.add("Product-item");
-                        productItem.style.borderColor = item.brand
-                        productItem.innerHTML = `
-                            <!-- Info -->
-                            <header class="Product-item__info">
-                                
-                                <img class="Product-item__img" src="${item.img}" alt="Product image">
-                                <h2 class="Product-item__title">
-                                    ${item.id}
-                                </h2>
-                                <p class="Product-item__price">
-                                    ${item.price}
-                                </p>
-                            </header>
-                            
-                            <!-- Button -->
-                            <button class="Purchase-button">  
-                                <a class="Purchase-button__link uppercase" href="details.html?search=${inputValue}&id=${item.id}">
-                                    Add to cart
-                                </a>
-                            </button>
-                        `;
-                    };
-                });
             };
-
-
 
             // Run function once input is detected
             searchBar_button.addEventListener("click", SearchForProduct);
+
+
+
+            // Set title same as input
+            currentPage.textContent = `Home / ${search}`;
+            productList_title.textContent = search;
+
+            // For each product in the products.json file
+            result.products.forEach((item) => {
+
+                // Search for product
+                if(search == item.id || search == item.category || search == item.brand) {
+
+                    // Create all product elements
+                    var productItem = document.createElement("li")
+                    productList_container.appendChild(productItem);
+                    productItem.classList.add("Product-item");
+                    productItem.style.borderColor = item.brand
+                    productItem.innerHTML = `
+                        <!-- Info -->
+                        <header class="Product-item__info">
+                            
+                            <img class="Product-item__img" src="${item.img}" alt="Product image">
+                            <h2 class="Product-item__title">
+                                ${item.id}
+                            </h2>
+                            <p class="Product-item__price">
+                                ${item.price}
+                            </p>
+                        </header>
+                        
+                        <!-- Button -->
+                        <button class="Purchase-button">  
+                            <a class="Purchase-button__link uppercase" href="details.html?search=${search}&id=${item.id}">
+                                Add to cart
+                            </a>
+                        </button>
+                    `;
+                };
+            });
         })
 });
