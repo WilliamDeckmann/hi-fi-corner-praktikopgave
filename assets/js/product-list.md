@@ -4,7 +4,9 @@
 
 - At first it fetches all the data from a json file containing all the data for the product-items.
 
-- Then for each item in the json file, it checks to see wether it matches the search result submitted in the input.
+- It then redirects you to a new site with the url changed to match the search result.
+
+- For each item in the json file, it checks to see wether it matches the search result submitted in the input.
 
 - If the input value matches either the id, category, or brand, it will create and append the matching item/items.
 
@@ -18,3 +20,5 @@
 ## Extra functions
 
 - When submitting an input in the search field, the search result will be displayed at the top of the product-list container and header.
+
+- The search-result and item-id will also be changed to make the first letter uppercase some places.

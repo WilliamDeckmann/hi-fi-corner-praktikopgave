@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi-Fi Corner - Shop: frontpage</title>
+
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Fonts: MuseoSansRounded -->
+    <style>
+        @font-face {
+            font-family: "MuseoSansRounded100";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded100.woff");
+        }
+        @font-face {
+            font-family: "MuseoSansRounded300";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded300.woff");
+        }
+        @font-face {
+            font-family: "MuseoSansRounded500";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded500.woff");
+        }
+        @font-face {
+            font-family: "MuseoSansRounded700";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded700.woff");
+        }
+        @font-face {
+            font-family: "MuseoSansRounded900";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded900.woff");
+        }
+        @font-face {
+            font-family: "MuseoSansRounded1000";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded1000.woff");
+        }
+    </style>
+
+    <!-- Style: RESETS -->
+    <link rel="stylesheet" href="./assets/css/RESETS.css">
+
+    <!-- Style: root -->
+    <link rel="stylesheet" href="./assets/css/root.css">
+
+
+
+    <!-- Test style -->
+    <style>
+        .Header {
+            border: solid 5px blue;
+        }
+
+        .Header__top, .Header__bottom {
+            border: solid 5px yellow;
+        }
+
+        .Main {
+            border: solid 5px green;
+        }
+
+
+
+        .Footer {
+            border: solid 5px red;
+        }
+
+        .Footer__left, .Footer__right {
+            border: solid 5px yellow;
+        }
+    </style>
+</head>
+
+
+
+<!--Body -->
+<body class="Body">
+    
+    <!-- Wrapper -->
+    <div class="Wrapper">
+
+        <!-- Header -->
+        <header class="Header">
+
+            <!-- Top section -->
+            <section class="Header__top">
+
+                <!-- Search-bar -->
+                <div class="Search-bar">
+                    <form class="Search-bar__form">
+                        <input class="Search-bar__input" id="Search-bar__input" type="text" placeholder="Search entire store here...">
+                        <button class="Search-bar__button" id="Search-bar__button">
+                            <i class="fas fa-search Search"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- User -->
+                <div class="User">
+
+                    <!-- Account -->
+                    <a class="Acount"  href="#">
+                        <i class="far fa-user User icon"></i>
+                        <p class="Account__title uppercase">
+                            Account
+                        </p>
+                    </a>
+
+                    <!-- Cart -->
+                    <a class="Cart" href="#">
+                        <i class="fas fa-shopping-cart Shopping-cart icon"></i>
+                        <p class="Cart__title uppercase">
+                            Cart
+                        </p>
+                    </a>
+                </div>
+
+                <!-- Contact -->
+                <ul class="Contact">
+
+                    <!-- Location -->
+                    <li class="Contact__item">
+                        <a class="Location"  href="#">
+                            <i class="fas fa-map-marker-alt Marker icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- Call -->
+                    <li class="Contact__item">
+                        <a class="Call"  href="#">
+                            <i class="fas fa-phone-alt Phone icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- Mail -->
+                    <li class="Contact__item">
+                        <a class="Mail"  href="#">
+                            <i class="far fa-envelope Letter icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- Bottom section -->
+            <section class="Header__bottom">
+                
+                <!-- Navigation -->
+                <nav class="Nav">
+                    <ul class="Nav__list">
+                        <li class="Nav__item">
+                            <a href="index.html" class="Nav__link uppercase">
+                                Home
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="#" class="Nav__link uppercase">
+                                About us
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="brands.html" class="Nav__link uppercase">
+                                Brands
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="#" class="Nav__link uppercase">
+                                News
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="#" class="Nav__link uppercase">
+                                Events
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="shop.html" class="Nav__link uppercase">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="Nav__item">
+                            <a href="#" class="Nav__link uppercase">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+    
+
+
+        <!-- Main -->
+        <main class="Main">
+            
+            <!--  -->
+            <section class="">
+
+                <!-- Category list -->
+                <ul class="Category-list" id="Category-list">
+
+                    <!-- Category items go here -->
+
+                </ul>
+            </section>
+        </main>
+
+
+    
+        <!-- Footer -->
+        <footer class="Footer">
+
+            <!-- Left section -->
+            <section class="Footer__left">
+
+                <!-- Address -->
+                <address class="Adress">
+                    <p class="Adress_info">
+                        Hi-Fi Corner<br>
+                        Edinburgh 1a Haddington Place EH7 4AE<br>
+                        Falkirk 44 Cow Wynd FK1 1PU
+                    </p>
+                </address>
+
+                <!-- External link -->
+                <ul class="External-links">
+
+                    <!-- Returns & Refunds -->
+                    <li class="External-links__item">
+                        <a class="External-links__link" href="#">
+                            Returns & Refunds
+                        </a>
+                    </li>
+
+                    <!-- Tube -->
+                    <span class="Tube">|</span>
+
+                    <!-- Privacy Policy  -->
+                    <li class="External-links__item">
+                        <a class="External-links__link" href="#">
+                            Privacy Policy 
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- Right section -->
+            <section class="Footer__right">
+
+                <!-- Payment methods -->
+                <ul class="Payment-methods">
+                    <li class="Payment-methods__item">
+                        WorldPay
+                    </li>
+                    <li class="Payment-methods__item">
+                        Visa
+                    </li>
+                    <li class="Payment-methods__item">
+                        MasterCard
+                    </li>
+                    <li class="Payment-methods__item">
+                        Meastro
+                    </li>
+                    <li class="Payment-methods__item">
+                        JBC
+                    </li>
+                    <li class="Payment-methods__item">
+                        PayPal
+                    </li>
+                </ul>
+
+                <!-- Social media -->
+                <ul class="Social-media">
+
+                    <!-- FaceBook -->
+                    <li class="Social-media__item">
+                        <a class="FaceBook-link" href="#">
+                            <i class="fab fa-facebook-f FaceBook icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- YouTube -->
+                    <li class="Social-media__item">
+                        <a class="YouTube-link" href="#">
+                            <i class="fab fa-youtube YouTube icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- Twitter -->
+                    <li class="Social-media__item">
+                        <a class="Twitter-link" href="#">
+                            <i class="fab fa-twitter Twitter icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- Instagram -->
+                    <li class="Social-media__item">
+                        <a class="Instagram-link" href="#">
+                            <i class="fab fa-instagram Instagram icon"></i>
+                        </a>
+                    </li>
+
+                    <!-- LinkedIn -->
+                    <li class="Social-media__item">
+                        <a class="LinkedIn-link" href="#">
+                            <i class="fab fa-linkedin-in LinkedIn icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="./assets/js/product-list.js"></script>
+    <script src="./assets/js/shop-categories.js"></script>
+</body>
+</html>

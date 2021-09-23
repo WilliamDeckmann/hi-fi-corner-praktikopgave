@@ -1,19 +1,34 @@
 {
     "products": [
         {
-            "id": "apple",
+            "id": "Apple",
             "category": "a",
-            "brand": "red",
-            "img": "",
-            "title": "product: 1",
-            "description": "",
-            "price": "free"
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                ""
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": {
+
+            },
+            "description": {
+
+            }
         },
 
         {
-            "id": "banana",
+            "id": "Banana",
             "category": "b",
-            "brand": "blue",
+            "brand": "Blue",
             "img": "",
             "title": "product: 2",
             "description": "",
@@ -21,9 +36,9 @@
         },
 
         {
-            "id": "orange",
+            "id": "Orange",
             "category": "c",
-            "brand": "yellow",
+            "brand": "Yellow",
             "img": "",
             "title": "product: 3",
             "description": "",
@@ -31,9 +46,9 @@
         },
 
         {
-            "id": "mango",
+            "id": "Mango",
             "category": "d",
-            "brand": "green",
+            "brand": "Green",
             "img": "",
             "title": "product: 4",
             "description": "",
