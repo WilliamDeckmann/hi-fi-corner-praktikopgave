@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     // URL variables
-    let url = window.location.search;
-    let params = new URLSearchParams(url);
-    let search = params.get("search");
-    let searchtUpperCase = search.charAt(0).toUpperCase() + search.slice(1);
+    const url = window.location.search;
+    const params = new URLSearchParams(url);
+    const search = params.get("search");
     
     // Element variable
     const currentPage = document.querySelector("#Current-page");
@@ -36,8 +35,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
             // Set title same as input
-            currentPage.textContent = `Home / ${searchtUpperCase}`;
-            productList_title.textContent = searchtUpperCase;
+            let searchUpperCase = search.charAt(0).toUpperCase() + search.slice(1);
+            currentPage.textContent = `Home / ${searchUpperCase}`;
+            productList_title.textContent = searchUpperCase;
+
+
 
             // For each product in the products.json file
             result.products.forEach((item) => {
@@ -46,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if(search == item.id.toLowerCase() || search == item.category || search == item.brand.toLowerCase()) {
 
                     // Create all product elements
-                    var productItem = document.createElement("li")
+                    let productItem = document.createElement("li")
                     productList_container.appendChild(productItem);
                     productItem.classList.add("Product-item");
                     productItem.style.borderColor = item.brand

@@ -1,0 +1,109 @@
+{
+    "shopCategories": [
+        {
+            "link": "",
+            "title": "Shop by brand",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Amplifiers",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Speakers",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Turntables",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "CD players",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Streamers",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Cables",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Furniture",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Headphones",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Home cinema",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Outlet - Save up to 50% off",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Ebay shop",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Ceiling speakers",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "TVs",
+            "img": ""
+        },
+
+        {
+            "link": "",
+            "title": "Vinyl LPs",
+            "img": ""
+        },
+
+        {
+            "link": "shop-list.html",
+            "title": "Shop now",
+            "img": ""
+        },
+
+
+
+
+
+        {
+            "link": "shop-list.html?search=red",
+            "title": "Test category: Red",
+            "img": ""
+        }
+    ]
+}
