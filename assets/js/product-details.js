@@ -46,14 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
                             <section class="Product-gallery">
     
                                 <!-- Hero -->
-                                <img class="Product-gallery__hero" src="" alt="Product gallery hero">
+                                <img class="Product-gallery__hero" src="./assets/img/products/${item.img[0]}" alt="Product gallery hero">
     
                                 <!-- Gallery -->
                                 <h2 class="Product-gallery__title uppercase">
                                     More views
                                 </h2>
-                                <figure class="Product-gallery__gallery">
-                                    <img class="Product-gallery__img" src="" alt="Product gallery img">
+                                <figure class="Product-gallery__container" id="Product-gallery__container">
                                 </figure>
                             </section>
     
@@ -74,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                         <!-- Other products -->
                                         <a class="Other-products" href="#">
                                             <p class="Other-products__title">
-                                                See other "manufacture" products
+                                                See other ${item.additional[0].info} products
                                             </p>
                                         </a>
     
@@ -146,19 +145,10 @@ document.addEventListener("DOMContentLoaded", () => {
                                             </label>
     
                                             <!-- List -->
-                                            <ul class="Product-color__list">
-                                                <li class="Product-color__item">
-                                                    <input class="Product-color__input" type="radio">
-                                                    <p class="Product-color__title">
-                                                        Black
-                                                    </p>
-                                                </li>
-                                                <li class="Product-color__item">
-                                                    <input class="Product-color__input" type="radio">
-                                                    <p class="Product-color__title">
-                                                        White
-                                                    </p>
-                                                </li>
+                                            <ul class="Product-color__list" id="Product-color__list">
+                                                
+                                                <!-- Product color items go here --> 
+
                                             </ul>
                                         </form>
     
@@ -207,19 +197,10 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <h2 class="Additional-product-info__title uppercase">
                                         Additional information
                                     </h2>
-                                    <ul class="Additional-product-info__list">
-                                        <li class="Additional-product-info__item">
-                                            <div class="Additional-product-info__option-container">
-                                                <p class="Additional-product-info__option uppercase">
-                                                    Manufacture
-                                                </p>
-                                            </div>
-                                            <div class="Additional-product-info__info-container">
-                                                <p class="Additional-product-info__info uppercase">
-                                                    "name"
-                                                </p>
-                                            </div>
-                                        </li>
+                                    <ul class="Additional-product-info__list" id="Additional-product-info__list">
+                                        
+                                        <!-- Additional product info items go here -->
+
                                     </ul>
                                 </article>
                             </section>
@@ -232,7 +213,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h1 class="Product-description__title uppercase">
                                 Description
                             </h1>
-                            <ul class="Product-description__list">
+                            <ul class="Product-description__list" id="Product-description__list">
                                 <li class="Product-description__item">
                                     <p class="Product-description__option">
                                         Power Output (8 / 4 Ohm RMS)
@@ -258,6 +239,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+                    // Image
+                    let galleryContainer = document.querySelector("#Product-gallery__container");
+
+                    // For each img
+                    item.img.forEach((item) => {
+        
+                        // Create, append & add content
+                        let galleryImg = document.createElement("img")
+                        galleryContainer.appendChild(galleryImg);
+                        galleryImg.classList.add("Product-gallery__img");
+                        galleryImg.src = `./assets/img/products/${item}`;
+                        galleryImg.alt = "Product gallery img";
+                    });
+
+
+
                     // Sale
                     if(item.sale.active == true) {
                         document.querySelectorAll(".Price__price").forEach((item) => {
@@ -268,6 +265,73 @@ document.addEventListener("DOMContentLoaded", () => {
                             item.style.display = "none";
                         });
                     };
+
+
+
+                    // Colors
+                    let colorList = document.querySelector("#Product-color__list");
+        
+                    // For each color
+                    item.colors.forEach((item) => {
+        
+                        // Create, append & add content
+                        let colorItem = document.createElement("li")
+                        colorList.appendChild(colorItem);
+                        colorItem.classList.add("Product-color__item");
+                        colorItem.innerHTML = `
+                            <input class="Product-color__input" type="radio">
+                            <p class="Product-color__title">
+                                ${item}
+                            </p>
+                        `;
+                    });
+
+
+
+                    // Additional information
+                    let additionalList = document.querySelector("#Additional-product-info__list");
+        
+                    // For each additional info
+                    item.additional.forEach((item) => {
+                        
+                        // Create, append & add content
+                        let additionalItem = document.createElement("li")
+                        additionalList.appendChild(additionalItem);
+                        additionalItem.classList.add("Additional-product-info__item");
+                        additionalItem.innerHTML = `
+                        <div class="Additional-product-info__title-container">
+                            <p class="Additional-product-info__title uppercase">
+                                ${item.title}
+                            </p>
+                        </div>
+                        <div class="Additional-product-info__info-container">
+                            <p class="Additional-product-info__info uppercase">
+                                ${item.info}
+                            </p>
+                        </div>
+                        `;
+                    });
+
+
+                    // Description
+                    let descriptionList = document.querySelector("#Product-description__list");
+        
+                    // For each additional info
+                    item.description.forEach((item) => {
+                        
+                        // Create, append & add content
+                        let descriptionItem = document.createElement("li")
+                        descriptionList.appendChild(descriptionItem);
+                        descriptionItem.classList.add("Product-description__item");
+                        descriptionItem.innerHTML = `
+                            <p class="Product-description__option">
+                                ${item.title}
+                            </p>
+                            <p class="Product-description__info">
+                                ${item.info}
+                            </p>
+                        `;
+                    });
                 };
             });
         })

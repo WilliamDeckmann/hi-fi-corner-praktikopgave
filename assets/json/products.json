@@ -1,8 +1,8 @@
 {
     "products": [
         {
-            "id": "Apple",
-            "category": "a",
+            "id": "Creek Classic CD",
+            "category": "cd afspillere",
             "brand": "Red",
             "price": 469,
             "sale": {
@@ -10,49 +10,107 @@
                 "price": 439
             },
             "img": [
-                ""
+                "cd_afspillere/creek_classic_cd.jpg",
+                "cd_afspillere/creek_classic_cd.jpg",
+                "cd_afspillere/creek_classic_cd.jpg"
             ],
             "colors": [
                 "black",
                 "Silver"
             ],
             "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
-            "additional": {
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
 
-            },
-            "description": {
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
 
-            }
-        },
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
 
-        {
-            "id": "Banana",
-            "category": "b",
-            "brand": "Blue",
-            "img": "",
-            "title": "product: 2",
-            "description": "",
-            "price": "free"
-        },
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
 
-        {
-            "id": "Orange",
-            "category": "c",
-            "brand": "Yellow",
-            "img": "",
-            "title": "product: 3",
-            "description": "",
-            "price": "free"
-        },
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
 
-        {
-            "id": "Mango",
-            "category": "d",
-            "brand": "Green",
-            "img": "",
-            "title": "product: 4",
-            "description": "",
-            "price": "free"
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
         }
     ]
 }
