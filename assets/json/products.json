@@ -2,7 +2,7 @@
     "products": [
         {
             "id": "Creek Classic CD",
-            "category": "cd afspillere",
+            "category": "cd afspiller",
             "brand": "Red",
             "price": 469,
             "sale": {
@@ -113,11 +113,9 @@
             ]
         },
 
-
-
         {
             "id": "Creek Destiny CD",
-            "category": "cd afspillere",
+            "category": "cd afspiller",
             "brand": "Red",
             "price": 469,
             "sale": {
@@ -228,11 +226,9 @@
             ]
         },
 
-
-
         {
             "id": "Creek Evo CD",
-            "category": "cd afspillere",
+            "category": "cd afspiller",
             "brand": "Red",
             "price": 469,
             "sale": {
@@ -343,11 +339,9 @@
             ]
         },
 
-
-
         {
             "id": "Exp 2010S CD",
-            "category": "cd afspillere",
+            "category": "cd afspiller",
             "brand": "Red",
             "price": 469,
             "sale": {
@@ -355,9 +349,9 @@
                 "price": 439
             },
             "img": [
-                "cd_afspillere/Exp_2010S_CD.jpg",
-                "cd_afspillere/Exp_2010S_CD.jpg",
-                "cd_afspillere/Exp_2010S_CD.jpg"
+                "cd_afspillere/Exp_2010S_CD.gif",
+                "cd_afspillere/Exp_2010S_CD.gif",
+                "cd_afspillere/Exp_2010S_CD.gif"
             ],
             "colors": [
                 "black",

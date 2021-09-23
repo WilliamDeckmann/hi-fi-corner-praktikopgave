@@ -44,19 +44,16 @@ document.addEventListener("DOMContentLoaded", () => {
             // For each product in the products.json file
             result.products.forEach((item) => {
 
-                // Search for product
-                if(search == item.id.toLowerCase() || search == item.category.toLowerCase() || search == item.brand.toLowerCase()) {
-
-                    // Create all product elements
+                // Create all product elements
+                function CreateProductItems() {
                     let productItem = document.createElement("li")
                     productList_container.appendChild(productItem);
                     productItem.classList.add("Product-item");
-                    productItem.style.borderColor = item.brand
                     productItem.innerHTML = `
                         <!-- Info -->
                         <header class="Product-item__info">
                             
-                            <img class="Product-item__img" src="${item.img}" alt="Product image">
+                            <img class="Product-item__img" src="./assets/img/products/${item.img[0]}" alt="Product image">
                             <h2 class="Product-item__title">
                                 ${item.id}
                             </h2>
@@ -88,6 +85,18 @@ document.addEventListener("DOMContentLoaded", () => {
                             item.style.display = "none";
                         });
                     };
+                };
+
+
+
+                // Search for product
+                if(search == item.id.toLowerCase() || search == item.category.toLowerCase() || search == item.brand.toLowerCase()) {
+
+
+                    CreateProductItems()
+                }else if(search == "") {
+
+                    CreateProductItems()
                 };
             });
         })
