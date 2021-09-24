@@ -79,10 +79,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Sale
                     if(item.sale.active == true) {
+                        console.log("true")
                         document.querySelectorAll(".Price__price").forEach((item) => {
                             item.classList.add("Price__inactive")
+                            
                         });
                     }else{
+                        console.log("false")
                         document.querySelectorAll(".Price__sale").forEach((item) => {
                             item.style.display = "none";
                         });
