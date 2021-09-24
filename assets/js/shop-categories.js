@@ -21,8 +21,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     <a class="Category-list__link uppercase" href="${item.link}">
                         ${item.title}
                     </a>
-                    <img class="Category-list__img" src="" alt="">
+                    <img class="Category-list__img" src="./assets/img/categories/${item.img}" alt="">
                 `;
+
+                // Check to find
+                if(item.img == "") {
+                    categoryItem.classList.add("Category-list__item_background-img_false");
+                };
             });
         })
 });
