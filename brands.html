@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi-Fi Corner - Shop: frontpage</title>
+    <title>Hi-Fi Corner - Brands</title>
 
 
 
@@ -158,7 +158,7 @@
                             </a>
                         </li>
                         <li class="Nav__item">
-                            <a href="brands.html" class="Nav__link uppercase">
+                            <a href="brands.html" class="Nav__link Nav__link_active uppercase">
                                 Brands
                             </a>
                         </li>
@@ -173,7 +173,7 @@
                             </a>
                         </li>
                         <li class="Nav__item">
-                            <a href="shop-frontpage.html" class="Nav__link Nav__link_active uppercase">
+                            <a href="shop-frontpage.html" class="Nav__link uppercase">
                                 Shop
                             </a>
                         </li>
@@ -191,19 +191,48 @@
 
         <!-- Main -->
         <main class="Main">
+
+            <!-- Brands - hero -->
+            <section class="Brands-Hero">
+                <h1 class="Brands-Hero__title uppercase">
+                    Top brands
+                </h1>
+                <img class="Hi-fi-logo" src="./assets/img/logos/logo.png" alt="Hi-Fi logo">
+            </section>
             
-            <!-- Categories -->
-            <section class="Categories">
+            <!-- Brands list -->
+            <section class="Brands">
+                <div class="Brands__outer-container">
+                    <div class="Brands__inner-container">
 
-                <!-- Category list -->
-                <ul class="Category-list" id="Category-list">
+                    <!-- list -->
+                    <section class="Brands-list">
+                        <h2 class="Brands-list__title">
+                            Here are just a few of the brands we stock:
+                        </h2>
+                        <img src="./assets/img/logos/brands.png" alt="Brands list">
+                    </section>
 
-                    <!-- Category items go here -->
-
-                </ul>
+                    <!-- Description -->
+                    <section class="Brands-description">
+                        <h2 class="Brands-description__title uppercase">
+                            Brands
+                        </h2>
+                        <p aria-checked="Brands-description__info">
+                            As an independent retailer of home audio and visual products, we are able to select the very best brands and manufactures from across the world.
+                            <br><br>
+                            Not only do we have the best known brands such as B&W, Devialet, KEF, Naim, and Linn; we also stock and are well versified with smaller autonomous companies like Michell Engineering, Neat Acoustics, Harbeth, SME, Trichord Research, Primaluna, to name but a few.
+                            <br><br>
+                            With over one hundred brands, we can happily say that if a brand meet our high standards for sound reproduction, then you can be assured to find it at Hi-Fi Corner.
+                        </p>
+                        <a class="Brands-description__link uppercase" href="shop-frontpage.html">
+                            Visit our shop to find more brands
+                        </a>
+                    </section>
+                    </div>
+                </div>
             </section>
         </main>
-
 
     
         <!-- Footer -->
@@ -275,21 +304,15 @@
                         </a>
                     </li>
 
-                    <!-- LinkedIn -->
+                    <!-- Instagram -->
                     <li class="Social-media__item">
-                        <a class="LinkedIn-link" href="#">
-                            <img class="LinkedIn icon" src="./assets/img/socials/footer-linkedin.png" alt="LinkedIn icon">
+                        <a class="Instagram-link" href="#">
+                            <i class="fab fa-instagram Instagram icon"></i>
                         </a>
                     </li>
                 </ul>
             </section>
         </footer>
     </div>
-
-
-
-    <!-- JavaScript -->
-    <script src="./assets/js/product-list.js"></script>
-    <script src="./assets/js/shop-categories.js"></script>
 </body>
 </html>

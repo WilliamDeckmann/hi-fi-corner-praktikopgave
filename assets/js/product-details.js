@@ -178,11 +178,8 @@ document.addEventListener("DOMContentLoaded", () => {
                                         <!-- Paypal -->
                                         <div class="PayPal">
                                             <a class="PayPal__link" href="#">
-                                                <img class="PayPal__logo" src="" alt="PayPal logo">
+                                                <img class="PayPal__logo" src="./assets/img/logos/paypal.jpg" alt="PayPal logo">
                                             </a>
-                                            <p class="PayPal__description">
-                                                The safer, easier way to pay
-                                            </p>
                                         </div>
     
                                         <!-- Line -->
