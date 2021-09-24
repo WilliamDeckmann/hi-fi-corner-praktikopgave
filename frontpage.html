@@ -148,7 +148,7 @@
                 <nav class="Nav">
                     <ul class="Nav__list">
                         <li class="Nav__item">
-                            <a href="index.html" class="Nav__link uppercase">
+                            <a href="frontpage.html" class="Nav__link Nav__link_active uppercase">
                                 Home
                             </a>
                         </li>
@@ -173,7 +173,7 @@
                             </a>
                         </li>
                         <li class="Nav__item">
-                            <a href="shop.html" class="Nav__link uppercase">
+                            <a href="shop-frontpage.html" class="Nav__link uppercase">
                                 Shop
                             </a>
                         </li>
@@ -192,8 +192,94 @@
         <!-- Main -->
         <main class="Main">
 
-            <!-- This is where the main content goes -->
-            
+            <!-- Frontpage - hero -->
+            <section class="Frontpage-Hero">
+                <img class="Hi-fi-logo" src="./assets/img/logos/logo.png" alt="Hi-Fi logo">
+            </section>
+
+            <!-- Update news -->
+            <section class="Update-news">
+                <h1 class="Update-news__title uppercase">
+                    Our Edinburgh showroom has now moved
+                    <br>
+                    to stunning new premises on Joppa Road
+                </h1>
+            </section>
+
+            <!-- Product Slides -->
+            <section class="Product-slides">
+                <img class="Product-slides__img" src="./assets/img/backgrounds/slide.jpg" alt="Slide img">
+                <h2 class="Product-slides__title uppercase">
+                    Primaluna
+                    <br>
+                    sound
+                </h2>
+                <button class="Product-slides__left-button">
+                    <img class="Product-slides__left-arrow" src="./assets/img/icons/arrow.svg" alt="Left arrow">
+                </button>
+                <button class="Product-slides__right-button">
+                    <img class="Product-slides__left-arrow" src="./assets/img/icons/arrow.svg" alt="Right arrow">
+                </button>
+            </section>
+
+            <!-- Social panel -->
+            <section class="Social-panel">
+                
+                <!-- Facebook -->
+                <section class="Social-panel__facebook">
+                    <a class="FaceBook-link" href="#">
+                        <img class="Facebook-bakcground" src="./assets/img/socials/social-facebook.png" alt="FaceBook logo">
+                    </a>
+                </section>
+
+                <!-- Facebook -->
+                <section class="Social-panel__blogger">
+                    <a class="Blogger-link" href="#">
+                        <img class="Blogger-bakcground" src="./assets/img/socials/social-blog.png" alt="Blogger logo">
+                    </a>
+                </section>
+
+                <!-- Twitter -->
+                <section class="Social-panel__twitter">
+                    <a class="Twitter-link" href="#">
+                        <img class="Twitter-bakcground" src="./assets/img/socials/social-twitter.png" alt="Twitter logo">
+                    </a>
+                </section>
+            </section>
+
+            <!-- Extra links -->
+            <section class="Extra-links">
+                
+                <!-- History -->
+                <section class="Extra-links__section">
+                    <a class="Extra-links__link uppercase" href="#">
+                        History
+                    </a>
+                    <p class="Extra-links__info uppercase">
+                        Established in the late 1960s, our family owned business is based in Edinburgh and Falkirk, servicing costumers across the UK.
+                    </p>
+                </section>
+
+                <!-- News -->
+                <section class="Extra-links__section">
+                    <a class="Extra-links__link uppercase" href="#">
+                        News
+                    </a>
+                    <p class="Extra-links__info uppercase">
+                        Check out our latest news stories for all the up to date Hi-Fi Corner products and launches.
+                    </p>
+                </section>
+
+                <!-- Shop -->
+                <section class="Extra-links__section">
+                    <a class="Extra-links__link uppercase" href="#">
+                        Shop
+                    </a>
+                    <p class="Extra-links__info uppercase">
+                        Hav a look in our online shop for great products and deals.
+                    </p>
+                </section>
+            </section>
         </main>
 
 
@@ -239,26 +325,9 @@
             <section class="Footer__right">
 
                 <!-- Payment methods -->
-                <ul class="Payment-methods">
-                    <li class="Payment-methods__item">
-                        WorldPay
-                    </li>
-                    <li class="Payment-methods__item">
-                        Visa
-                    </li>
-                    <li class="Payment-methods__item">
-                        MasterCard
-                    </li>
-                    <li class="Payment-methods__item">
-                        Meastro
-                    </li>
-                    <li class="Payment-methods__item">
-                        JBC
-                    </li>
-                    <li class="Payment-methods__item">
-                        PayPal
-                    </li>
-                </ul>
+                <figure class="Payment-methods">
+                    <img class="Payment-methods__img" src="./assets/img/logos/pay_logos.png" alt="Payment methods">
+                </im>
 
                 <!-- Social media -->
                 <ul class="Social-media">
@@ -266,21 +335,21 @@
                     <!-- FaceBook -->
                     <li class="Social-media__item">
                         <a class="FaceBook-link" href="#">
-                            <i class="fab fa-facebook-f FaceBook icon"></i>
+                            <img class="FaeBook icon" src="./assets/img/socials/footer-facebook.png" alt="FaeBook icon">
                         </a>
                     </li>
 
                     <!-- YouTube -->
                     <li class="Social-media__item">
                         <a class="YouTube-link" href="#">
-                            <i class="fab fa-youtube YouTube icon"></i>
+                            <img class="YouTube icon" src="./assets/img/socials/footer-youtube.png" alt="YouTube icon">
                         </a>
                     </li>
 
                     <!-- Twitter -->
                     <li class="Social-media__item">
                         <a class="Twitter-link" href="#">
-                            <i class="fab fa-twitter Twitter icon"></i>
+                            <img class="Twitter icon" src="./assets/img/socials/footer-twitter.png" alt="Twitter icon">
                         </a>
                     </li>
 
@@ -288,13 +357,6 @@
                     <li class="Social-media__item">
                         <a class="Instagram-link" href="#">
                             <i class="fab fa-instagram Instagram icon"></i>
-                        </a>
-                    </li>
-
-                    <!-- LinkedIn -->
-                    <li class="Social-media__item">
-                        <a class="LinkedIn-link" href="#">
-                            <i class="fab fa-linkedin-in LinkedIn icon"></i>
                         </a>
                     </li>
                 </ul>
