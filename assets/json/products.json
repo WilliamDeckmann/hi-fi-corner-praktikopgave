@@ -450,6 +450,3650 @@
                     "info": "✖"
                 }
             ]
+        },
+
+
+
+
+
+        {
+            "id": "Creek Classic",
+            "category": "dvd afspiller",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "dvdafspillere/creek_classic.jpg",
+                "dvdafspillere/creek_classic.jpg",
+                "dvdafspillere/creek_classic.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Exposure 2010S",
+            "category": "dvd afspiller",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "dvdafspillere/exposure_2010S.jpg",
+                "dvdafspillere/exposure_2010S.jpg",
+                "dvdafspillere/exposure_2010S.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Parasound d200",
+            "category": "dvd afspiller",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "dvdafspillere/parasound_d200.jpg",
+                "dvdafspillere/parasound_d200.jpg",
+                "dvdafspillere/parasound_d200.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Parasound Halo d3",
+            "category": "dvd afspiller",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "dvdafspillere/parasound_halod3.jpg",
+                "dvdafspillere/parasound_halod3.jpg",
+                "dvdafspillere/parasound_halod3.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "id": "Manley Mahi",
+            "category": "effektforstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "effektforstaerkere/manley_mahi.jpg",
+                "effektforstaerkere/manley_mahi.jpg",
+                "effektforstaerkere/manley_mahi.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Manley Neoclassic 300b",
+            "category": "effektforstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "effektforstaerkere/manley_neoclassic300b.jpg",
+                "effektforstaerkere/manley_neoclassic300b.jpg",
+                "effektforstaerkere/manley_neoclassic300b.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Manley Snapper",
+            "category": "effektforstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "effektforstaerkere/manley_snapper.jpg",
+                "effektforstaerkere/manley_snapper.jpg",
+                "effektforstaerkere/manley_snapper.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Parasound Halo a23",
+            "category": "effektforstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "effektforstaerkere/parasound_haloa23.jpg",
+                "effektforstaerkere/parasound_haloa23.jpg",
+                "effektforstaerkere/parasound_haloa23.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "id": "Creek OBH 22 Passive Preamp",
+            "category": "forforstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
+                "forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg",
+                "forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Parasound Classic 7100",
+            "category": "forforstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "forforstaerkere/parasound_classic7100.jpg",
+                "forforstaerkere/parasound_classic7100.jpg",
+                "forforstaerkere/parasound_classic7100.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Parasound Halo p3",
+            "category": "forforstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "forforstaerkere/parasound_halop3.jpg",
+                "forforstaerkere/parasound_halop3.jpg",
+                "forforstaerkere/parasound_halop3.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Project Prebox",
+            "category": "forforstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "forforstaerkere/Project_prebox.jpg",
+                "forforstaerkere/Project_prebox.jpg",
+                "forforstaerkere/Project_prebox.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "id": "Boesendorfer VCS Wall",
+            "category": "højtaler",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "hojtalere/boesendorfer_vcs_wall.gif",
+                "hojtalere/boesendorfer_vcs_wall.gif",
+                "hojtalere/boesendorfer_vcs_wall.gif"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Epos m5",
+            "category": "højtaler",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "hojtalere/epos_m5.gif",
+                "hojtalere/epos_m5.gif",
+                "hojtalere/epos_m5.gif"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Harbeth hl7 es2",
+            "category": "højtaler",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "hojtalere/harbeth_hl7es2.jpg",
+                "hojtalere/harbeth_hl7es2.jpg",
+                "hojtalere/harbeth_hl7es2.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Harbeth monitor30",
+            "category": "højtaler",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "hojtalere/harbeth_monitor30.jpg",
+                "hojtalere/harbeth_monitor30.jpg",
+                "hojtalere/harbeth_monitor30.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Harbeth p3 es2",
+            "category": "højtaler",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "hojtalere/harbeth_p3es2.jpg",
+                "hojtalere/harbeth_p3es2.jpg",
+                "hojtalere/harbeth_p3es2.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "id": "Creek a50I",
+            "category": "int forstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "int_forstaerkere/creek_a50I.jpg",
+                "int_forstaerkere/creek_a50I.jpg",
+                "int_forstaerkere/creek_a50I.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Creek Classic 5350SE",
+            "category": "int forstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "int_forstaerkere/creek_classic5350SE.jpg",
+                "int_forstaerkere/creek_classic5350SE.jpg",
+                "int_forstaerkere/creek_classic5350SE.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Creek Destiny Amp",
+            "category": "int forstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "int_forstaerkere/creek_destinyamp.jpg",
+                "int_forstaerkere/creek_destinyamp.jpg",
+                "int_forstaerkere/creek_destinyamp.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Manley Snapper",
+            "category": "int forstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "int_forstaerkere/manley_snapper.jpg",
+                "int_forstaerkere/manley_snapper.jpg",
+                "int_forstaerkere/manley_snapper.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Manley Stingray",
+            "category": "int forstærker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "int_forstaerkere/Manley_Stingray.jpg",
+                "int_forstaerkere/Manley_Stingray.jpg",
+                "int_forstaerkere/Manley_Stingray.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "id": "Pro Ject Debut 3 Bl",
+            "category": "pladespiller",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "pladespillere/Pro_ject_Debut_3_bl.jpg",
+                "pladespillere/Pro_ject_Debut_3_bl.jpg",
+                "pladespillere/Pro_ject_Debut_3_bl.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Pro Ject Debut III Red 1",
+            "category": "pladespiller",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "pladespillere/Pro_ject_Debut_III_red_1.jpg",
+                "pladespillere/Pro_ject_Debut_III_red_1.jpg",
+                "pladespillere/Pro_ject_Debut_III_red_1.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Pro Ject Debut III Yellow 1",
+            "category": "pladespiller",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
+                "pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
+                "pladespillere/Pro_ject_Debut_III_yellow_1.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Pro Ject Rpm 5",
+            "category": "pladespiller",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "pladespillere/Pro_ject_rpm_5.jpg",
+                "pladespillere/Pro_ject_rpm_5.jpg",
+                "pladespillere/Pro_ject_rpm_5.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Pro Ject Rpm 10",
+            "category": "pladespiller",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "pladespillere/Pro_ject_rpm10.jpg",
+                "pladespillere/Pro_ject_rpm10.jpg",
+                "pladespillere/Pro_ject_rpm10.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+
+
+
+
+        {
+            "id": "Jolida JD 102b",
+            "category": "rør forstaerker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "roer_forstaerkere/jolida_JD102b.jpg",
+                "roer_forstaerkere/jolida_JD102b.jpg",
+                "roer_forstaerkere/jolida_JD102b.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Jolida JD 202a",
+            "category": "rør forstaerker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "roer_forstaerkere/jolida_JD202a.jpg",
+                "roer_forstaerkere/jolida_JD202a.jpg",
+                "roer_forstaerkere/jolida_JD202a.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Jolida JD 300b",
+            "category": "rør forstaerker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "roer_forstaerkere/jolida_JD300b.jpg",
+                "roer_forstaerkere/jolida_JD300b.jpg",
+                "roer_forstaerkere/jolida_JD300b.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Jolida JD 302b",
+            "category": "rør forstaerker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "roer_forstaerkere/jolida_JD302b.jpg",
+                "roer_forstaerkere/jolida_JD302b.jpg",
+                "roer_forstaerkere/jolida_JD302b.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
+        },
+
+        {
+            "id": "Jolida JD 502b",
+            "category": "rør forstaerker",
+            "brand": "Red",
+            "price": 469,
+            "sale": {
+                "active": true,
+                "price": 439
+            },
+            "img": [
+                "roer_forstaerkere/jolida_JD502b.jpg",
+                "roer_forstaerkere/jolida_JD502b.jpg",
+                "roer_forstaerkere/jolida_JD502b.jpg"
+            ],
+            "colors": [
+                "black",
+                "Silver"
+            ],
+            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi turpis, condimentum vel ligula vitae, lacinia eleifend metus. Integer egestas pulvinar feugiat. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Donec purus tortor, tempus vitae lectus eu, sollicitudin commodo metus. Nullam nec interdum elit, at maximus velit. Nulla ut mauris sit amet nibh molestie dignissim.",
+            "additional": [
+                {
+                    "title": "Manufacture",
+                    "info": "Marantz"
+                },
+
+                {
+                    "title": "Manufacture link",
+                    "info": "Marantz PM6006"
+                },
+
+                {
+                    "title": "Free warranty",
+                    "info": "3 years"
+                },
+
+                {
+                    "title": "Delivery charge",
+                    "info": "Free"
+                },
+
+                {
+                    "title": "Delivery time",
+                    "info": "1 - 5 Working days"
+                },
+
+                {
+                    "title": "Card surcharges",
+                    "info": "No"
+                }
+            ],
+            "description": [
+                {
+                    "title": "Power output (8 / 4 Ohm RMS)",
+                    "info": "45 W / 60 W"
+                },
+
+                {
+                    "title": "Frequency Response",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Total Harmonic Distortion",
+                    "info": "0.08%"
+                },
+
+                {
+                    "title": "Damping Factor",
+                    "info": "100"
+                },
+
+                {
+                    "title": "Input Sensitivity: MM",
+                    "info": "2.2 mV / 47 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: MC",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ration: MM / MC",
+                    "info": "83 dB /"
+                },
+
+                {
+                    "title": "Input Sensitivity: High level",
+                    "info": "200 mv / 20 kOhm"
+                },
+
+                {
+                    "title": "Input Sensitivity: Balanced High level",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: High level",
+                    "info": "102db(2V input)"
+                },
+
+                {
+                    "title": "Input Sensitivity: Power Amp Direct IN",
+                    "info": "✖"
+                },
+
+                {
+                    "title": "Signal to Noise Ratio: Power Amp Direct IN",
+                    "info": "✖"
+                }
+            ]
         }
     ]
 }

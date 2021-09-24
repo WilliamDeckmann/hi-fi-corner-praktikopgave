@@ -34,8 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-            // Set title same as input
+            // Make case-sensitivity more flexible
             let searchUpperCase = search.charAt(0).toUpperCase() + search.slice(1);
+
+            // Set title same as input
             currentPage.textContent = `Home / ${searchUpperCase}`;
             productList_title.textContent = searchUpperCase;
 
