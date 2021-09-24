@@ -34,8 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-            // Set title same as input
+            // Make case-sensitivity more flexible
             let searchUpperCase = search.charAt(0).toUpperCase() + search.slice(1);
+
+            // Set title same as input
             currentPage.textContent = `Home / ${searchUpperCase}`;
             productList_title.textContent = searchUpperCase;
 
@@ -77,10 +79,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Sale
                     if(item.sale.active == true) {
+                        console.log("true")
                         document.querySelectorAll(".Price__price").forEach((item) => {
                             item.classList.add("Price__inactive")
+                            
                         });
                     }else{
+                        console.log("false")
                         document.querySelectorAll(".Price__sale").forEach((item) => {
                             item.style.display = "none";
                         });
@@ -90,13 +95,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                 // Search for product
-                if(search == item.id.toLowerCase() || search == item.category.toLowerCase() || search == item.brand.toLowerCase()) {
-
+                if(search.toLocaleLowerCase() == item.id.toLowerCase() || search.toLocaleLowerCase() == item.category.toLowerCase() || search.toLocaleLowerCase() == item.brand.toLowerCase() || search.toLocaleLowerCase() == item.additional[0].info.toLowerCase()) {
 
                     CreateProductItems()
                 }else if(search == "") {
 
                     CreateProductItems()
+                    currentPage.textContent = "Home / Search";
                 };
             });
         })
