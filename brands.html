@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi-Fi Corner - Frontpage</title>
+    <title>Hi-Fi Corner - Brands</title>
 
 
 
@@ -58,34 +58,6 @@
         }
 
         .Main {
-            border: solid 5px green;
-        }
-
-        .Frontpage-Hero {
-            border: solid 5px red;
-        }
-
-        .Update-news {
-            border: solid 5px blue;
-        }
-
-        .Product-slides {
-            border: solid 5px yellow;
-        }
-
-        .Social-panel {
-            border: solid 5px blue;
-        }
-
-        .Social-panel__section {
-            border: solid 5px yellow;
-        }
-
-        .Extra-links {
-            border: solid 5px red;
-        }
-
-        .Extra-links__section {
             border: solid 5px green;
         }
 
@@ -176,7 +148,7 @@
                 <nav class="Nav">
                     <ul class="Nav__list">
                         <li class="Nav__item">
-                            <a href="frontpage.html" class="Nav__link Nav__link_active uppercase">
+                            <a href="frontpage.html" class="Nav__link uppercase">
                                 Home
                             </a>
                         </li>
@@ -186,7 +158,7 @@
                             </a>
                         </li>
                         <li class="Nav__item">
-                            <a href="brands.html" class="Nav__link uppercase">
+                            <a href="brands.html" class="Nav__link Nav__link_active uppercase">
                                 Brands
                             </a>
                         </li>
@@ -220,93 +192,45 @@
         <!-- Main -->
         <main class="Main">
 
-            <!-- Frontpage - hero -->
-            <section class="Frontpage-Hero">
+            <!-- Brands - hero -->
+            <section class="Brands-Hero">
+                <h1 class="Brands-Hero__title uppercase">
+                    Top brands
+                </h1>
                 <img class="Hi-fi-logo" src="./assets/img/logos/logo.png" alt="Hi-Fi logo">
             </section>
+            
+            <!-- Brands list -->
+            <section class="Brands">
+                <div class="Brands__outer-container">
+                    <div class="Brands__inner-container">
 
-            <!-- Update news -->
-            <section class="Update-news">
-                <h1 class="Update-news__title uppercase">
-                    Our Edinburgh showroom has now moved
-                    <br>
-                    to stunning new premises on Joppa Road
-                </h1>
-            </section>
+                    <!-- list -->
+                    <section class="Brands-list">
+                        <h2 class="Brands-list__title">
+                            Here are just a few of the brands we stock:
+                        </h2>
+                        <img src="./assets/img/logos/brands.png" alt="Brands list">
+                    </section>
 
-            <!-- Product Slides -->
-            <section class="Product-slides">
-                <img class="Product-slides__img" src="./assets/img/backgrounds/slide.jpg" alt="Slide img">
-                <h2 class="Product-slides__title uppercase">
-                    Primaluna
-                    <br>
-                    sound
-                </h2>
-                <button class="Product-slides__left-button">
-                    <img class="Product-slides__left-arrow" src="./assets/img/icons/arrow.svg" alt="Left arrow">
-                </button>
-                <button class="Product-slides__right-button">
-                    <img class="Product-slides__left-arrow" src="./assets/img/icons/arrow.svg" alt="Right arrow">
-                </button>
-            </section>
-
-            <!-- Social panel -->
-            <section class="Social-panel">
-                
-                <!-- Facebook -->
-                <section class="Social-panel__section">
-                    <a class="FaceBook-link" href="#">
-                        <img class="Facebook-bakcground" src="./assets/img/socials/social-facebook.png" alt="FaceBook logo">
-                    </a>
-                </section>
-
-                <!-- Facebook -->
-                <section class="Social-panel__section">
-                    <a class="Blogger-link" href="#">
-                        <img class="Blogger-bakcground" src="./assets/img/socials/social-blog.png" alt="Blogger logo">
-                    </a>
-                </section>
-
-                <!-- Twitter -->
-                <section class="Social-panel__section">
-                    <a class="Twitter-link" href="#">
-                        <img class="Twitter-bakcground" src="./assets/img/socials/social-twitter.png" alt="Twitter logo">
-                    </a>
-                </section>
-            </section>
-
-            <!-- Extra links -->
-            <section class="Extra-links">
-                
-                <!-- History -->
-                <section class="Extra-links__section">
-                    <a class="Extra-links__link uppercase" href="#">
-                        History
-                    </a>
-                    <p class="Extra-links__info uppercase">
-                        Established in the late 1960s, our family owned business is based in Edinburgh and Falkirk, servicing costumers across the UK.
-                    </p>
-                </section>
-
-                <!-- News -->
-                <section class="Extra-links__section">
-                    <a class="Extra-links__link uppercase" href="#">
-                        News
-                    </a>
-                    <p class="Extra-links__info uppercase">
-                        Check out our latest news stories for all the up to date Hi-Fi Corner products and launches.
-                    </p>
-                </section>
-
-                <!-- Shop -->
-                <section class="Extra-links__section">
-                    <a class="Extra-links__link uppercase" href="shop-frontpage.html">
-                        Shop
-                    </a>
-                    <p class="Extra-links__info uppercase">
-                        Hav a look in our online shop for great products and deals.
-                    </p>
-                </section>
+                    <!-- Description -->
+                    <section class="Brands-description">
+                        <h2 class="Brands-description__title uppercase">
+                            Brands
+                        </h2>
+                        <p aria-checked="Brands-description__info">
+                            As an independent retailer of home audio and visual products, we are able to select the very best brands and manufactures from across the world.
+                            <br><br>
+                            Not only do we have the best known brands such as B&W, Devialet, KEF, Naim, and Linn; we also stock and are well versified with smaller autonomous companies like Michell Engineering, Neat Acoustics, Harbeth, SME, Trichord Research, Primaluna, to name but a few.
+                            <br><br>
+                            With over one hundred brands, we can happily say that if a brand meet our high standards for sound reproduction, then you can be assured to find it at Hi-Fi Corner.
+                        </p>
+                        <a class="Brands-description__link uppercase" href="shop-frontpage.html">
+                            Visit our shop to find more brands
+                        </a>
+                    </section>
+                    </div>
+                </div>
             </section>
         </main>
 
