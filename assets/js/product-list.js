@@ -90,13 +90,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                 // Search for product
-                if(search == item.id.toLowerCase() || search == item.category.toLowerCase() || search == item.brand.toLowerCase()) {
-
+                if(search.toLocaleLowerCase() == item.id.toLowerCase() || search.toLocaleLowerCase() == item.category.toLowerCase() || search.toLocaleLowerCase() == item.brand.toLowerCase() || search.toLocaleLowerCase() == item.additional[0].info.toLowerCase()) {
 
                     CreateProductItems()
                 }else if(search == "") {
 
                     CreateProductItems()
+                    currentPage.textContent = "Home / Search";
                 };
             });
         })

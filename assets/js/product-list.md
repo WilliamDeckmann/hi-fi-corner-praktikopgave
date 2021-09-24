@@ -14,6 +14,8 @@
 
 - If no results match the submitted input, no product-items will show and all previous items are removed.
 
+- If the input field is empty when submitting, all items are show at once.
+
 - Each product-item also gets a unique id and search tag applied to their url, based on data from the json file.
 
 
