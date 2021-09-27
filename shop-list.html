@@ -39,24 +39,47 @@
         }
     </style>
 
-    <!-- Style: RESETS -->
-    <link rel="stylesheet" href="./assets/css/RESETS.css">
+    <!-- Fonts: MuseoSansRounded -->
+    <style>
+        @font-face {
+            font-family: "MuseoSansRounded100";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded100.woff");
+            font-weight: 100;
+        }
+        @font-face {
+            font-family: "MuseoSansRounded300";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded300.woff");
+            font-weight: 300;
+        }
+        @font-face {
+            font-family: "MuseoSansRounded500";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded500.woff");
+            font-weight: 500;
+        }
+        @font-face {
+            font-family: "MuseoSansRounded700";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded700.woff");
+            font-weight: 700;
+        }
+        @font-face {
+            font-family: "MuseoSansRounded900";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded900.woff");
+            font-weight: 1900;
+        }
+        @font-face {
+            font-family: "MuseoSansRounded1000";
+            src: url("./assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded1000.woff");
+            font-weight: 1000;
+        }
+    </style>
 
-    <!-- Style: root -->
-    <link rel="stylesheet" href="./assets/css/root.css">
+    <!-- Style: general -->
+    <link rel="stylesheet" href="./assets/css/general.css">
 
 
 
     <!-- Test style -->
     <style>
-        .Header {
-            border: solid 5px blue;
-        }
-
-        .Header__top, .Header__bottom {
-            border: solid 5px yellow;
-        }
-
         .Main {
             border: solid 5px green;
         }
@@ -111,14 +134,6 @@
         .Manufactures {
             border: solid 5px blue;
         }
-
-        .Footer {
-            border: solid 5px red;
-        }
-
-        .Footer__left, .Footer__right {
-            border: solid 5px yellow;
-        }
     </style>
 </head>
 
@@ -137,7 +152,7 @@
             <section class="Header__top">
 
                 <!-- Search-bar -->
-                <div class="Search-bar">
+                <div class="Search-bar Header__search-bar">
                     <form class="Search-bar__form">
                         <input class="Search-bar__input" id="Search-bar__input" type="text" placeholder="Search entire store here...">
                         <button class="Search-bar__button" id="Search-bar__button">
@@ -150,7 +165,7 @@
                 <div class="User">
 
                     <!-- Account -->
-                    <a class="Acount"  href="#">
+                    <a class="Account"  href="#">
                         <i class="far fa-user User icon"></i>
                         <p class="Account__title uppercase">
                             Account
@@ -186,7 +201,7 @@
                     <!-- Mail -->
                     <li class="Contact__item">
                         <a class="Mail"  href="#">
-                            <i class="far fa-envelope Letter icon"></i>
+                            <i class="far fa-envelope Envelope icon"></i>
                         </a>
                     </li>
                 </ul>
@@ -498,7 +513,7 @@
 
                     <!-- Returns & Refunds -->
                     <li class="External-links__item">
-                        <a class="External-links__link" href="#">
+                        <a class="External-links__link font-color_white" href="#">
                             Returns & Refunds
                         </a>
                     </li>
@@ -511,7 +526,7 @@
                 <!-- Payment methods -->
                 <figure class="Payment-methods">
                     <img class="Payment-methods__img" src="./assets/img/logos/pay_logos.png" alt="Payment methods">
-                </im>
+                </figure>
 
                 <!-- Social media -->
                 <ul class="Social-media">
@@ -519,7 +534,7 @@
                     <!-- FaceBook -->
                     <li class="Social-media__item">
                         <a class="FaceBook-link" href="#">
-                            <img class="FaeBook icon" src="./assets/img/socials/footer-facebook.png" alt="FaceBook icon">
+                            <img class="FaceBook icon" src="./assets/img/socials/footer-facebook.png" alt="FaceBook icon">
                         </a>
                     </li>
 

@@ -1,0 +1,25 @@
+/* Search bar */
+.Search-bar {
+    width: 500px;
+    padding: 5px;
+    background-color: var(--theme-white);
+}
+
+.Search-bar__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Search-bar__input {
+    border: none;
+}
+
+.Search-bar__input:focus {
+    outline: none;
+}
+
+.Search-bar__button {
+    border: none;
+    background: none;
+}

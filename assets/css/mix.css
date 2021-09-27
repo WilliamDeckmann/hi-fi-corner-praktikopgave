@@ -1,6 +1,10 @@
 /* Mix */
 .icon {
-    color: white;
+    color: var(--theme-white);
+}
+
+.font-color_white {
+    color: var(--theme-white);
 }
 
 .uppercase {

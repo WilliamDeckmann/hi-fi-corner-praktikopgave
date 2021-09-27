@@ -13,7 +13,7 @@
 
 .Footer__right {
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 
@@ -21,16 +21,17 @@
 /* Footer: content */
 .External-links {
     display: flex;
-    align-content: center;
     gap: 5px;
+    text-decoration: underline;
 }
 
 .Payment-methods__img {
-    height: 80px;
+    width: 450px;
+    height: 40px;
+    object-fit: cover;
 }
 
 .Social-media {
     display: flex;
-    align-items: center;
     gap: 5px;
 }

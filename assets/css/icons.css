@@ -10,3 +10,8 @@
 .Instagram {
     font-size: 20px;
 }
+
+.Search {
+    font-size: 20px;
+    color: var(--theme-grey);
+}
