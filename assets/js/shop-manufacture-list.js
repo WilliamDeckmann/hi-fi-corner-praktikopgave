@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     // Element variable
-    const manufactures_list = document.querySelector("#Manufactures__list");
+    const manufactures_list = document.querySelector("#Manufacture__list");
 
 
 
@@ -11,17 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((result) => {
 
             // For each category in the general.json file
-            result.manufactures.forEach((item) => {
-
+            for(let i = 0; i < 7; i++) {
                 // Create all product elements
                 let manufacturesItem = document.createElement("li")
                 manufactures_list.appendChild(manufacturesItem);
-                manufacturesItem.classList.add("Manufactures__item");
+                manufacturesItem.classList.add("Manufacture__item");
                 manufacturesItem.innerHTML = `
-                    <a class="Category-list__link uppercase" href="shop-list.html?search=${item}">
-                        ${item}
+                    <a class="Category-list__link uppercase" href="shop-list.html?search=${result.manufactures[i]}">
+                        ${result.manufactures[i]}
                     </a>
                 `;
-            });
+            };
         })
 });

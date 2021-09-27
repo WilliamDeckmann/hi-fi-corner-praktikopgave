@@ -99,6 +99,60 @@
 
 
 
+    "priceRange": [
+        {
+            "min": 0,
+            "max": 799.99
+        },
+
+        {
+            "min": 800,
+            "max": 999.99
+        },
+
+        {
+            "min": 1000,
+            "max": 1499.99
+        },
+
+        {
+            "min": 1500,
+            "max": 199.99
+        },
+
+        {
+            "min": 2000,
+            "max": 2999.99
+        },
+
+        {
+            "min": 3000,
+            "max": 3499.99
+        },
+
+        {
+            "min": 3500,
+            "max": 4999.99
+        },
+
+        {
+            "min": 5000,
+            "max": 7999.99
+        },
+
+        {
+            "min": 8000,
+            "max": 11999.99
+        },
+
+        {
+            "min": 12000,
+            "max": 14999.99
+        }
+    ],
+
+
+
     "manufactures": [
         "Arcam",
         "Astell And Kern",
@@ -106,6 +160,23 @@
         "Audiolab",
         "Avid",
         "Chord Electronics",
-        "Classe"
+        "Classe",
+        "Denon",
+        "Devialet",
+        "EAT",
+        "Giraharn Slee",
+        "Linn",
+        "Marantz",
+        "Meridan",
+        "Naim",
+        "PrimaLuna",
+        "Primare",
+        "Quad",
+        "Rottel",
+        "Sennheiser",
+        "Sugden",
+        "Technics",
+        "Trinnov",
+        "Yamaha"
     ]
 }

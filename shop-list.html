@@ -73,7 +73,7 @@
             border: solid 5px green;
         }
 
-        .Categorys {
+        .Category {
             border: solid 5px red;
         }
 
@@ -262,10 +262,10 @@
                     <section class="Sections">
 
                         <!-- Product -->
-                        <section class="Categorys">
-                            <ul class="Categorys__list">
-                                <li class="Categorys__item">
-                                    <a class="Categorys__link uppercase" href="#">
+                        <section class="Category">
+                            <ul class="Category__list" id="Category__list">
+                                <li class="Category__item">
+                                    <a class="Category__link uppercase" href="#">
                                         Amplifiers
                                     </a>
                                 </li>
@@ -290,28 +290,24 @@
                                 </h3>
 
                                 <!-- List -->
-                                <ul class="Filters-price__list">
-                                    <li class="Filters-price__item">
-                                        <a class="Filters-price__link" href="#">
-                                            "low price"-"high price"
-                                        </a>
-                                    </li>
+                                <ul class="Filters-price__list" id="Filters-price__list">
+
+                                    <!-- Filters: price items go here -->
+
                                 </ul>
                             </section>
 
-                            <!-- Filters Manufactures -->
-                            <section class="Filters-Manufactures">
-                                <h3 class="Filters-Manufactures__title uppercase">
-                                    Manufactures
+                            <!-- Filters Manufacture -->
+                            <section class="Filters-manufacture">
+                                <h3 class="Filters-manufacture__title uppercase">
+                                    Manufacture
                                 </h3>
 
                                 <!-- List -->
-                                <ul class="Filters-Manufactures__list">
-                                    <li class="Filters-Manufactures__item">
-                                        <a class="Filters-Manufactures__link" href="#">
-                                            "Manufactures"
-                                        </a>
-                                    </li>
+                                <ul class="Filters-manufacture__list" id="Filters-manufacture__list">
+
+                                    <!-- Filters: manufacture items go here -->
+
                                 </ul>
                             </section>
                         </section>
@@ -459,20 +455,20 @@
 
 
 
-                    <!-- Manufactures -->
-                    <section class="Manufactures">
-                        <h2 class="Manufactures__title uppercase">
-                            Manufactures
+                    <!-- Manufacture -->
+                    <section class="Manufacture">
+                        <h2 class="Manufacture__title uppercase">
+                            Manufacture
                         </h2>
 
                         <!-- List -->
-                        <ul class="Manufactures__list" id="Manufactures__list">
+                        <ul class="Manufacture__list" id="Manufacture__list">
                             
                             <!-- Manufacture items go here -->
 
                         </ul>
 
-                        <button class="Manufactures__button">
+                        <button class="Manufacture__button">
                             View All
                         </button>
                     </section>
@@ -566,6 +562,9 @@
 
     <!-- JavaScript -->
     <script src="./assets/js/product-list.js"></script>
-    <script src="./assets/js/shop-manufactures.js"></script>
+    <script src="./assets/js/shop-category-filters.js"></script>
+    <script src="./assets/js/shop-price-filters.js"></script>
+    <script src="./assets/js/shop-manufacture-filters.js"></script>
+    <script src="./assets/js/shop-manufacture-list.js"></script>
 </body>
 </html>
