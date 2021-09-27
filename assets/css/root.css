@@ -1,3 +1,7 @@
+/* Root */
 :root {
-    --test-theme: #a39161;
+    --theme-black: #111111;
+    --theme-white: #ffffff;
+    --theme-dark-brown: #a39161;
+    --theme-light-brown: #c0ab9f;
 }
