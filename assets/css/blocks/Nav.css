@@ -1,0 +1,15 @@
+/* Navigation */
+.Nav__list {
+    display: flex;
+    gap: 40px
+}
+
+.Nav__link {
+    font-family: MuseoSansRounded100;
+    color: var(--theme-white);
+}
+
+.Nav__link_active {
+    color: var(--theme-dark-brown);
+}
+
