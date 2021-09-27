@@ -1,7 +1,9 @@
 /* Root */
 :root {
     --theme-black: #111111;
+    --theme-black-transparent: rgb(17, 17, 17, .8);
     --theme-white: #ffffff;
+    --theme-faded-brown: #413a27;
     --theme-dark-brown: #a39161;
     --theme-light-brown: #c0ab9f;
 }

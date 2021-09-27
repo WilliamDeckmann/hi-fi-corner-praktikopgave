@@ -1,4 +1,8 @@
 /* Mix */
+.icon {
+    color: white;
+}
+
 .uppercase {
     text-transform: uppercase;
 }

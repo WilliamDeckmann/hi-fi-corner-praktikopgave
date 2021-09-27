@@ -39,24 +39,13 @@
         }
     </style>
 
-    <!-- Style: RESETS -->
-    <link rel="stylesheet" href="./assets/css/RESETS.css">
-
-    <!-- Style: root -->
-    <link rel="stylesheet" href="./assets/css/root.css">
+    <!-- Style: general -->
+    <link rel="stylesheet" href="./assets/css/general.css">
 
 
 
     <!-- Test style -->
     <style>
-        .Header {
-            border: solid 5px blue;
-        }
-
-        .Header__top, .Header__bottom {
-            border: solid 5px yellow;
-        }
-
         .Main {
             border: solid 5px green;
         }
@@ -88,14 +77,6 @@
         .Extra-links__section {
             border: solid 5px green;
         }
-
-        .Footer {
-            border: solid 5px red;
-        }
-
-        .Footer__left, .Footer__right {
-            border: solid 5px yellow;
-        }
     </style>
 </head>
 
@@ -111,27 +92,7 @@
         <header class="Header">
 
             <!-- Top section -->
-            <section class="Header__top">
-
-                <!-- User -->
-                <div class="User">
-
-                    <!-- Account -->
-                    <a class="Acount"  href="#">
-                        <i class="far fa-user User icon"></i>
-                        <p class="Account__title uppercase">
-                            Account
-                        </p>
-                    </a>
-
-                    <!-- Cart -->
-                    <a class="Cart" href="#">
-                        <i class="fas fa-shopping-cart Shopping-cart icon"></i>
-                        <p class="Cart__title uppercase">
-                            Cart
-                        </p>
-                    </a>
-                </div>
+            <section class="Header__top Header__top_state_transparent">
 
                 <!-- Contact -->
                 <ul class="Contact">
@@ -153,10 +114,18 @@
                     <!-- Mail -->
                     <li class="Contact__item">
                         <a class="Mail"  href="#">
-                            <i class="far fa-envelope Letter icon"></i>
+                            <i class="far fa-envelope Envelope icon"></i>
                         </a>
                     </li>
                 </ul>
+
+                <!-- Subscribe -->
+                <a class="Subscribe Header__Subscribe" href="#">
+                    <i class="fas fa-envelope Letter icon"></i>
+                    <p class="Subscribe__title">
+                        Subscribe
+                    </p>
+                </a>
             </section>
             
             <!-- Bottom section -->
@@ -182,7 +151,7 @@
                         </li>
                         <li class="Nav__item">
                             <a href="#" class="Nav__link uppercase">
-                                News
+                                Blog
                             </a>
                         </li>
                         <li class="Nav__item">
@@ -308,8 +277,8 @@
             <section class="Footer__left">
 
                 <!-- Address -->
-                <address class="Adress">
-                    <p class="Adress_info">
+                <address class="Address">
+                    <p class="Address_info">
                         Hi-Fi Corner<br>
                         Edinburgh 1a Haddington Place EH7 4AE<br>
                         Falkirk 44 Cow Wynd FK1 1PU
@@ -352,7 +321,7 @@
                     <!-- FaceBook -->
                     <li class="Social-media__item">
                         <a class="FaceBook-link" href="#">
-                            <img class="FaeBook icon" src="./assets/img/socials/footer-facebook.png" alt="FaeBook icon">
+                            <img class="FaeBook icon" src="./assets/img/socials/footer-facebook.png" alt="FaceBook icon">
                         </a>
                     </li>
 

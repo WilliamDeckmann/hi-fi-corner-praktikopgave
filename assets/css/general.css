@@ -2,6 +2,9 @@
 @import url(./RESETS.css);
 @import url(./root.css);
 @import url(./mix.css);
+@import url(./icons.css);
 
 /* Blocks */
 @import url(./blocks/Header.css);
+@import url(./blocks/Nav.css);
+@import url(./blocks/Footer.css);

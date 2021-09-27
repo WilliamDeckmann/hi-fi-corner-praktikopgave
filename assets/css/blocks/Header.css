@@ -1,1 +1,56 @@
 /* Header */
+.Header__top {
+    height: 80px;
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--theme-black);
+}
+
+.Header__top_state_transparent {
+    background-color: var(--theme-black-transparent);
+}
+
+.Header__bottom {
+    height: 80px;
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-black);
+    border-top: 3px solid var(--theme-faded-brown);
+}
+
+
+
+/* Header: content */
+.User {
+    display: flex;
+    align-items: center;
+}
+
+.Account {
+    display: flex;
+    align-items: center;
+}
+
+.Cart {
+    display: flex;
+    align-items: center;
+}
+
+.Contact {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.Subscribe {
+    display: flex;
+    align-items: center;
+}
+
+.Header__Subscribe {
+    margin-left: 20px;
+}

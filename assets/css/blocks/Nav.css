@@ -1,0 +1,13 @@
+/* Navigation */
+.Nav__list {
+    display: flex;
+    gap: 50px
+}
+
+.Nav__link {
+    color: var(--theme-white);
+}
+
+.Nav__link_active {
+    color: var(--theme-dark-brown);
+}

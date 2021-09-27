@@ -1,0 +1,12 @@
+/* Icons */
+.Marker, .Phone, .Envelope{
+    font-size: 30px;
+}
+
+.FaceBook, .YouTube, .Twitter, .LinkedIn {
+    height: 30px;
+}
+
+.Instagram {
+    font-size: 20px;
+}

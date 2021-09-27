@@ -1,0 +1,36 @@
+/* Footer */
+.Footer {
+    padding: 15px 40px 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--theme-dark-brown);
+}
+
+.Footer__left {
+    display: flex;
+    gap: 50px;
+}
+
+.Footer__right {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+/* Footer: content */
+.External-links {
+    display: flex;
+    align-content: center;
+    gap: 5px;
+}
+
+.Payment-methods__img {
+    height: 80px;
+}
+
+.Social-media {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
