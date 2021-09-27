@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
             function SearchForProduct(event) {
 
                 // Redirect user on click
-                var searhInput = searchBar_input.value
-                location.href = `shop-list.html?search=${searhInput}`;
+                var searchInput = searchBar_input.value
+                location.href = `shop-list.html?search=${searchInput}`;
                 event.preventDefault();
             };
 
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         
                         <!-- Button -->
                         <button class="Purchase-button" id="${item.id}__button">  
-                            <a class="Purchase-button__link uppercase" href="shop-details.html?search=${search}&id=${item.id}">
+                            <a class="Purchase-button__link uppercase" id="${item.id}__link" href="shop-details.html?search=${search}&id=${item.id}">
                                 Add to cart
                             </a>
                         </button>
@@ -77,23 +77,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+                    // Product price & sale variables
+                    let productPrice = document.querySelector(`#${item.id}__price`);
+                    let productSale = document.querySelector(`#${item.id}__sale`);
+                    let productButton = document.querySelector(`#${item.id}__button`);
+
                     // If sold out
                     if(item.soldOut == true) {
-                        document.querySelector(`#${item.id}__price`).classList.remove("Price_state_line-through");
-                        document.querySelector(`#${item.id}__sale`).classList.add("Price_state_display-none");
-                        document.querySelector(`#${item.id}__button`).classList.add("Price_state_display-none");
+                        productPrice.classList.remove("Price_state_line-through");
+                        productSale.classList.add("Price_state_display-none");
+                        productButton.classList.add("Price_state_display-none");
                     }else{
 
                         // If on sale
                         if(item.sale.active == true) {
-                            document.querySelector(`#${item.id}__price`).classList.add("Price_state_line-through");
+                            productPrice.classList.add("Price_state_line-through");
                         }else{
-                            document.querySelector(`#${item.id}__sale`).classList.add("Price_state_display-none");
+                            productSale.classList.add("Price_state_display-none");
                         };
                     }
                 };
 
 
+
+                // Product link variable
+                let productLink = document.querySelector(`#${item.id}__link`);
+                console.log(productLink)
 
                 // Search for product
                 if(search.toLocaleLowerCase() == item.id.toLowerCase() || search.toLocaleLowerCase() == item.category.toLowerCase() || search.toLocaleLowerCase() == item.brand.toLowerCase() || search.toLocaleLowerCase() == item.additional[0].info.toLowerCase()) {
@@ -102,6 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }else if(search == "") {
 
                     CreateProductItems()
+                    //productLink.href = `shop-details.html?search=search&id=${item.id}`;
                     currentPage.textContent = "Home / Search";
                 };
             });

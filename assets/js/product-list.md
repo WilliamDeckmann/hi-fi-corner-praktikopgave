@@ -24,3 +24,5 @@
 - When submitting an input in the search field, the search result will be displayed at the top of the product-list container and header.
 
 - The search-result and item-id will also be changed to make the first letter uppercase some places.
+
+- Check if product is sold out. If not, check if on sale. If not, hide sales price.

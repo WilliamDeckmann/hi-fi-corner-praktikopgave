@@ -252,11 +252,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+                    // Element variables
+                    let priceElement = document.querySelector(`#${item.id}__price`);
+                    let saleElement = document.querySelector(`#${item.id}__sale`);
+
                     // Sale
                     if(item.sale.active == true) {
-                        document.querySelector(`#${item.id}__price`).classList.add("Price_state_line-through");
+                        priceElement.classList.add("Price_state_line-through");
                     }else{
-                        document.querySelector(`#${item.id}__sale`).classList.add("Price_state_display-none");
+                        saleElement.classList.add("Price_state_display-none");
                     };
 
 
