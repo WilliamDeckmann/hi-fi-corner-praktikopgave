@@ -57,18 +57,18 @@ document.addEventListener("DOMContentLoaded", () => {
                             
                             <img class="Product-item__img" src="./assets/img/products/${item.img[0]}" alt="Product image">
                             <h2 class="Product-item__title">
-                                ${item.id}
+                                ${item.name}
                             </h2>
                             <p class="Price Price__price" id="${item.id}__price">
                                 £${parseFloat(item.price).toFixed(2)}
                             </p>
-                            <p class="Price Price__sale" id="${item.id}__price">
+                            <p class="Price Price__sale" id="${item.id}__sale">
                                 £${parseFloat(item.sale.price).toFixed(2)}
                             </p>
                         </header>
                         
                         <!-- Button -->
-                        <button class="Purchase-button">  
+                        <button class="Purchase-button" id="${item.id}__button">  
                             <a class="Purchase-button__link uppercase" href="shop-details.html?search=${search}&id=${item.id}">
                                 Add to cart
                             </a>
@@ -77,16 +77,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-                    // Sale
-                    if(item.sale.active == true) {
-                        document.querySelectorAll(".Price__price").forEach((item) => {
-                            item.classList.add("Price_state_line-through")
-                        });
+                    // If sold out
+                    if(item.soldOut == true) {
+                        document.querySelector(`#${item.id}__price`).classList.remove("Price_state_line-through");
+                        document.querySelector(`#${item.id}__sale`).classList.add("Price_state_display-none");
+                        document.querySelector(`#${item.id}__button`).classList.add("Price_state_display-none");
                     }else{
-                        document.querySelectorAll(".Price__sale").forEach((item) => {
-                            item.classList.add("Price_state_display_none")
-                        });
-                    };
+
+                        // If on sale
+                        if(item.sale.active == true) {
+                            document.querySelector(`#${item.id}__price`).classList.add("Price_state_line-through");
+                        }else{
+                            document.querySelector(`#${item.id}__sale`).classList.add("Price_state_display-none");
+                        };
+                    }
                 };
 
 

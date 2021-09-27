@@ -1,10 +1,12 @@
 {
     "products": [
         {
-            "id": "Creek Classic CD",
+            "id": "Creek-Classic-CD",
+            "name": "Creek Classic CD",
             "category": "cd afspiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -114,10 +116,12 @@
         },
 
         {
-            "id": "Creek Destiny CD",
+            "id": "Creek-Destiny-CD",
+            "name": "Creek Destiny CD",
             "category": "cd afspiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": true,
             "sale": {
                 "active": false,
                 "price": 439
@@ -227,10 +231,12 @@
         },
 
         {
-            "id": "Creek Evo CD",
+            "id": "Creek-Evo-CD",
+            "name": "Creek Evo CD",
             "category": "cd afspiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -340,10 +346,12 @@
         },
 
         {
-            "id": "Exp 2010S CD",
+            "id": "Exp-2010S-CD",
+            "name": "Exp 2010S CD",
             "category": "cd afspiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -457,10 +465,12 @@
 
 
         {
-            "id": "Creek Classic",
+            "id": "Creek-Classic",
+            "name": "Creek Classic",
             "category": "dvd afspiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -570,10 +580,12 @@
         },
 
         {
-            "id": "Exposure 2010S",
+            "id": "Exposure-2010S",
+            "name": "Exposure 2010S",
             "category": "dvd afspiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -683,10 +695,12 @@
         },
 
         {
-            "id": "Parasound d200",
+            "id": "Parasound-d200",
+            "name": "Parasound d200",
             "category": "dvd afspiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -796,10 +810,12 @@
         },
 
         {
-            "id": "Parasound Halo d3",
+            "id": "Parasound-Halo-d3",
+            "name": "Parasound Halo d3",
             "category": "dvd afspiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -913,10 +929,12 @@
 
 
         {
-            "id": "Manley Mahi",
+            "id": "Manley-Mahi",
+            "name": "Manley Mahi",
             "category": "effektforstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -1026,10 +1044,12 @@
         },
 
         {
-            "id": "Manley Neoclassic 300b",
+            "id": "Manley-Neoclassic-300b",
+            "name": "Manley Neoclassic 300b",
             "category": "effektforstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -1139,10 +1159,12 @@
         },
 
         {
-            "id": "Manley Snapper",
+            "id": "Manley-Snapper",
+            "name": "Manley Snapper",
             "category": "effektforstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": true,
             "sale": {
                 "active": false,
                 "price": 439
@@ -1252,10 +1274,12 @@
         },
 
         {
-            "id": "Parasound Halo a23",
+            "id": "Parasound-Halo-a23",
+            "name": "Parasound Halo a23",
             "category": "effektforstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": true,
             "sale": {
                 "active": false,
                 "price": 439
@@ -1369,10 +1393,12 @@
 
 
         {
-            "id": "Creek OBH 22 Passive Preamp",
+            "id": "Creek-OBH-22-Passive-Preamp",
+            "name": "Creek OBH 22 Passive Preamp",
             "category": "forforstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -1482,10 +1508,12 @@
         },
 
         {
-            "id": "Parasound Classic 7100",
+            "id": "Parasound-Classic-7100",
+            "name": "Parasound Classic 7100",
             "category": "forforstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -1595,10 +1623,12 @@
         },
 
         {
-            "id": "Parasound Halo p3",
+            "id": "Parasound-Halo-p3",
+            "name": "Parasound Halo p3",
             "category": "forforstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -1708,10 +1738,12 @@
         },
 
         {
-            "id": "Project Prebox",
+            "id": "Project-Prebox",
+            "name": "Project Prebox",
             "category": "forforstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": true,
             "sale": {
                 "active": false,
                 "price": 439
@@ -1825,10 +1857,12 @@
 
 
         {
-            "id": "Boesendorfer VCS Wall",
+            "id": "Boesendorfer-VCS-Wall",
+            "name": "Boesendorfer VCS Wall",
             "category": "højtaler",
             "brand": "Red",
             "price": 469,
+            "soldOut": true,
             "sale": {
                 "active": false,
                 "price": 439
@@ -1938,10 +1972,12 @@
         },
 
         {
-            "id": "Epos m5",
+            "id": "Epos-m5",
+            "name": "Epos m5",
             "category": "højtaler",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -2051,10 +2087,12 @@
         },
 
         {
-            "id": "Harbeth hl7 es2",
+            "id": "Harbeth-hl7-es2",
+            "name": "Harbeth hl7 es2",
             "category": "højtaler",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -2164,10 +2202,12 @@
         },
 
         {
-            "id": "Harbeth monitor30",
+            "id": "Harbeth-monitor-30",
+            "name": "Harbeth monitor 30",
             "category": "højtaler",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -2277,10 +2317,12 @@
         },
 
         {
-            "id": "Harbeth p3 es2",
+            "id": "Harbeth-p3-es2",
+            "name": "Harbeth p3 es2",
             "category": "højtaler",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -2394,10 +2436,12 @@
 
 
         {
-            "id": "Creek a50I",
+            "id": "Creek-a50I",
+            "name": "Creek a50I",
             "category": "int forstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -2507,10 +2551,12 @@
         },
 
         {
-            "id": "Creek Classic 5350SE",
+            "id": "Creek-Classic-5350SE",
+            "name": "Creek Classic 5350SE",
             "category": "int forstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -2620,10 +2666,12 @@
         },
 
         {
-            "id": "Creek Destiny Amp",
+            "id": "Creek-Destiny-Amp",
+            "name": "Creek Destiny Amp",
             "category": "int forstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -2733,10 +2781,12 @@
         },
 
         {
-            "id": "Manley Snapper",
+            "id": "Manley-Snapper-2",
+            "name": "Manley Snapper 2",
             "category": "int forstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": true,
             "sale": {
                 "active": true,
                 "price": 439
@@ -2846,10 +2896,12 @@
         },
 
         {
-            "id": "Manley Stingray",
+            "id": "Manley-Stingray",
+            "name": "Manley Stingray",
             "category": "int forstærker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -2963,10 +3015,12 @@
 
 
         {
-            "id": "Pro Ject Debut 3 Bl",
+            "id": "Pro-Ject-Debut-3-Bl",
+            "name": "Pro Ject Debut 3 Bl",
             "category": "pladespiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -3076,10 +3130,12 @@
         },
 
         {
-            "id": "Pro Ject Debut III Red 1",
+            "id": "Pro-Ject-Debut-III-Red-1",
+            "name": "Pro Ject Debut III Red 1",
             "category": "pladespiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -3189,10 +3245,12 @@
         },
 
         {
-            "id": "Pro Ject Debut III Yellow 1",
+            "id": "Pro-Ject-Debut-III-Yellow-1",
+            "name": "Pro Ject Debut III Yellow 1",
             "category": "pladespiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -3302,10 +3360,12 @@
         },
 
         {
-            "id": "Pro Ject Rpm 5",
+            "id": "Pro-Ject-Rpm-5",
+            "name": "Pro Ject Rpm 5",
             "category": "pladespiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -3415,10 +3475,12 @@
         },
 
         {
-            "id": "Pro Ject Rpm 10",
+            "id": "Pro-Ject-Rpm-10",
+            "name": "Pro Ject Rpm 10",
             "category": "pladespiller",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -3532,10 +3594,12 @@
 
 
         {
-            "id": "Jolida JD 102b",
+            "id": "Jolida-JD-102b",
+            "name": "Jolida JD 102b",
             "category": "rør forstaerker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439
@@ -3645,10 +3709,12 @@
         },
 
         {
-            "id": "Jolida JD 202a",
+            "id": "Jolida-JD-202a",
+            "name": "Jolida JD 202a",
             "category": "rør forstaerker",
             "brand": "Red",
             "price": 469,
+            "soldOut": true,
             "sale": {
                 "active": true,
                 "price": 439
@@ -3758,10 +3824,12 @@
         },
 
         {
-            "id": "Jolida JD 300b",
+            "id": "Jolida-JD-300b",
+            "name": "Jolida JD 300b",
             "category": "rør forstaerker",
             "brand": "Red",
             "price": 469,
+            "soldOut": true,
             "sale": {
                 "active": false,
                 "price": 439
@@ -3871,10 +3939,12 @@
         },
 
         {
-            "id": "Jolida JD 302b",
+            "id": "Jolida-JD-302b",
+            "name": "Jolida JD 302b",
             "category": "rør forstaerker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": false,
                 "price": 439
@@ -3984,10 +4054,12 @@
         },
 
         {
-            "id": "Jolida JD 502b",
+            "id": "Jolida-JD-502b",
+            "name": "Jolida JD 502b",
             "category": "rør forstaerker",
             "brand": "Red",
             "price": 469,
+            "soldOut": false,
             "sale": {
                 "active": true,
                 "price": 439

@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <!-- Product about -->
                                 <section class="Product-about">
                                     <h2 class="Product-about__title">
-                                        ${item.id}
+                                        ${item.name}
                                     </h2>
     
                                     <!-- Offer -->
@@ -79,10 +79,10 @@ document.addEventListener("DOMContentLoaded", () => {
     
                                         <!-- Price -->
                                         <div class="Price-container">
-                                            <p class="Price Price__price">
+                                            <p class="Price Price__price" id="${item.id}__price">
                                                 £${parseFloat(item.price).toFixed(2)}
                                             </p>
-                                            <p class="Price Price__sale">
+                                            <p class="Price Price__sale" id="${item.id}__sale">
                                                 £${parseFloat(item.sale.price).toFixed(2)}
                                             </p>
                                         </div>
@@ -254,13 +254,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Sale
                     if(item.sale.active == true) {
-                        document.querySelectorAll(".Price__price").forEach((item) => {
-                            item.classList.add("Price_state_line-through")
-                        });
+                        document.querySelector(`#${item.id}__price`).classList.add("Price_state_line-through");
                     }else{
-                        document.querySelectorAll(".Price__sale").forEach((item) => {
-                            item.classList.add("Price_state_display_none")
-                        });
+                        document.querySelector(`#${item.id}__sale`).classList.add("Price_state_display-none");
                     };
 
 
