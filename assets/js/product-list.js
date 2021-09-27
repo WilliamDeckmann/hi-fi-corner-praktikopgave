@@ -59,10 +59,10 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h2 class="Product-item__title">
                                 ${item.id}
                             </h2>
-                            <p class="Price Price__price">
+                            <p class="Price Price__price" id="${item.id}__price">
                                 £${parseFloat(item.price).toFixed(2)}
                             </p>
-                            <p class="Price Price__sale">
+                            <p class="Price Price__sale" id="${item.id}__price">
                                 £${parseFloat(item.sale.price).toFixed(2)}
                             </p>
                         </header>
@@ -79,15 +79,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Sale
                     if(item.sale.active == true) {
-                        console.log("true")
                         document.querySelectorAll(".Price__price").forEach((item) => {
-                            item.classList.add("Price__inactive")
-                            
+                            item.classList.add("Price_state_line-through")
                         });
                     }else{
-                        console.log("false")
                         document.querySelectorAll(".Price__sale").forEach((item) => {
-                            item.style.display = "none";
+                            item.classList.add("Price_state_display_none")
                         });
                     };
                 };

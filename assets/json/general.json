@@ -1,97 +1,97 @@
 {
     "categories": [
         {
-            "link": "",
+            "link": "shop-list.html?search=",
             "title": "Shop by brand",
             "img": "category1.jpg"
         },
 
         {
-            "link": "shop-list.html?search=amplifier",
+            "link": "shop-list.html?search=effektforstærker",
             "title": "Amplifiers",
             "img": "category2.jpg"
         },
 
         {
-            "link": "shop-list.html?search=speaker",
+            "link": "shop-list.html?search=højtaler",
             "title": "Speakers",
             "img": "category3.jpg"
         },
 
         {
-            "link": "shop-list.html?search=turntable",
+            "link": "shop-list.html?search=pladespiller",
             "title": "Turntables",
             "img": "category4.jpg"
         },
 
         {
-            "link": "shop-list.html?search=cd player",
+            "link": "shop-list.html?search=cd afspiller",
             "title": "CD players",
             "img": "category5.jpg"
         },
 
         {
-            "link": "shop-list.html?search=streamer",
+            "link": "shop-list.html?search=",
             "title": "Streamers",
             "img": "category6.jpg"
         },
 
         {
-            "link": "shop-list.html?search=cable",
+            "link": "shop-list.html?search=",
             "title": "Cables",
             "img": "category7.jpg"
         },
 
         {
-            "link": "shop-list.html?search=furniture",
+            "link": "shop-list.html?search=",
             "title": "Furniture",
             "img": "category8.jpg"
         },
 
         {
-            "link": "shop-list.html?search=headphones",
+            "link": "shop-list.html?search=",
             "title": "Headphones",
             "img": "category9.jpg"
         },
 
         {
-            "link": "shop-list.html?search=home cinema",
+            "link": "shop-list.html?search=",
             "title": "Home cinema",
             "img": "category10.jpg"
         },
 
         {
-            "link": "",
+            "link": "shop-list.html?search=",
             "title": "Outlet - Save up to 50% off",
             "img": "category11.jpg"
         },
 
         {
-            "link": "",
+            "link": "#",
             "title": "Ebay shop",
             "img": "category6.jpg"
         },
 
         {
-            "link": "shop-list.html?search=ceiling speaker",
+            "link": "shop-list.html?search=",
             "title": "Ceiling speakers",
             "img": "category3.jpg"
         },
 
         {
-            "link": "shop-list.html?search=tv",
+            "link": "shop-list.html?search=",
             "title": "TVs",
             "img": "category5.jpg"
         },
 
         {
-            "link": "shop-list.html?search=vinyl lp",
+            "link": "shop-list.html?search=",
             "title": "Vinyl LPs",
             "img": "category4.jpg"
         },
 
         {
-            "link": "shop-list.html",
+            "link": "shop-list.html?search=",
             "title": "Shop now",
             "img": ""
         }

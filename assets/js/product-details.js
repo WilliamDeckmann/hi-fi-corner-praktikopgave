@@ -255,11 +255,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     // Sale
                     if(item.sale.active == true) {
                         document.querySelectorAll(".Price__price").forEach((item) => {
-                            item.classList.add("Price__inactive")
+                            item.classList.add("Price_state_line-through")
                         });
                     }else{
                         document.querySelectorAll(".Price__sale").forEach((item) => {
-                            item.style.display = "none";
+                            item.classList.add("Price_state_display_none")
                         });
                     };
 
