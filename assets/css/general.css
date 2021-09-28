@@ -30,3 +30,7 @@
 
 /* Page: brands */
 @import url(./blocks/Categories.css);
+
+/* Page: shop-frontpage */
+@import url(./blocks/Shop.css);
+@import url(./blocks/Product-list.css);
