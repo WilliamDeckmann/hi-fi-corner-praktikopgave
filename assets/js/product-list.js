@@ -41,6 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
             currentPage.textContent = `Home / ${searchUpperCase}`;
             productList_title.textContent = searchUpperCase;
 
+            // Product count variable
+            let productCount = 0;
+            
 
 
             // For each product in the products.json file
@@ -77,6 +80,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+                    // Update product count
+                    productCount++;
+
                     // Product price & sale variables
                     let productPrice = document.querySelector(`#${item.id}__price`);
                     let productSale = document.querySelector(`#${item.id}__sale`);
@@ -100,9 +106,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-                // Product link variable
-                let productLink = document.querySelector(`#${item.id}__link`);
-                console.log(productLink)
+                // Display product count
+                productCount_count.textContent = productCount;
 
                 // Search for product
                 if(search.toLocaleLowerCase() == item.id.toLowerCase() || search.toLocaleLowerCase() == item.category.toLowerCase() || search.toLocaleLowerCase() == item.brand.toLowerCase() || search.toLocaleLowerCase() == item.additional[0].info.toLowerCase()) {
@@ -111,7 +116,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 }else if(search == "") {
 
                     CreateProductItems()
-                    //productLink.href = `shop-details.html?search=search&id=${item.id}`;
                     currentPage.textContent = "Home / Search";
                 };
             });
