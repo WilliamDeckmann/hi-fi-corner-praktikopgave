@@ -7,6 +7,10 @@
     color: var(--theme-white);
 }
 
+.font-color_dark-brown {
+    color: var(--theme-dark-brown);
+}
+
 .uppercase {
     text-transform: uppercase;
 }

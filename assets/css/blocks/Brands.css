@@ -1,0 +1,51 @@
+/* Brands */
+.Brands {
+    padding: 0 200px 0 200px;
+    background-color: var(--theme-black);
+}
+
+.Brands__outer-container {
+    padding: 30px;
+    background-color: var(--theme-white);
+}
+
+.Brands__inner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Brands-list {
+    padding: 30px;
+    background: linear-gradient(-90deg, var(--theme-white) -300%, var(--theme-black) 50%);
+}
+
+.Brands-list__title {
+    font-size: 20px;
+}
+
+.Brands-list__img {
+    margin: 25px 0 15px 0;
+}
+
+.Brands-description {
+    padding: 40px;
+    background-image: url(/hi-fi-corner-praktikopgave/assets/img/backgrounds/bg-home.jpg);
+    background-position: top;
+}
+
+.Brands-description__title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.Brands-description__article {
+    margin: 25px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Brands-description__link {
+    font-weight:700;
+    text-decoration: underline;
+}
