@@ -21,6 +21,10 @@ address {
     font-style: normal;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 img, video {
     max-width: 100%;
     display: block;

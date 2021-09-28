@@ -47,43 +47,6 @@
 
     <!-- Style: general -->
     <link rel="stylesheet" href="./assets/css/general.css">
-
-
-
-    <!-- Test style -->
-    <style>
-        .Main {
-            border: solid 5px green;
-        }
-
-        .Frontpage-Hero {
-            border: solid 5px red;
-        }
-
-        .Update-news {
-            border: solid 5px blue;
-        }
-
-        .Product-slides {
-            border: solid 5px yellow;
-        }
-
-        .Social-panel {
-            border: solid 5px blue;
-        }
-
-        .Social-panel__section {
-            border: solid 5px yellow;
-        }
-
-        .Extra-links {
-            border: solid 5px red;
-        }
-
-        .Extra-links__section {
-            border: solid 5px green;
-        }
-    </style>
 </head>
 
 
@@ -95,7 +58,7 @@
     <div class="Wrapper">
 
         <!-- Header -->
-        <header class="Header">
+        <header class="Header Header__hero-frontpage">
 
             <!-- Top section -->
             <section class="Header__top Header__top_state_transparent">
@@ -178,6 +141,13 @@
                     </ul>
                 </nav>
             </section>
+
+
+
+            <!-- Hero: frontpage -->
+            <figure class="Hero-frontpage">
+                <img class="Hi-fi-logo" src="./assets/img/logos/logo.png" alt="Hi-Fi logo">
+            </figure>
         </header>
     
 
@@ -185,17 +155,10 @@
         <!-- Main -->
         <main class="Main">
 
-            <!-- Frontpage - hero -->
-            <section class="Frontpage-Hero">
-                <img class="Hi-fi-logo" src="./assets/img/logos/logo.png" alt="Hi-Fi logo">
-            </section>
-
             <!-- Update news -->
             <section class="Update-news">
-                <h1 class="Update-news__title uppercase">
-                    Our Edinburgh showroom has now moved
-                    <br>
-                    to stunning new premises on Joppa Road
+                <h1 class="Update-news__title uppercase font-color_white">
+                    Our Edinburgh showroom has now moved to stunning new premises on Joppa Road
                 </h1>
             </section>
 
@@ -207,11 +170,11 @@
                     <br>
                     sound
                 </h2>
-                <button class="Product-slides__left-button">
-                    <img class="Product-slides__left-arrow" src="./assets/img/icons/arrow.svg" alt="Left arrow">
+                <button class="Product-slides__button Product-slides__left-button">
+                    <img class="Product-slides__arrow Product-slides__left-arrow" src="./assets/img/icons/arrow.svg" alt="Left arrow">
                 </button>
-                <button class="Product-slides__right-button">
-                    <img class="Product-slides__left-arrow" src="./assets/img/icons/arrow.svg" alt="Right arrow">
+                <button class="Product-slides__button Product-slides__right-button">
+                    <img class="Product-slides__arrow Product-slides__right-arrow" src="./assets/img/icons/arrow.svg" alt="Right arrow">
                 </button>
             </section>
 
@@ -219,21 +182,21 @@
             <section class="Social-panel">
                 
                 <!-- Facebook -->
-                <section class="Social-panel__section">
+                <section class="Social-panel__section Social-panel__facebook">
                     <a class="FaceBook-link" href="#">
                         <img class="Facebook-bakcground" src="./assets/img/socials/social-facebook.png" alt="FaceBook logo">
                     </a>
                 </section>
 
                 <!-- Facebook -->
-                <section class="Social-panel__section">
+                <section class="Social-panel__section Social-panel__blogger">
                     <a class="Blogger-link" href="#">
                         <img class="Blogger-bakcground" src="./assets/img/socials/social-blog.png" alt="Blogger logo">
                     </a>
                 </section>
 
                 <!-- Twitter -->
-                <section class="Social-panel__section">
+                <section class="Social-panel__section Social-panel__twitter">
                     <a class="Twitter-link" href="#">
                         <img class="Twitter-bakcground" src="./assets/img/socials/social-twitter.png" alt="Twitter logo">
                     </a>
@@ -242,36 +205,38 @@
 
             <!-- Extra links -->
             <section class="Extra-links">
-                
-                <!-- History -->
-                <section class="Extra-links__section">
-                    <a class="Extra-links__link uppercase" href="#">
-                        History
-                    </a>
-                    <p class="Extra-links__info uppercase">
-                        Established in the late 1960s, our family owned business is based in Edinburgh and Falkirk, servicing costumers across the UK.
-                    </p>
-                </section>
+                <div class="Extra-links__container">
 
-                <!-- News -->
-                <section class="Extra-links__section">
-                    <a class="Extra-links__link uppercase" href="#">
-                        News
-                    </a>
-                    <p class="Extra-links__info uppercase">
-                        Check out our latest news stories for all the up to date Hi-Fi Corner products and launches.
-                    </p>
-                </section>
-
-                <!-- Shop -->
-                <section class="Extra-links__section">
-                    <a class="Extra-links__link uppercase" href="shop-frontpage.html">
-                        Shop
-                    </a>
-                    <p class="Extra-links__info uppercase">
-                        Hav a look in our online shop for great products and deals.
-                    </p>
-                </section>
+                    <!-- History -->
+                    <article class="Extra-links__section Extra-links__history">
+                        <a class="Extra-links__link uppercase" href="#">
+                            History
+                        </a>
+                        <p class="Extra-links__info uppercase font-color_white">
+                            Established in the late 1960s, our family owned business is based in Edinburgh and Falkirk, servicing costumers across the UK.
+                        </p>
+                    </article>
+    
+                    <!-- News -->
+                    <article class="Extra-links__section Extra-links__news">
+                        <a class="Extra-links__link uppercase" href="#">
+                            News
+                        </a>
+                        <p class="Extra-links__info uppercase font-color_white">
+                            Check out our latest news stories for all the up to date Hi-Fi Corner products and launches.
+                        </p>
+                    </article>
+    
+                    <!-- Shop -->
+                    <article class="Extra-links__section Extra-links__shop">
+                        <a class="Extra-links__link uppercase" href="shop-frontpage.html">
+                            Shop
+                        </a>
+                        <p class="Extra-links__info uppercase font-color_white">
+                            Hav a look in our online shop for great products and deals.
+                        </p>
+                    </article>
+                </div>
             </section>
         </main>
 

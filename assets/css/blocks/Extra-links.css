@@ -1,0 +1,43 @@
+/* Extra links */
+.Extra-links {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--theme-black);
+}
+
+.Extra-links__container {
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Extra-links__section {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.Extra-links__link {
+    padding: 5px 25px 5px 25px;
+    font-size: 24px;
+    border: 2px solid var(--theme-white);
+    color: var(--theme-dark-brown);
+}
+
+.Extra-links__info {
+    font-size: 16px;
+}
+
+.Extra-links__history, .Extra-links__shop {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.Extra-links__news {
+    text-align: center;
+}

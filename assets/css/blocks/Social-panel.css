@@ -1,0 +1,19 @@
+/* Social panel */
+.Social-panel {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Social-panel__section {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social-panel__facebook, .Social-panel__blogger, .Social-panel__twitter {
+    background-image: url(/hi-fi-corner-praktikopgave/assets/img/backgrounds/slide-2.jpg);
+    background-size: cover;
+    background-position: center;
+}

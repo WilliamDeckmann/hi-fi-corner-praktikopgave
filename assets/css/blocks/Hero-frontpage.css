@@ -1,0 +1,14 @@
+/* Hero: frontpage */
+.Hero-frontpage {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header__hero-frontpage {
+    background-image: url(/hi-fi-corner-praktikopgave/assets/img/backgrounds/bg-home.jpg);
+    background-size: cover;
+    background-position: center;
+}

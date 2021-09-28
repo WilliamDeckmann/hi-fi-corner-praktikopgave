@@ -7,8 +7,17 @@
 /* Fonts */
 @import url(./museo-sans-rounded.css);
 
-/* Blocks */
+/* Blocks: header */
 @import url(./blocks/Header.css);
 @import url(./blocks/Search-bar.css);
 @import url(./blocks/Nav.css);
+
+/* Blocks: footer */
 @import url(./blocks/Footer.css);
+
+/* Blocks: frontpage */
+@import url(./blocks/Hero-frontpage.css);
+@import url(./blocks/Update-news.css);
+@import url(./blocks/Product-slides.css);
+@import url(./blocks/Social-panel.css);
+@import url(./blocks/Extra-links.css);
