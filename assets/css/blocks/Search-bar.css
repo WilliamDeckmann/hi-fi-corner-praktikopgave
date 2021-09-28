@@ -23,3 +23,8 @@
     border: none;
     background: none;
 }
+
+.Search {
+    font-size: 20px;
+    color: var(--theme-grey);
+}

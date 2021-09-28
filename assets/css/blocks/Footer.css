@@ -30,8 +30,3 @@
     height: 40px;
     object-fit: cover;
 }
-
-.Social-media {
-    display: flex;
-    gap: 5px;
-}

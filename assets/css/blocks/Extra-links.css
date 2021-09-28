@@ -25,6 +25,7 @@
 .Extra-links__link {
     padding: 5px 25px 5px 25px;
     font-size: 24px;
+    font-weight: 600;
     border: 2px solid var(--theme-white);
     color: var(--theme-dark-brown);
 }

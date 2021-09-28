@@ -6,6 +6,7 @@
     justify-content: flex-end;
     align-items: center;
     gap: 50px;
+    position: relative;
     background-color: var(--theme-black);
 }
 
@@ -23,6 +24,16 @@
     border-top: 3px solid var(--theme-faded-brown);
 }
 
+.Header__shop {
+    padding-top: 15px;
+    background-color: var(--theme-black);
+}
+
+.Header__hi-fi-logo {
+    height: 50px;
+    position: absolute;
+    left: 10px;
+}
 
 
 /* Header: content */
@@ -36,31 +47,4 @@
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.Account__title, .Cart__title {
-    color: var(--theme-white);
-}
-
-.Contact {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.Subscribe {
-    padding: 4px 8px 4px 8px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background-color: var(--theme-light-blue);
-    border-radius: 4px;
-}
-
-.Subscribe__title {
-    color: var(--theme-white);
-}
-
-.Header__Subscribe {
-    margin-left: -20px;
 }

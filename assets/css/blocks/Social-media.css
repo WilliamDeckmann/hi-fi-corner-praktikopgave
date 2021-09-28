@@ -1,0 +1,13 @@
+/* Social media */
+.Social-media {
+    display: flex;
+    gap: 5px;
+}
+
+.FaceBook, .YouTube, .Twitter, .Instagram {
+    height: 30px;
+}
+
+.LinkedIn {
+    font-size: 30px;
+}

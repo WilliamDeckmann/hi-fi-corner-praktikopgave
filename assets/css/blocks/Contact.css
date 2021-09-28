@@ -1,0 +1,10 @@
+/* Contact */
+.Contact {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.Marker, .Phone, .Envelope{
+    font-size: 30px;
+}

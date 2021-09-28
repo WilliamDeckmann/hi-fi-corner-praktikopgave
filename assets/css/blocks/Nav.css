@@ -5,8 +5,7 @@
 }
 
 .Nav__link {
-    font-family: MuseoSansRounded100;
-    color: var(--theme-white);
+    font-weight: 600;
 }
 
 .Nav__link_active {

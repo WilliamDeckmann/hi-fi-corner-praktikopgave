@@ -13,5 +13,6 @@
 .Update-news__title {
     max-width: 1600px;
     font-size: 64px;
+    font-weight: 600;
     text-align: center;
 }

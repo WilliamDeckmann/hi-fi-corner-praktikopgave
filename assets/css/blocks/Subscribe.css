@@ -1,0 +1,17 @@
+/* Subscribe */
+.Subscribe {
+    padding: 4px 8px 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--theme-light-blue);
+    border-radius: 4px;
+}
+
+.Subscribe__title {
+    color: var(--theme-white);
+}
+
+.Header__Subscribe {
+    margin-left: -20px;
+}
