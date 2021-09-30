@@ -1,0 +1,22 @@
+/* Product options */
+.Product-options {
+    display: flex;
+    gap: 5px;
+}
+
+.Product-info__product-options {
+    margin-bottom: 25px;
+}
+
+.Product-options__item {
+    padding: 15px 20px 15px 20px;
+    background-color: var(--theme-dark-brown);
+}
+
+.Product-options__item:hover {
+    cursor: pointer;
+}
+
+.Product-options__title {
+    font-weight: 600;
+}

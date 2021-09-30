@@ -1,0 +1,38 @@
+/* Product quantity */
+.Product-quantity {
+    padding: 20px;
+    border-top: 1px solid var(--theme-dark-grey);
+    background-color: var(--theme-light-grey);
+}
+
+.Quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Quantity__label {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.Quantity__input {
+    width: 70px;
+    padding: 20px;
+    font-size: 22px;
+    border: 1px solid var(--theme-light-grey);
+    text-align: center;
+}
+
+.Quantity__input:focus {
+    outline: none;
+}
+
+.Quantity__button {
+    width: 250px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    background-color: var(--theme-dark-brown);
+}

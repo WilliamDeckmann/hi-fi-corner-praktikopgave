@@ -1,0 +1,15 @@
+/* Category */
+.Category {
+    padding: 40px;
+    background-color: var(--theme-light-grey);
+}
+
+.Category__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Category__link {
+    font-weight: 600;
+}

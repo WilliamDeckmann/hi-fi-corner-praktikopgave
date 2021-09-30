@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 filtersList.appendChild(filterItem);
                 filterItem.classList.add("Filters-price__item");
                 filterItem.innerHTML = `
-                    <a class="Filters-price__link" href="">
+                    <a class="Filters-price__link font-color_dark-brown" href="">
                         £${parseFloat(item.min).toFixed(2)} - £${parseFloat(item.max).toFixed(2)}
                     </a>
                 `;

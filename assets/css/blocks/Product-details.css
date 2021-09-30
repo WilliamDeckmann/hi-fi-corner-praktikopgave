@@ -1,0 +1,18 @@
+/* Product details */
+.Product-details {
+    padding: 40px;
+}
+
+.Product-details__header {
+    margin-bottom: 20px;
+}
+
+.Product-details__footer {
+    margin-top: 40px;
+}
+
+.Product-details__details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}

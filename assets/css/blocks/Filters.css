@@ -1,0 +1,30 @@
+/* Filters */
+.Filters {
+    padding: 40px;
+    background-color: var(--theme-light-grey);
+}
+
+.Filters {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Filters__description {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+/* Filters: content */
+.Filters-price__title, .Filters-manufacture__title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.Filters-price__list, .Filters-manufacture__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

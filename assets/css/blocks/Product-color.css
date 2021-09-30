@@ -1,0 +1,45 @@
+/* Product color */
+.Product-color {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Product-color__list {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Product-color__item {
+    width: 300px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    gap: 10px;
+    background-color: var(--theme-light-grey);
+}
+
+.Product-color__title {
+    font-weight: 800;
+}
+
+.Product-color__error-label {
+    margin-bottom: 10px;
+    font-weight: 800;
+    display: none;
+}
+
+.Product-color__error-label_active {
+    font-weight: 800;
+    display: block;
+}
+
+.Product-color__error-span {
+    color: var(--theme-red);
+}
+
+.Product-color__error-message {
+    font-weight: 600;
+    color: var(--theme-red);
+}

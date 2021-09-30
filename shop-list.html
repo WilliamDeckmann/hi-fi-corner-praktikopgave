@@ -18,66 +18,6 @@
 
     <!-- Style: general -->
     <link rel="stylesheet" href="./assets/css/general.css">
-
-
-
-    <!-- Test style -->
-    <style>
-        .Main {
-            border: solid 5px green;
-        }
-
-        .Shop {
-            border: solid 5px red;
-        }
-
-        .Shop__header {
-            border: solid 5px blue;
-        }
-
-        .Sections {
-            border: solid 5px green;
-        }
-
-        .Category {
-            border: solid 5px red;
-        }
-
-        .Filters {
-            border: solid 5px yellow;
-        }
-
-        .Product-list {
-            border: solid 5px yellow;
-        }
-
-        .Product-list__details {
-            border: solid 5px blue;
-        }
-
-        .Product-list__container {
-            min-height: 40px;
-            border: solid 5px red;
-        }
-
-        .Product-item {
-            width: 300px;
-            padding: 10px;
-            border: solid 5px green;
-        }
-
-        .Price_state_line-through {
-            text-decoration: line-through;
-        }
-
-        .Price_state_display-none {
-            display: none;
-        }
-
-        .Manufactures {
-            border: solid 5px blue;
-        }
-    </style>
 </head>
 
 
@@ -211,8 +151,8 @@
                 <header class="Shop__header">
     
                    <!-- Current page -->
-                   <h2 class="Current-page" id="Current-page">
-                       Home / Search
+                   <h2 class="Current-page Shop__current-page" id="Current-page">
+                       <span class="Current-page__marker">Home</span> / Search
                    </h2>
                </header>
 
@@ -225,11 +165,9 @@
                         <!-- Product -->
                         <section class="Category">
                             <ul class="Category__list" id="Category__list">
-                                <li class="Category__item">
-                                    <a class="Category__link uppercase" href="#">
-                                        Amplifiers
-                                    </a>
-                                </li>
+                                
+                                <!-- Category items go here -->
+
                             </ul>
                         </section>
 
@@ -237,10 +175,10 @@
 
                         <!-- Filters -->
                         <section class="Filters">
-                            <h2 class="Filters__title uppercase">
+                            <h2 class="Filters__title uppercase font-color_dark-brown">
                                 Shop by
                             </h2>
-                            <h3 class="Filters__description uppercase">
+                            <h3 class="Filters__description">
                                 Filter
                             </h3>
 
@@ -284,7 +222,9 @@
             
                             <!-- Title -->
                             <h1 class="Product-list__title uppercase" id="Product-list__title">
-                                ...
+                                
+                                <!-- Product list title goes here -->
+
                             </h1>
             
                             <!-- Details -->
@@ -302,18 +242,19 @@
                                             <option class="Product-sort__option">Category</option>
                                             <option class="Product-sort__option">Brand</option>
                                             </select>
+                                            <i class="fas fa-arrow-up Arrow-up"></i>
                                     </form>
             
                                     <!-- Product view -->
                                     <section class="Product-view">
-                                        <p class="Product-view__title">
+                                        <p class="Product-view__title uppercase">
                                             View as:
                                         </p>
-                                        <button class="Product-view__grid Product-view_active">
-                                            <img class="Grid-view" src="./assets/img/icons/grid_view.svg" alt="Grid view">
+                                        <button class="Product-view__grid Product-view_active" id="Product-view__grid">
+                                            <i class="fas fa-th-large Grid-view"></i>
                                         </button>
-                                        <button class="Product-view__list">
-                                            <img class="List-view" src="./assets/img/icons/list_view.svg" alt="List view">
+                                        <button class="Product-view__list" id="Product-view__list">
+                                            <i class="fas fa-bars List-view"></i>
                                         </button>
                                     </section>
                                 </section>
@@ -323,8 +264,10 @@
             
                                     <!-- Product count -->
                                     <article class="Product-count">
-                                        <p class="Product-count__count" id="Product-count__count">
-                                            133
+                                        <p class="Product-count__count">
+                                            
+                                            <!-- Product count goes here -->
+
                                         </p>
                                         <p class="Product-count__title">
                                             item(s)
@@ -369,18 +312,19 @@
                                             <option class="Product-sort__option">Category</option>
                                             <option class="Product-sort__option">Brand</option>
                                             </select>
+                                            <i class="fas fa-arrow-up Arrow-up"></i>
                                     </form>
             
                                     <!-- Product view -->
                                     <section class="Product-view">
-                                        <p class="Product-view__title">
+                                        <p class="Product-view__title uppercase">
                                             View as:
                                         </p>
-                                        <button class="Product-view__grid Product-view_active">
-                                            <i class="fas fa-th-large Grid icon"></i>
+                                        <button class="Product-view__grid Product-view_active" id="Product-view__grid">
+                                            <i class="fas fa-th-large Grid-view"></i>
                                         </button>
-                                        <button class="Product-view__list">
-                                            <i class="fas fa-bars List icon"></i>
+                                        <button class="Product-view__list" id="Product-view__list">
+                                            <i class="fas fa-bars List-view"></i>
                                         </button>
                                     </section>
                                 </section>
@@ -390,8 +334,10 @@
             
                                     <!-- Product count -->
                                     <article class="Product-count">
-                                        <p class="Product-count__count" id="Product-count__count">
-                                            133
+                                        <p class="Product-count__count">
+                                            
+                                            <!-- Product count goes here -->
+
                                         </p>
                                         <p class="Product-count__title">
                                             item(s)
@@ -417,20 +363,22 @@
 
 
                     <!-- Manufacture -->
-                    <section class="Manufacture">
-                        <h2 class="Manufacture__title uppercase">
+                    <section class="Manufacture-list">
+                        <h2 class="Manufacture-list__title uppercase font-color_dark-brown">
                             Manufacture
                         </h2>
 
                         <!-- List -->
-                        <ul class="Manufacture__list" id="Manufacture__list">
+                        <ul class="Manufacture-list__list" id="Manufacture__list">
                             
                             <!-- Manufacture items go here -->
 
                         </ul>
 
-                        <button class="Manufacture__button">
-                            View All
+                        <button class="Manufacture-list__button">
+                            <p class="Manufacture-list__button-title font-color_dark-brown">
+                                View All
+                            </p>
                         </button>
                     </section>
                 </section>
