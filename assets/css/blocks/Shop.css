@@ -1,5 +1,14 @@
 /* Shop */
+.Main {
+    padding: 40px;
+}
+
 .Shop__container {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 25px;
+}
+
+.Shop__current-page {
+    margin-bottom: 35px;
 }

@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 filtersList.appendChild(filterItem);
                 filterItem.classList.add("Filters-manufactures__item");
                 filterItem.innerHTML = `
-                    <a class="Filters-manufacture__link" href="shop-list.html?search=${item}">
+                    <a class="Filters-manufacture__link font-color_dark-brown" href="shop-list.html?search=${item}">
                         ${item}
                     </a>
                 `;

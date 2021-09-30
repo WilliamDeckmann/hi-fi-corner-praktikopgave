@@ -1,0 +1,34 @@
+/* Manufacture */
+.Manufacture-list__title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.Manufacture-list__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Manufacture-list__link{
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .1s ease-in-out;
+}
+
+.Manufacture-list__link:hover{
+    padding-left: 25px;
+    
+}
+
+.Manufacture-list__button {
+    margin-top: 15px;
+    border: none;
+    background: none;
+}
+
+.Manufacture-list__button-title {
+    font-size: 18px;
+    text-align: left;
+}

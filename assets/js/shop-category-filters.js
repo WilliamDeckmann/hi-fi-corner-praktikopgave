@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 categoryList.appendChild(categoryItem);
                 categoryItem.classList.add("Category__item");
                 categoryItem.innerHTML = `
-                    <a class="Category__link uppercase" href="${item.link}">
+                    <a class="Category__link font-color_dark-brown" href="${item.link}">
                         ${item.title}
                     </a>
                 `;

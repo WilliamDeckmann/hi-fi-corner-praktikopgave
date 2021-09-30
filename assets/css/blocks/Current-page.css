@@ -1,0 +1,9 @@
+/* Current page */
+.Current-page {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Current-page__marker {
+    color: var(--theme-dark-brown);
+}

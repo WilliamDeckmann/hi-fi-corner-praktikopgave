@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let searchUpperCase = search.charAt(0).toUpperCase() + search.slice(1);
 
             // Set title same as input
-            currentPage.textContent = `Home / ${searchUpperCase}`;
+            currentPage.innerHTML = `<span class="Current-page__marker">Home</span> / ${searchUpperCase}`;
             productList_title.textContent = searchUpperCase;
 
             // Product count variable
@@ -116,7 +116,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 }else if(search == "") {
 
                     CreateProductItems()
-                    currentPage.textContent = "Home / Search";
+                    currentPage.innerHTML = `<span class="Current-page__marker">Home</span> / Search`;
+                    productList_title.textContent = "Search"
                 };
             });
         })

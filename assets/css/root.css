@@ -2,8 +2,9 @@
 :root {
     --theme-black: #111111;
     --theme-black-transparent: rgb(17, 17, 17, .8);
-    --theme-grey: #999999;
     --theme-white: #ffffff;
+    --theme-dark-grey: #999999;
+    --theme-light-grey: #E1E1E1;
     --theme-faded-brown: #413a27;
     --theme-dark-brown: #a39161;
     --theme-light-brown: #c0ab9f;

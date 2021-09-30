@@ -33,4 +33,9 @@
 
 /* Page: shop-frontpage */
 @import url(./blocks/Shop.css);
+@import url(./blocks/Current-page.css);
+@import url(./blocks/Sections.css);
+@import url(./blocks/Category.css);
+@import url(./blocks/Filters.css);
 @import url(./blocks/Product-list.css);
+@import url(./blocks/Manufacture.css);

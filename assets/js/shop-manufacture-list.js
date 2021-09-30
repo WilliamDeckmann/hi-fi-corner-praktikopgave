@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Create all product elements
                 let manufacturesItem = document.createElement("li")
                 manufactures_list.appendChild(manufacturesItem);
-                manufacturesItem.classList.add("Manufacture__item");
+                manufacturesItem.classList.add("Manufacture-list__item");
                 manufacturesItem.innerHTML = `
-                    <a class="Category-list__link uppercase" href="shop-list.html?search=${result.manufactures[i]}">
+                    <a class="Manufacture-list__link uppercase" href="shop-list.html?search=${result.manufactures[i]}">
                         ${result.manufactures[i]}
                     </a>
                 `;
