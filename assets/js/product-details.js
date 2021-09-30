@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                         </a>
     
                                         <!-- Price -->
-                                        <div class="Price-container">
+                                        <div class="Price-container Price-container_type_details">
                                             <p class="Price Price__price" id="${item.id}__price">
                                                 £${parseFloat(item.price).toFixed(2)}
                                             </p>
@@ -258,9 +258,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Sale
                     if(item.sale.active == true) {
-                        priceElement.classList.add("Price_state_line-through");
+                        priceElement.classList.add("Price_state_marked");
                     }else{
-                        saleElement.classList.add("Price_state_display-none");
+                        saleElement.classList.add("Price_state_inactive");
                     };
 
 

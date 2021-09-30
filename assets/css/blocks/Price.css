@@ -1,0 +1,21 @@
+/* Price */
+.Price-container_type_product{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Price_state_marked {
+    text-decoration: line-through;
+    color: var(--theme-dark-grey);
+}
+
+.Price_state_inactive {
+    display: none;
+}
