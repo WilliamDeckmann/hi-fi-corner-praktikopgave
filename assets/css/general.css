@@ -28,10 +28,10 @@
 @import url(./blocks/Hero-brands.css);
 @import url(./blocks/Brands.css);
 
-/* Page: brands */
+/* Page: shop-frontpage */
 @import url(./blocks/Categories.css);
 
-/* Page: shop-frontpage */
+/* Page: shop-list */
 @import url(./blocks/Shop.css);
 @import url(./blocks/Current-page.css);
 @import url(./blocks/Sections.css);
@@ -41,3 +41,16 @@
 @import url(./blocks/Product-item.css);
 @import url(./blocks/Price.css);
 @import url(./blocks/Manufacture.css);
+
+/* Page: shop-details */
+@import url(./blocks/Product-details.css);
+@import url(./blocks/Web-shop-banner.css);
+@import url(./blocks/Product-gallery.css);
+@import url(./blocks/Product-about.css);
+@import url(./blocks/Product-options.css);
+@import url(./blocks/Product-selection.css);
+@import url(./blocks/Product-color.css);
+@import url(./blocks/Product-quantity.css);
+@import url(./blocks/Additional-product-info.css);
+@import url(./blocks/Product-description.css);
+@import url(./blocks/Product-call.css);

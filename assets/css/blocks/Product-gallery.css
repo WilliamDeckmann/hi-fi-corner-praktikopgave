@@ -1,0 +1,24 @@
+/* Product gallery */
+.Product-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Product-gallery__hero {
+    width: 100%;
+    border: 1px solid var(--theme-light-grey);
+}
+
+.Product-gallery__container {
+    display: flex;
+    gap: 10px;
+}
+
+.Product-gallery__img {
+    width: 100px;
+}
+
+.Product-gallery__img:hover {
+    cursor: pointer;
+}

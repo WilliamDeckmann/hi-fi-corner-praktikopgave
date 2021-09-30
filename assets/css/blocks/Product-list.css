@@ -1,15 +1,18 @@
 /* Product list */
 
-.Product-list {
-    display: grid;
-    flex-direction: column;
-    gap: 15px;
+.Product-list__header {
+    margin-bottom: 15px;
+}
+
+.Product-list__footer {
+    margin-top: 75px;
 }
 
 .Product-list__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    column-gap: 25px;
+    row-gap: 75px;
 }
 
 .Product-list__title {

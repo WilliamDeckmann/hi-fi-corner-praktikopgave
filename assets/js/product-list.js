@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Display product count
                 productCount_count.forEach((item) => {
                     item.textContent = productCount;
-                })
+                });
 
                 // Search for product
                 if(search.toLocaleLowerCase() == item.id.toLowerCase() || search.toLocaleLowerCase() == item.category.toLowerCase() || search.toLocaleLowerCase() == item.brand.toLowerCase() || search.toLocaleLowerCase() == item.additional[0].info.toLowerCase()) {

@@ -1,0 +1,21 @@
+/* Product call */
+.Product-call {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--theme-black);
+}
+
+.Product-call__title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+/* Product call: content */
+.Phone {
+    font-size: 18px;
+}

@@ -30,7 +30,7 @@
     background-color: var(--theme-dark-brown);
 }
 
-.Purchase-button__link {
+.Purchase-button__title {
     font-size: 16px;
     font-weight: 600;
 }

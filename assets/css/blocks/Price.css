@@ -6,6 +6,12 @@
     gap: 20px;
 }
 
+.Price-container_type_details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .Price {
     font-size: 20px;
     font-weight: 600;
@@ -18,4 +24,8 @@
 
 .Price_state_inactive {
     display: none;
+}
+
+.Price_state_large {
+    font-size: 28px;
 }

@@ -32,9 +32,14 @@ document.addEventListener("DOMContentLoaded", () => {
     
                         <!-- Current page -->
                         <h2 class="Current-page">
-                            Home / ${searchUpperCase} / ${id}
+                            <span class="Current-page__marker">Home</span> / <span class="Current-page__marker">${searchUpperCase}</span> / ${id}
                         </h2>
                     </header>
+
+                    <!-- Webshop banner -->
+                    <figure class="Web-shop-banner Product-details__web-shop-banner">
+                        <img class="Web-shop-banner__img" src="./assets/img/backgrounds/webshop_banner.png" alt="Web-shop banner">
+                    </figure>
     
                     <!-- Container -->
                     <section class="Product-details__container">
@@ -49,10 +54,13 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <img class="Product-gallery__hero" src="./assets/img/products/${item.img[0]}" alt="Product gallery hero">
     
                                 <!-- Gallery -->
-                                <h2 class="Product-gallery__title uppercase">
+                                <h2 class="Product-gallery__title uppercase font-color_dark-brown">
                                     More views
                                 </h2>
                                 <figure class="Product-gallery__container" id="Product-gallery__container">
+
+                                    <!-- Gallery items go here -->
+
                                 </figure>
                             </section>
     
@@ -62,8 +70,8 @@ document.addEventListener("DOMContentLoaded", () => {
                             <section class="Product-info">
     
                                 <!-- Product about -->
-                                <section class="Product-about">
-                                    <h2 class="Product-about__title">
+                                <section class="Product-about Product-info__product-about">
+                                    <h2 class="Product-about__title font-color_dark-brown">
                                         ${item.name}
                                     </h2>
     
@@ -72,24 +80,24 @@ document.addEventListener("DOMContentLoaded", () => {
     
                                         <!-- Other products -->
                                         <a class="Other-products" href="#">
-                                            <p class="Other-products__title">
+                                            <p class="Other-products__title font-color_dark-brown">
                                                 See other ${item.additional[0].info} products
                                             </p>
                                         </a>
     
                                         <!-- Price -->
                                         <div class="Price-container Price-container_type_details">
-                                            <p class="Price Price__price" id="${item.id}__price">
+                                            <p class="Price Price__price font-color_dark-brown" id="${item.id}__price">
                                                 £${parseFloat(item.price).toFixed(2)}
                                             </p>
-                                            <p class="Price Price__sale" id="${item.id}__sale">
+                                            <p class="Price Price__sale font-color_dark-brown Price_state_large" id="${item.id}__sale">
                                                 £${parseFloat(item.sale.price).toFixed(2)}
                                             </p>
                                         </div>
                                     </section>
     
                                     <!-- About -->
-                                    <p class="Product-about__title">
+                                    <p class="Product-about__info">
                                         ${item.details}
                                     </p>
                                 </section>
@@ -97,31 +105,31 @@ document.addEventListener("DOMContentLoaded", () => {
     
     
                                 <!-- product options -->
-                                <ul class="Product-options">
+                                <ul class="Product-options Product-info__product-options" id="Product-options">
                                     <li class="Product-options__item">
                                         <a class="Product-options__link" href="#">
-                                            <p class="Product-options__title uppercase">
+                                            <p class="Product-options__title uppercase font-color_white">
                                                 Ask a question
                                             </p>
                                         </a>
                                     </li>
                                     <li class="Product-options__item">
                                         <a class="Product-options__link" href="#">
-                                            <p class="Product-options__title uppercase">
+                                            <p class="Product-options__title uppercase font-color_white">
                                                 Part exchange
                                             </p>
                                         </a>
                                     </li>
                                     <li class="Product-options__item">
                                         <a class="Product-options__link" href="#">
-                                            <p class="Product-options__title uppercase">
+                                            <p class="Product-options__title uppercase font-color_white">
                                                 Pay by finance
                                             </p>
                                         </a>
                                     </li>
                                     <li class="Product-options__item">
                                         <a class="Product-options__link" href="#">
-                                            <p class="Product-options__title uppercase">
+                                            <p class="Product-options__title uppercase font-color_white">
                                                 Seen a better price?
                                             </p>
                                         </a>
@@ -140,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                         <form class="Product-color__form" action="">
     
                                             <!-- Error label -->
-                                            <label class="Product-color__error-label Product-color__error-label_active">
+                                            <label class="Product-color__error-label Product-color__error-label_active font-color_dark-brown">
                                                 Finish <span class="Product-color__error-span">*</span>
                                             </label>
     
@@ -163,11 +171,11 @@ document.addEventListener("DOMContentLoaded", () => {
     
                                         <!-- Quantity -->
                                         <form class="Quantity">
-                                            <label class="Quantity__label" for="">
+                                            <label class="Quantity__label font-color_dark-brown" for="">
                                                 Qty:
                                             </label>
-                                            <input class="Quantity__input" type="text" >
-                                            <button class="Quantity__button uppercase">
+                                            <input class="Quantity__input" placeholder="0" type="text" >
+                                            <button class="Quantity__button uppercase font-color_white">
                                                 Add to cart
                                             </button>
                                         </form>
@@ -191,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
                                 <!-- Additional -->
                                 <article class="Additional-product-info">
-                                    <h2 class="Additional-product-info__title uppercase">
+                                    <h2 class="Additional-product-info__title uppercase font-color_dark-brown">
                                         Additional information
                                     </h2>
                                     <ul class="Additional-product-info__list" id="Additional-product-info__list">
@@ -207,18 +215,13 @@ document.addEventListener("DOMContentLoaded", () => {
     
                         <!-- Description -->
                         <section class="Product-description">
-                            <h1 class="Product-description__title uppercase">
+                            <h1 class="Product-description__title uppercase font-color_dark-brown">
                                 Description
                             </h1>
                             <ul class="Product-description__list" id="Product-description__list">
-                                <li class="Product-description__item">
-                                    <p class="Product-description__option">
-                                        Power Output (8 / 4 Ohm RMS)
-                                    </p>
-                                    <p class="Product-description__info">
-                                        45 W / 60 W
-                                    </p>
-                                </li>
+                                
+                                <!-- Product description items go here -->
+
                             </ul>
                         </section>
                     </section>
@@ -227,9 +230,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     <footer class="Product-details__footer">
                         <section class="Product-call">
                             <i class="fas fa-phone-alt Phone icon"></i>
-                            <h2 class="Product-call__title uppercase">
+                            <a class="Product-call__title uppercase font-color_dark-brown">
                                 Call us about this product
-                            </h2>
+                            </a>
                         </section>
                     </footer>
                     `;
@@ -296,8 +299,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         additionalList.appendChild(additionalItem);
                         additionalItem.classList.add("Additional-product-info__item");
                         additionalItem.innerHTML = `
-                        <div class="Additional-product-info__title-container">
-                            <p class="Additional-product-info__title uppercase">
+                        <div class="Additional-product-info__option-container">
+                            <p class="Additional-product-info__option uppercase">
                                 ${item.title}
                             </p>
                         </div>
