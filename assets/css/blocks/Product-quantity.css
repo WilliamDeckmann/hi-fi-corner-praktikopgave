@@ -5,6 +5,16 @@
     background-color: var(--theme-light-grey);
 }
 
+.Product-quantity__or {
+    margin: 10px 0 10px 225px;
+    font-size: 24px;
+}
+
+.Product-quantity__line {
+    margin-bottom: 20px;
+    border: 1px solid var(--theme-dark-grey);
+}
+
 .Quantity {
     display: flex;
     align-items: center;

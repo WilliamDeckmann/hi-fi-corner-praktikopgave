@@ -3,6 +3,12 @@
     padding: 40px;
 }
 
+.Product-details__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .Product-details__header {
     margin-bottom: 20px;
 }
