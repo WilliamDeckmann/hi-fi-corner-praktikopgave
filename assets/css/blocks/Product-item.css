@@ -10,11 +10,11 @@
 }
 
 .Product-item_state_list{
-    width: 520px;
+    width: 525px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 25px;
 }
 
 .Product-item_state_list .Product-item__container {
