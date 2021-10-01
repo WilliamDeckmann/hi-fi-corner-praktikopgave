@@ -4,7 +4,8 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    background-color: var(--theme-light-blue);
+    background-color: var();
+    background: linear-gradient(var(--theme-light-blue) 0%, var(--theme-dark-blue) 150%);
     border-radius: 4px;
 }
 

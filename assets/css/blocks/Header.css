@@ -29,10 +29,13 @@
     background-color: var(--theme-black);
 }
 
-.Header__hi-fi-logo {
-    height: 50px;
+.Header__link {
     position: absolute;
     left: 10px;
+}
+
+.Header__link, .Hi-fi-logo {
+    height: 50px;
 }
 
 
