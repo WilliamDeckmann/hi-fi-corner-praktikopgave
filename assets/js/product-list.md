@@ -26,3 +26,8 @@
 - The search-result and item-id will also be changed to make the first letter uppercase some places.
 
 - Check if product is sold out. If not, check if on sale. If not, hide sales price.
+
+
+## Other functions
+
+- When clicking on the different view buttons, the grid will change from a "grid view", to a "list view", by adding and removing classes.

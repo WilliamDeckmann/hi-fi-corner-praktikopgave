@@ -13,6 +13,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchBar_input = document.querySelector("#Search-bar__input");
     const searchBar_button = document.querySelector("#Search-bar__button");
 
+    // View button variables
+    const viewButton = document.querySelectorAll(".Product-view__button")
+    const gridButton = document.querySelectorAll(".Product-view__grid")
+    const listButton = document.querySelectorAll(".Product-view__list")
+    const activeButton = document.querySelectorAll(".Product-view_active")
+
 
 
     // Fetch data
@@ -51,32 +57,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Create all product elements
                 function CreateProductItems() {
-                    let productItem = document.createElement("li")
+                    var productItem = document.createElement("li")
                     productList_container.appendChild(productItem);
                     productItem.classList.add("Product-item");
+                    productItem.classList.add("Product-item_state_grid");
                     productItem.innerHTML = `
                         <!-- Info -->
-                        <article class="Product-item__info">
-                            <img class="Product-item__img" src="./assets/img/products/${item.img[0]}" alt="Product image">
-                            <h2 class="Product-item__title uppercase">
-                                ${item.name}
-                            </h2>
-                            <div class="Price-container_type_product">
-                                <p class="Price Price__price font-color_dark-brown" id="${item.id}__price">
-                                    £${parseFloat(item.price).toFixed(2)}
-                                </p>
-                                <p class="Price Price__sale font-color_dark-brown" id="${item.id}__sale">
-                                    £${parseFloat(item.sale.price).toFixed(2)}
-                                </p>
-                            </div>
-                        </article>
-                        
-                        <!-- Button -->
-                        <button class="Purchase-button" id="${item.id}__button">  
-                            <a class="Purchase-button__link uppercase font-color_white" id="${item.id}__link" href="shop-details.html?search=${search}&id=${item.id}">
-                                Add to cart
-                            </a>
-                        </button>
+                        <img class="Product-item__img" src="./assets/img/products/${item.img[0]}" alt="Product image">
+                        <section class="Product-item__container">
+                            <article class="Product-item__info">
+                                <h2 class="Product-item__title uppercase">
+                                    ${item.name}
+                                </h2>
+                                <div class="Price-container_type_product">
+                                    <p class="Price Price__price font-color_dark-brown" id="${item.id}__price">
+                                        £${parseFloat(item.price).toFixed(2)}
+                                    </p>
+                                    <p class="Price Price__sale font-color_dark-brown" id="${item.id}__sale">
+                                        £${parseFloat(item.sale.price).toFixed(2)}
+                                    </p>
+                                </div>
+                            </article>
+                            
+                            <!-- Button -->
+                            <button class="Purchase-button" id="${item.id}__button">  
+                                <a class="Purchase-button__link uppercase font-color_white" id="${item.id}__link" href="shop-details.html?search=${search}&id=${item.id}">
+                                    Add to cart
+                                </a>
+                            </button>
+                        </section>
                     `;
 
 
@@ -103,6 +112,56 @@ document.addEventListener("DOMContentLoaded", () => {
                             productSale.classList.add("Price_state_inactive");
                         };
                     }
+
+
+
+                    // List-view button
+                    listButton.forEach((item) => {
+                        item.addEventListener("click", () => {
+
+                            // Remove & add grid & list classes
+                            productList_container.classList.remove("Product-list__container_state_grid")
+                            productList_container.classList.remove("Product-list__container_state_list")
+                            productList_container.classList.add("Product-list__container_state_list")
+
+                            // Remove & add grid & list classes
+                            productItem.classList.remove("Product-item_state_grid")
+                            productItem.classList.remove("Product-item_state_list")
+                            productItem.classList.add("Product-item_state_list")
+
+                            // Turn on active class & remove all others who have the class
+                            viewButton.forEach((button) => {
+                                button.classList.remove("Product-view_active")
+                            });
+                            listButton.forEach((button) => {
+                                button.classList.add("Product-view_active")
+                            });
+                        });
+                    });
+
+                    // Grid-view button
+                    gridButton.forEach((button) => {
+                        button.addEventListener("click", () => {
+
+                            // Remove & add grid & list classes
+                            productList_container.classList.remove("Product-list__container_state_grid")
+                            productList_container.classList.remove("Product-list__container_state_list")
+                            productList_container.classList.add("Product-list__container_state_grid")
+
+                            // Remove & add grid & list classes
+                            productItem.classList.remove("Product-item_state_grid")
+                            productItem.classList.remove("Product-item_state_list")
+                            productItem.classList.add("Product-item_state_grid")
+
+                            // Turn on active class & remove all others who have the class
+                            viewButton.forEach((button) => {
+                                button.classList.remove("Product-view_active")
+                            });
+                            gridButton.forEach((button) => {
+                                button.classList.add("Product-view_active")
+                            });
+                        });
+                    })
                 };
 
 
@@ -122,6 +181,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     currentPage.innerHTML = `<span class="Current-page__marker">Home</span> / Search`;
                     productList_title.textContent = "Search"
                 };
+
+
+
+                
             });
         })
 });

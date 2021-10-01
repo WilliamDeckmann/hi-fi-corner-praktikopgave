@@ -10,8 +10,17 @@
 
 .Product-list__container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
     column-gap: 25px;
+    row-gap: 75px;
+}
+
+.Product-list__container_state_grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Product-list__container_state_list {
+    grid-template-columns: 1fr;
     row-gap: 75px;
 }
 
