@@ -7,6 +7,8 @@
 
 .Product-gallery__hero {
     width: 100%;
+    height: 36vw;
+    object-fit: contain;
     border: 1px solid var(--theme-light-grey);
 }
 
