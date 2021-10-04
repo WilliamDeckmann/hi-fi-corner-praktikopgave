@@ -34,6 +34,28 @@
 }
 
 .Additional-product-info__info {
-
     font-weight: 600;
+}
+
+
+
+/* Media query:  320px */
+@media screen and (max-width: 320px) {
+
+    .Additional-product-info__item {
+        flex-direction: column;
+    }
+
+    .Additional-product-info__list {
+        border: none;
+    }
+
+    .Additional-product-info__option-container {
+        width: 100%;
+        border: 1px solid var(--theme-dark-grey);
+    }
+
+    .Additional-product-info__info-container {
+        border-left: 1px solid var(--theme-dark-grey);
+    }
 }

@@ -4,5 +4,6 @@
 }
 
 .PayPal__logo {
-    width: 220px;
+    width: 100%;
+    max-width: 220px;
 }
