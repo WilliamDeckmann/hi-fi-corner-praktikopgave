@@ -2,16 +2,15 @@
 .Product-item{
     width: 250px;
     justify-self: center;
+    display: flex;
 }
 
 .Product-item_state_grid{
-    display: flex;
     flex-direction: column;
 }
 
 .Product-item_state_list{
     width: 525px;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 25px;
@@ -58,4 +57,21 @@
 .Purchase-button__title {
     font-size: 16px;
     font-weight: 600;
+}
+
+
+
+/* Media query:  610px */
+@media screen and (max-width: 610px) {
+
+    .Product-item_state_list{
+        width: 250px;
+        flex-direction: row;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .Product-item_state_list .Product-item__container {
+        height: 180px;
+    }
 }
