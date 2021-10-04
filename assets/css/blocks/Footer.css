@@ -3,6 +3,7 @@
     padding: 15px 40px 15px 40px;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     background-color: var(--theme-dark-brown);
 }
 
@@ -29,4 +30,30 @@
     width: 450px;
     height: 40px;
     object-fit: cover;
+}
+
+
+
+/* Media query:  768px */
+@media screen and (max-width: 768px) {
+
+    .Footer {
+        flex-direction: column;
+    }
+
+    .Footer__left, .Footer__right {
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .Address, .External-links {
+        text-align: center;
+    }
+}
+
+
+
+/* Media query:  320px */
+@media screen and (max-width: 320px) {
 }
