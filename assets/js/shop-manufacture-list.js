@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // Fetch data
-    fetch("./assets/json/general.json")
+    fetch("./assets/json/shopData.json")
         .then((response) => response.json())
         .then((result) => {
 
@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 manufactures_list.appendChild(manufacturesItem);
                 manufacturesItem.classList.add("Manufacture-list__item");
                 manufacturesItem.innerHTML = `
-                    <a class="Manufacture-list__link uppercase" href="shop-list.html?search=${result.manufactures[i]}">
-                        ${result.manufactures[i]}
+                    <a class="Manufacture-list__link uppercase" href="shop-list.html?search=${result.general.manufactures[i]}">
+                        ${result.general.manufactures[i]}
                     </a>
                 `;
             };

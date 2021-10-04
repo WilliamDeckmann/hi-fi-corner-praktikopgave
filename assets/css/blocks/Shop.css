@@ -15,8 +15,8 @@
 
 
 
-/* Media query:  1366px */
-@media screen and (max-width: 1366px) {
+/* Media query:  1554px */
+@media screen and (max-width: 1554px) {
 
     .Shop__container {
         grid-template-columns: 1fr auto;

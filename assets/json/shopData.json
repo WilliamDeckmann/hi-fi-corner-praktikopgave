@@ -4167,5 +4167,192 @@
                 }
             ]
         }
-    ]
+    ],
+
+
+
+
+
+    "general": {
+        "categories": [
+            {
+                "link": "shop-list.html?search=",
+                "title": "Shop by brand",
+                "img": "category1.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=effektforstærker",
+                "title": "Amplifiers",
+                "img": "category2.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=højtaler",
+                "title": "Speakers",
+                "img": "category3.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=pladespiller",
+                "title": "Turntables",
+                "img": "category4.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=cd afspiller",
+                "title": "CD players",
+                "img": "category5.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "Streamers",
+                "img": "category6.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "Cables",
+                "img": "category7.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "Furniture",
+                "img": "category8.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "Headphones",
+                "img": "category9.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "Home cinema",
+                "img": "category10.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "Outlet - Save up to 50% off",
+                "img": "category11.jpg"
+            },
+    
+            {
+                "link": "#",
+                "title": "Ebay shop",
+                "img": "category6.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "Ceiling speakers",
+                "img": "category3.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "TVs",
+                "img": "category5.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "Vinyl LPs",
+                "img": "category4.jpg"
+            },
+    
+            {
+                "link": "shop-list.html?search=",
+                "title": "Shop now",
+                "img": ""
+            }
+        ],
+    
+    
+    
+        "priceRange": [
+            {
+                "min": 0,
+                "max": 799.99
+            },
+    
+            {
+                "min": 800,
+                "max": 999.99
+            },
+    
+            {
+                "min": 1000,
+                "max": 1499.99
+            },
+    
+            {
+                "min": 1500,
+                "max": 199.99
+            },
+    
+            {
+                "min": 2000,
+                "max": 2999.99
+            },
+    
+            {
+                "min": 3000,
+                "max": 3499.99
+            },
+    
+            {
+                "min": 3500,
+                "max": 4999.99
+            },
+    
+            {
+                "min": 5000,
+                "max": 7999.99
+            },
+    
+            {
+                "min": 8000,
+                "max": 11999.99
+            },
+    
+            {
+                "min": 12000,
+                "max": 14999.99
+            }
+        ],
+    
+    
+    
+        "manufactures": [
+            "Arcam",
+            "Astell And Kern",
+            "ATC",
+            "Audiolab",
+            "Avid",
+            "Chord Electronics",
+            "Classe",
+            "Denon",
+            "Devialet",
+            "EAT",
+            "Giraharn Slee",
+            "Linn",
+            "Marantz",
+            "Meridan",
+            "Naim",
+            "PrimaLuna",
+            "Primare",
+            "Quad",
+            "Rottel",
+            "Sennheiser",
+            "Sugden",
+            "Technics",
+            "Trinnov",
+            "Yamaha"
+        ]
+    }
 }

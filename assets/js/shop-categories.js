@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // Fetch data
-    fetch("./assets/json/general.json")
+    fetch("./assets/json/shopData.json")
         .then((response) => response.json())
         .then((result) => {
 
             // For each category in the general.json file
-            result.categories.forEach((item) => {
+            result.general.categories.forEach((item) => {
 
                 // Create all product elements
                 let categoryItem = document.createElement("li")

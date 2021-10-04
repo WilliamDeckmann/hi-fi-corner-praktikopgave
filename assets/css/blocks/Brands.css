@@ -66,3 +66,15 @@
         order: 1;
     }
 }
+
+/* Media query:  320px */
+@media screen and (max-width: 320px) {
+
+    .Brands__outer-container {
+        padding: 0;
+    }
+
+    .Brands-list, .Brands-description {
+        padding: 20px;
+    }
+}

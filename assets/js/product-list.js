@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // Fetch data
-    fetch("./assets/json/products.json")
+    fetch("./assets/json/shopData.json")
         .then((response) => response.json())
         .then((result) => {
 
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
 
                 // Search for product
-                if(search.toLocaleLowerCase() == item.id.toLowerCase() || search.toLocaleLowerCase() == item.category.toLowerCase() || search.toLocaleLowerCase() == item.brand.toLowerCase() || search.toLocaleLowerCase() == item.additional[0].info.toLowerCase()) {
+                if(search.toLowerCase() == item.name.toLowerCase() || search.toLowerCase() == item.category.toLowerCase() || search.toLowerCase() == item.brand.toLowerCase() || search.toLowerCase() == item.additional[0].info.toLowerCase()) {
 
                     CreateProductItems()
                 }else if(search == "") {
@@ -181,10 +181,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     currentPage.innerHTML = `<span class="Current-page__marker">Home</span> / Search`;
                     productList_title.textContent = "Search"
                 };
-
-
-
-                
             });
         })
 });
