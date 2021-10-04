@@ -57,7 +57,6 @@
 /* Media query:  768px */
 @media screen and (max-width: 768px) {
 
-    
     .Brands__inner-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -66,11 +65,4 @@
     .Brands-list {
         order: 1;
     }
-}
-
-
-
-/* Media query:  320px */
-@media screen and (max-width: 320px) {
-    
 }
