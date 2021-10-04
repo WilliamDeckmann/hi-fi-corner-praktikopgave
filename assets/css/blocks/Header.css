@@ -1,7 +1,7 @@
 /* Header */
 .Header__top {
     height: 80px;
-    padding: 0 40px 0 40px;
+    padding: 0 40px 0 64px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -34,7 +34,7 @@
     left: 10px;
 }
 
-.Header__link, .Hi-fi-logo {
+.Header__link .Hi-fi-logo {
     height: 50px;
 }
 
@@ -50,4 +50,38 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+
+
+/* Media query:  768px */
+@media screen and (max-width: 768px) {
+
+    .Header__top {
+        height: auto;
+        padding: 30px 20px 30px 20px;
+        row-gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .Header__link .Hi-fi-logo {
+        display: none;
+    }
+
+    .Header__bottom {
+        height: auto;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .Header__shop {
+        padding-top: 0;
+    }
+}
+
+
+
+/* Media query:  320px */
+@media screen and (max-width: 320px) {
+    
 }

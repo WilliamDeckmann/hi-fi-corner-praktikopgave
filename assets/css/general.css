@@ -3,9 +3,6 @@
 @import url(./root.css);
 @import url(./mix.css);
 
-/* Fonts */
-@import url(./museo-sans-rounded.css);
-
 /* Blocks: header */
 @import url(./blocks/Header.css);
 @import url(./blocks/Search-bar.css);
@@ -40,7 +37,7 @@
 @import url(./blocks/Product-list.css);
 @import url(./blocks/Product-item.css);
 @import url(./blocks/Price.css);
-@import url(./blocks/Manufacture.css);
+@import url(./blocks/Manufacture-list.css);
 
 /* Page: shop-details */
 @import url(./blocks/Product-details.css);

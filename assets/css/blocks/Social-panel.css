@@ -17,3 +17,28 @@
     background-size: cover;
     background-position: center;
 }
+
+
+
+/* Media query:  768px */
+@media screen and (max-width: 768px) {
+
+    .Social-panel__section {
+        height: auto;
+        padding: 20px;
+    }
+
+    .Social-panel__facebook, .Social-panel__blogger, .Social-panel__twitter {
+        width: auto;
+    }
+}
+
+
+
+/* Media query:  320px */
+@media screen and (max-width: 320px) {
+    
+    .Social-panel {
+        grid-template-columns: 1fr;
+    }
+}

@@ -6,7 +6,7 @@
 }
 
 .Category-list {
-    width: 1200px;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -34,4 +34,33 @@
     font-size: 24px;
     text-align: center;
     text-decoration: underline;
+}
+
+
+
+/* Media query:  768px */
+@media screen and (max-width: 768px) {
+
+    .Category-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Category-list__title {
+        font-size: 20px;
+    }
+}
+
+
+
+/* Media query:  320px */
+@media screen and (max-width: 320px) {
+
+    .Category-list {
+        grid-template-columns: 1fr;
+    }
+
+    .Category-list__item_background-img_false {
+        height: 92vw;
+        border-bottom: 2px solid var(--theme-black);
+    }
 }

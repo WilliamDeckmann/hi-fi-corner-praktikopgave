@@ -1,6 +1,7 @@
 /* Product options */
 .Product-options {
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
 }
 
@@ -19,4 +20,16 @@
 
 .Product-options__title {
     font-weight: 600;
+}
+
+
+
+/* Media query:  768px */
+@media screen and (max-width: 768px) {
+
+    .Product-options {
+        max-width: 400px;
+        margin: 0 auto 25px auto;
+        justify-content: center;
+    }
 }

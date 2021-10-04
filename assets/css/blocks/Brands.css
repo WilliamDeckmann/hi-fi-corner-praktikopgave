@@ -6,7 +6,7 @@
 }
 
 .Brands__outer-container {
-    width: 1000px;
+    max-width: 1440px;
     padding: 30px;
     background-color: var(--theme-white);
 }
@@ -57,16 +57,24 @@
 /* Media query:  768px */
 @media screen and (max-width: 768px) {
 
-    
     .Brands__inner-container {
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .Brands-list {
+        order: 1;
+    }
 }
-
-
 
 /* Media query:  320px */
 @media screen and (max-width: 320px) {
-    
+
+    .Brands__outer-container {
+        padding: 0;
+    }
+
+    .Brands-list, .Brands-description {
+        padding: 20px;
+    }
 }

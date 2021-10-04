@@ -12,3 +12,19 @@
     color: var(--theme-dark-brown);
 }
 
+/* Media query:  768px */
+@media screen and (max-width: 768px) {
+
+    .Nav__list {
+        max-width: 360px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+/* Media query:  320px */
+@media screen and (max-width: 320px) {
+    
+}

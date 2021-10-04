@@ -17,12 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const viewButton = document.querySelectorAll(".Product-view__button")
     const gridButton = document.querySelectorAll(".Product-view__grid")
     const listButton = document.querySelectorAll(".Product-view__list")
-    const activeButton = document.querySelectorAll(".Product-view_active")
 
 
 
     // Fetch data
-    fetch("./assets/json/products.json")
+    fetch("./assets/json/shopData.json")
         .then((response) => response.json())
         .then((result) => {
 
@@ -81,12 +80,25 @@ document.addEventListener("DOMContentLoaded", () => {
                             
                             <!-- Button -->
                             <button class="Purchase-button" id="${item.id}__button">  
-                                <a class="Purchase-button__link uppercase font-color_white" id="${item.id}__link" href="shop-details.html?search=${search}&id=${item.id}">
+                                <a class="Purchase-button__link uppercase font-color_white" id="${item.id}__link">
                                     Add to cart
                                 </a>
                             </button>
                         </section>
                     `;
+
+
+                    // Find product button
+                    let buttonLink = document.querySelector(`#${item.id}__link`);
+
+                    // Set href of product link
+                    if(search.toLowerCase() == item.name.toLowerCase() || search.toLowerCase() == item.category.toLowerCase() || search.toLowerCase() == item.brand.toLowerCase() || search.toLowerCase() == item.additional[0].info.toLowerCase()) {
+
+                        buttonLink.href = `shop-details.html?search=${search}&id=${item.id}`
+                    }else if(search == "") {
+
+                        buttonLink.href = `shop-details.html?search=search&id=${item.id}`
+                    };
 
 
 
@@ -172,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
 
                 // Search for product
-                if(search.toLocaleLowerCase() == item.id.toLowerCase() || search.toLocaleLowerCase() == item.category.toLowerCase() || search.toLocaleLowerCase() == item.brand.toLowerCase() || search.toLocaleLowerCase() == item.additional[0].info.toLowerCase()) {
+                if(search.toLowerCase() == item.name.toLowerCase() || search.toLowerCase() == item.category.toLowerCase() || search.toLowerCase() == item.brand.toLowerCase() || search.toLowerCase() == item.additional[0].info.toLowerCase()) {
 
                     CreateProductItems()
                 }else if(search == "") {
@@ -181,10 +193,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     currentPage.innerHTML = `<span class="Current-page__marker">Home</span> / Search`;
                     productList_title.textContent = "Search"
                 };
-
-
-
-                
             });
         })
 });

@@ -3,16 +3,43 @@
 .Hero-brands {
     width: 100%;
     height: 400px;
-    padding: 0 240px 0 240px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-image: url(/hi-fi-corner-praktikopgave/assets/img/backgrounds/banner-speaker.jpg);
     background-size: cover;
     background-position: center;
 }
 
+.Hero-brands__container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .Hero-brands__title {
     font-size: 38px;
     font-weight: 400;
+}
+
+
+
+/* Media query:  768px */
+@media screen and (max-width: 768px) {
+
+    .Hero-brands {
+        height: 450px;
+    }
+
+    .Hero-brands__container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .Hero-brands__title {
+        order: 1;
+    }
 }

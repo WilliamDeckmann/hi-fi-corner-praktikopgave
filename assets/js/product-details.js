@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // Fetch data
-    fetch("./assets/json/products.json")
+    fetch("./assets/json/shopData.json")
         .then((response) => response.json())
         .then((result) => {
 

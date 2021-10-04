@@ -39,7 +39,8 @@
 }
 
 .Quantity__button {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     padding: 20px;
     font-size: 22px;
     font-weight: 600;

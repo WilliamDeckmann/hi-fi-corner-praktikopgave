@@ -32,3 +32,13 @@
     font-size: 18px;
     text-align: left;
 }
+
+
+
+/* Media query:  1554px */
+@media screen and (max-width: 1554px) {
+
+    .Manufacture-list {
+        display: none;
+    }
+}

@@ -4,3 +4,24 @@
     flex-direction: column;
     gap: 25px;
 }
+
+
+
+/* Media query:  836px */
+@media screen and (max-width: 836px) {
+
+    .Sections {
+        order: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Media query:  610px */
+@media screen and (max-width: 610px) {
+
+    .Sections {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
