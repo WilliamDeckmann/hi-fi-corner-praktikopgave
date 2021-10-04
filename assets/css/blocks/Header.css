@@ -34,7 +34,7 @@
     left: 10px;
 }
 
-.Header__link, .Hi-fi-logo {
+.Header__link .Hi-fi-logo {
     height: 50px;
 }
 
