@@ -12,3 +12,28 @@
     background-size: cover;
     background-position: center;
 }
+
+
+
+/* Media query:  768px */
+@media screen and (max-width: 768px) {
+
+    .Hero-frontpage {
+        height: 360px;
+    }
+}
+
+
+
+/* Media query:  320px */
+@media screen and (max-width: 320px) {
+    
+    .Hero-frontpage {
+        height: auto;
+        padding: 50px;
+    }
+
+    .Hero-frontpage .Hi-fi-logo {
+        width: 100%;
+    }
+}

@@ -16,6 +16,7 @@
 
 .Extra-links__section {
     width: 300px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,4 +41,20 @@
 
 .Extra-links__news {
     text-align: center;
+}
+
+
+
+/* Media query:  768px */
+@media screen and (max-width: 768px) {
+
+    .Extra-links {
+        height: auto;
+    }
+
+    .Extra-links__container {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
 }
