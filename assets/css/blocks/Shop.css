@@ -5,10 +5,28 @@
 
 .Shop__container {
     display: grid;
-    grid-template-columns: 1fr 1075px 1fr;
+    grid-template-columns: 1fr auto 1fr;
     gap: 25px;
 }
 
 .Shop__current-page {
     margin-bottom: 35px;
+}
+
+
+
+/* Media query:  1366px */
+@media screen and (max-width: 1366px) {
+
+    .Shop__container {
+        grid-template-columns: 1fr auto;
+    }
+}
+
+/* Media query:  836px */
+@media screen and (max-width: 836px) {
+
+    .Shop__container {
+        grid-template-columns: auto;
+    }
 }

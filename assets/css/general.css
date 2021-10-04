@@ -40,7 +40,7 @@
 @import url(./blocks/Product-list.css);
 @import url(./blocks/Product-item.css);
 @import url(./blocks/Price.css);
-@import url(./blocks/Manufacture.css);
+@import url(./blocks/Manufacture-list.css);
 
 /* Page: shop-details */
 @import url(./blocks/Product-details.css);
