@@ -39,8 +39,8 @@
 
 
 
-/* Media query:  320px */
-@media screen and (max-width: 320px) {
+/* Media query:  480px */
+@media screen and (max-width: 480px) {
 
     .Additional-product-info__item {
         flex-direction: column;

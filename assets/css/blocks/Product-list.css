@@ -23,6 +23,7 @@
 }
 
 .Product-list__container_state_list {
+    width: 1075px;
     grid-template-columns: 1fr;
     row-gap: 75px;
 }
@@ -114,6 +115,10 @@
     .Product-list__container_state_grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .Product-list__container_state_list {
+        width: 800px;
+    }
 }
 
 /* Media query:  1080px */
@@ -121,6 +126,10 @@
 
     .Product-list__container_state_grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Product-list__container_state_list {
+        width: 525px;
     }
 
     .Product-list__details {
