@@ -28,3 +28,11 @@
     flex-direction: column;
     gap: 5px;
 }
+
+.Filters-price__link, .Filters-manufacture__link {
+    transition: .1s ease-in-out;
+}
+
+.Filters-price__link:hover, .Filters-manufacture__link:hover {
+    padding-left: 10px;
+}

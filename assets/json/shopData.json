@@ -4211,6 +4211,8 @@
             }
         ],
 
+
+
         "categories": [
             {
                 "link": "shop-list.html?search=",
@@ -4308,6 +4310,271 @@
                 "img": ""
             }
         ],
+
+
+
+        "categoryFilters": [
+            {
+                "title": "Amplifiers",
+                "options": [
+                    {
+                        "title": "Intigrated Amplifiers",
+                        "link": "shop-list.html?search=effektforstærker"
+                    },
+
+                    {
+                        "title": "Power Amplifiers",
+                        "link": "shop-list.html?search=effektforstærker"
+                    },
+
+                    {
+                        "title": "Preamplifiers",
+                        "link": "shop-list.html?search=effektforstærker"
+                    }
+                ]
+            },
+
+            {
+                "title": "Speakers",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search=højtaler"
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search=højtaler"
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search=højtaler"
+                    }
+                ]
+            },
+
+            {
+                "title": "Turntables",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search=pladespiller"
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search=pladespiller"
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search=pladespiller"
+                    }
+                ]
+            },
+
+            {
+                "title": "CD Players",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search=cd afspiller"
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search=cd afspiller"
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search=cd afspiller"
+                    }
+                ]
+            },
+
+            {
+                "title": "Streamers",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search="
+                    }
+                ]
+            },
+
+            {
+                "title": "Cables",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search="
+                    }
+                ]
+            },
+
+            {
+                "title": "Furniture",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search="
+                    }
+                ]
+            },
+
+            {
+                "title": "Headphones",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search="
+                    }
+                ]
+
+            },
+
+            {
+                "title": "Home Cinema",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search="
+                    }
+                ]
+            },
+
+            {
+                "title": "Ceiling Speakers",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search="
+                    }
+                ]
+            },
+
+            {
+                "title": "TV",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search="
+                    }
+                ]
+            },
+
+            {
+                "title": "Vinyl",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search="
+                    }
+                ]
+            },
+
+            {
+                "title": "Outlet - Save ££££",
+                "options": [
+                    {
+                        "title": "Option 1",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 2",
+                        "link": "shop-list.html?search="
+                    },
+
+                    {
+                        "title": "Option 3",
+                        "link": "shop-list.html?search="
+                    }
+                ]
+            }
+        ],
     
     
     
@@ -4391,6 +4658,8 @@
             "Trinnov",
             "Yamaha"
         ],
+
+
 
         "options": [
             {
