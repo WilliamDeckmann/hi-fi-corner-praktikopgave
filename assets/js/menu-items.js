@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((response) => response.json())
         .then((result) => {
 
-            // For each category in the general.json file
+            // For each menu item
             result.general.pages.forEach((item) => {
 
                 // Create all product elements

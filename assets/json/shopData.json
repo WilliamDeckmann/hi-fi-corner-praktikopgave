@@ -4390,6 +4390,28 @@
             "Technics",
             "Trinnov",
             "Yamaha"
+        ],
+
+        "options": [
+            {
+                "title": "Ask a question",
+                "link": "#"
+            },
+
+            {
+                "title": "Part exchange",
+                "link": "#"
+            },
+
+            {
+                "title": "Pay by finance",
+                "link": "#"
+            },
+
+            {
+                "title": "Seen a better price?",
+                "link": "#"
+            }
         ]
     }
 }

@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             searchBar_button.addEventListener("click", SearchForProduct);
 
 
-
+            
             // Make case-sensitivity more flexible
             let searchUpperCase = search.charAt(0).toUpperCase() + search.slice(1);
 

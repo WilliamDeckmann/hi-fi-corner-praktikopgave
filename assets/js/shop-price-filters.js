@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((response) => response.json())
         .then((result) => {
 
-            // For each category in the general.json file
+            // For each price filter
             result.general.priceRange.forEach((item) => {
 
                 // Create all product elements

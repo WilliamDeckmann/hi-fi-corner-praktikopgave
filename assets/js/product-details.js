@@ -95,34 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                             <!-- product options -->
                             <ul class="Product-options Product-info__product-options" id="Product-options">
-                                <li class="Product-options__item">
-                                    <a class="Product-options__link" href="#">
-                                        <p class="Product-options__title uppercase font-color_white">
-                                            Ask a question
-                                        </p>
-                                    </a>
-                                </li>
-                                <li class="Product-options__item">
-                                    <a class="Product-options__link" href="#">
-                                        <p class="Product-options__title uppercase font-color_white">
-                                            Part exchange
-                                        </p>
-                                    </a>
-                                </li>
-                                <li class="Product-options__item">
-                                    <a class="Product-options__link" href="#">
-                                        <p class="Product-options__title uppercase font-color_white">
-                                            Pay by finance
-                                        </p>
-                                    </a>
-                                </li>
-                                <li class="Product-options__item">
-                                    <a class="Product-options__link" href="#">
-                                        <p class="Product-options__title uppercase font-color_white">
-                                            Seen a better price?
-                                        </p>
-                                    </a>
-                                </li>
+                                
+                                <!-- Product option items go here -->
+
                             </ul>
     
     
@@ -243,6 +218,27 @@ document.addEventListener("DOMContentLoaded", () => {
                     }else{
                         saleElement.classList.add("Price_state_inactive");
                     };
+
+
+
+                    // Options
+                    let optionsList = document.querySelector("#Product-options");
+
+                    // For each product option
+                    result.general.options.forEach((item) => {
+
+                        // Create all product elements
+                        let optionsItem = document.createElement("li")
+                        optionsList.appendChild(optionsItem);
+                        optionsItem.classList.add("Product-options__item");
+                        optionsItem.innerHTML = `
+                        <a class="Product-options__link" href="${item.link}">
+                            <p class="Product-options__title uppercase font-color_white">
+                                ${item.title}
+                            </p>
+                        </a>
+                        `;
+                    });
 
 
 

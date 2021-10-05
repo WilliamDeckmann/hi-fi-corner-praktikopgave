@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // For each category in the general.json file
             result.general.categories.forEach((item) => {
 
-                // Create all product elements
+                // Create all category elements
                 let categoryItem = document.createElement("li")
                 categoryList.appendChild(categoryItem);
                 categoryItem.classList.add("Category-list__item");
