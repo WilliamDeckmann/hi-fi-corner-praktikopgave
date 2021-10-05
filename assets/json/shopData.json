@@ -4174,6 +4174,43 @@
 
 
     "general": {
+        "pages": [
+            {
+                "title": "Home",
+                "link": "index.html"
+            },
+
+            {
+                "title": "About us",
+                "link": "#"
+            },
+
+            {
+                "title": "Brands",
+                "link": "brands.html"
+            },
+
+            {
+                "title": "Blog",
+                "link": "#"
+            },
+
+            {
+                "title": "Events",
+                "link": "#"
+            },
+
+            {
+                "title": "Shop",
+                "link": "shop-frontpage.html"
+            },
+
+            {
+                "title": "Contact us",
+                "link": "#"
+            }
+        ],
+
         "categories": [
             {
                 "link": "shop-list.html?search=",

@@ -10,8 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((response) => response.json())
         .then((result) => {
 
-            
-
             // For each category in the general.json file
             result.general.manufactures.forEach((item) => {
 
