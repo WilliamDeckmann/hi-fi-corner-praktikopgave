@@ -154,6 +154,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         });
                     });
 
+
+                    
                     // Grid-view button
                     gridButton.forEach((button) => {
                         button.addEventListener("click", () => {
