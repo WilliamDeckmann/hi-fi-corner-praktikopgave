@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const url = window.location.search;
     const params = new URLSearchParams(url);
     const search = params.get("search");
-    
+
     // Element variable
     const currentPage = document.querySelector("#Current-page");
     const productList_title = document.querySelector("#Product-list__title");
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             searchBar_button.addEventListener("click", SearchForProduct);
 
 
-
+            
             // Make case-sensitivity more flexible
             let searchUpperCase = search.charAt(0).toUpperCase() + search.slice(1);
 
@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     `;
 
 
+
                     // Find product button
                     let buttonLink = document.querySelector(`#${item.id}__link`);
 
@@ -104,6 +105,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Update product count
                     productCount++;
+
+
 
                     // Product price & sale variables
                     let productPrice = document.querySelector(`#${item.id}__price`);

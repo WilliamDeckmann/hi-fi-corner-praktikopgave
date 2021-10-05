@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((response) => response.json())
         .then((result) => {
 
-            // For each category in the general.json file
+            // For each manufacture list
             for(let i = 0; i < 7; i++) {
                 // Create all product elements
                 let manufacturesItem = document.createElement("li")
