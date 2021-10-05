@@ -6,4 +6,4 @@
 
 - For each item in the json file, it creates a category-filter-item.
 
-- Each category-filter-item includes a bit of inner html with the necessary data inside it - link.
+- Each category-filter-item includes a button and a list with the necessary data inside it - title & links.
