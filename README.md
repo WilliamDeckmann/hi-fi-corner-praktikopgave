@@ -4,6 +4,6 @@ lavet af: William Deckmann
 
 
 ## Link til GitHub pages
-#### (Virker bedst på mobil)
+#### (Virker bedst på desktop)
 
-- https://williamdeckmann.github.io/newsbox-praktikopgave/
+- https://williamdeckmann.github.io/hi-fi-corner-praktikopgave/
