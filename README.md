@@ -2,6 +2,8 @@
 
 lavet af: William Deckmann
 
+Formål: Skabe en webshop efter udleveredet design og lave "search-function"
+
 
 ## Link til GitHub pages
 #### (Virker bedst på desktop)
